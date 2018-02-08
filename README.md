@@ -1,4 +1,6 @@
-<h1>LoRa Web Appliation</h1>
-<h3>MAI Project Trinity College Dublin</h3>
+#LoRa Web Appliation
+###MAI Project Trinity College Dublin
 
+To install run: `npm install`
 
+To start service: `node server.js <port> <host>`
