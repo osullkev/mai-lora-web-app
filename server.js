@@ -46,19 +46,7 @@ var express = require('express');
 var basicAuth = require('basic-auth');
 var rest = require('./doRest.js');
 var u = require('url');
-
-
-var log = function (o) {
-    if (debug) {
-        console.log(o);
-    }
-};
-
-// allow to do HTTPS to self signed servers.
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
-
-
+require('colors');
 
 
 /* Credentials to DASS server */
@@ -74,6 +62,61 @@ var dassConfig = {
     "host_password": dass_password,
     "port": 443
 };
+
+
+var dummyConfig = {
+    "protocol": "http",
+    "host": "localhost",
+    "host_user": dass_user,
+    "host_password": dass_password,
+    "port": 5050
+};
+
+var log = function (o) {
+    if (debug) {
+        console.log(o);
+    }
+};
+
+var test = function(d){
+
+    console.log(d);
+    if (d == 'bb') {
+        console.log("true");
+ 
+        var postData = "Ping bb";
+        var postDataJson = {'message': "This is the ping"};
+        
+        rest.doRest("POST", "/", postData, function (status, m) {
+
+            console.log("In the callback");
+        }, dummyConfig);
+        
+    }
+    else{
+        console.log("false");
+    }
+}
+
+var pingNode = function(nodeMessage){
+
+    if (nodeMessage == 'bb') {
+        console.log("Pinging node...");
+ 
+        var postData = new Buffer(nodeMessage + nodeMessage, 'hex').toString('base64');
+
+        var postDataJson = {'message': "This is the ping"};
+        
+        rest.doRest("POST", "/", postData, function (status, m) {
+
+        }, dummyConfig);
+    }
+}
+// allow to do HTTPS to self signed servers.
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
+
+
 
 
 
@@ -138,7 +181,9 @@ if (action == "stop") {
         rest.doRest("PUT", "/rest/pushmode/start", pushRegObject, function (status, m) {
 
             if (status == 200) {
-                console.log("***  app server registered for push");
+                console.log("***  app server registered for push".green);
+                console.log("--------------------------------------------------------".green)
+                console.log("--------------------------------------------------------".green)
             } else {
                 log("Error with status " + status + " -> Push Mode not started -> received : " + JSON.stringify(m));
             }
@@ -234,9 +279,10 @@ if (action == "stop") {
     // POST managament from DASS 
     appServer.post('/*', function (req, res) {
 
-        log("--------------");
-        log("Received Message posted on URL : " + req.url);
-
+        console.log("------------------------------------------------".magenta);
+        console.log("RECEIVING HTTP POST".magenta);
+        console.log("URL:".magenta + req.url);
+        
         req.setEncoding('utf8');
 
         var payload = '';
@@ -244,9 +290,12 @@ if (action == "stop") {
             payload += chunk;
         });
 
+        var d = 0;
+
         // When the message body is available we can do the query.
         req.on('end', function () {
             try {
+                console.log("PAYLOAD: ".magenta + payload);
                 var obj = JSON.parse(payload);
                 if (obj.dataFrame) {
                     obj.dataFrame = new Buffer(obj.dataFrame, 'Base64').toString("hex");
@@ -262,14 +311,18 @@ if (action == "stop") {
                 obj.type = req.url.replace("/rest/callback/", "");
                 
 				//Logging out the payload object
-				console.log(obj);
+                d = obj.dataFrame;
+                pingNode(d);
 
+                res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
 
             } catch (ex) {
                 log("error in payload - no json object found");
                 log(payload);
+
+                res.status(404).json({"message": "Response from POST"}); // Returning empty body & 202 in order to keep payloads on the DASS
             }
         });
-        res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS 
+       
     });
 }

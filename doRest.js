@@ -2,12 +2,16 @@
 
 var http = require('http');
 var https = require('https');
-
+require('colors');
 
 
 exports.doRest = function (method, path, body, callback, serverCfg) {
 
-    console.log(method + " REST: " + path);
+
+    console.log("------------------------------------------------------------".blue)
+    console.log(("SENDING HTTP " + method).blue);
+    console.log("PATH: ".blue + path);
+    console.log("BODY: ".blue + body);
 
     try {
         var obj = null;
@@ -21,31 +25,28 @@ exports.doRest = function (method, path, body, callback, serverCfg) {
             method: method
         };
 
+        console.log("HOSTNAME: ".blue + options.hostname);
+        console.log("PORT:     ".blue + options. port);
+
         if (serverCfg.host_user != null && serverCfg.host_password != null) {
             options.headers.Authorization = 'Basic ' + new Buffer(serverCfg.host_user + ":" + serverCfg.host_password).toString("base64");
         }
 
         if (typeof body === "object") {
-            //console.log("body is an object");
             options.headers["Content-Type"] = "Application/json";
         }
-
-        // console.log(options);
 
         var h = (serverCfg.protocol == "https") ? https : http;
 
         var req = h.request(options, function (res) {
-            console.log("statusCode: ", res.statusCode);
-            console.log("headers: ", res.headers);
+            console.log(("HTTP " + method + " RESPONSE").red);
+            console.log("STATUS: ".red, res.statusCode);
+            console.log("HEADERS: ".red, res.headers);
 
             res.body = "";
             res.on('end', function () {
 
-                console.log("---------------------------------------------------");
-                console.log("Answer to " + options.method + " " + options.path);
-                console.log("statusCode: ", res.statusCode);
-                console.log(res.body);
-                console.log("---------------------------------------------------");
+                console.log("BODY: ".red + res.body);
 
                 if (res.statusCode != 200) {
                     callback(res.statusCode, null);

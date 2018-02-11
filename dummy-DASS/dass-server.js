@@ -142,21 +142,21 @@ appServer.post('/*', function (req, res) {
 
     // When the message body is available we can do the query.
     req.on('end', function () {
+        responseCode = 202;
+        responseMessage = {"id": 555};
         try {
             console.log("DATA: ".magenta + payload);
+            res.status(responseCode).json(responseMessage); // Returning empty body & 202 in order to keep payloads on the DASS   
         } catch (ex) {
             log("error in payload");
             log(payload);
+            res.status(404).json(responseMessage); // Returning empty body & 202 in order to keep payloads on the DASS   
         }
+        console.log("RESPONSE TO HTTP POST".yellow);
+        console.log("CODE:             ".yellow + responseCode);
+        console.log("RESPONSE MESSAGE: ".yellow + JSON.stringify(responseMessage));
     });
 
-    responseCode = 202;
-    responseMessage = {"id": 555};
-
-    res.status(responseCode).json(responseMessage); // Returning empty body & 202 in order to keep payloads on the DASS   
-    console.log("RESPONSE TO HTTP POST".yellow);
-    console.log("CODE:             ".yellow + responseCode);
-    console.log("RESPONSE MESSAGE: ".yellow + JSON.stringify(responseMessage));
 });
 
 
