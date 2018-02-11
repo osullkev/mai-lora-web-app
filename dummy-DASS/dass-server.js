@@ -128,8 +128,9 @@ appServer.put('/*', function (req, res) {
 // POST managament from DASS 
 appServer.post('/*', function (req, res) {
 
-    log("--------------");
-    log("Received Message posted on URL : " + req.url);
+    console.log("-------------------------------------------------------------".magenta);
+    console.log("RECEIVING HTTP POST".magenta);
+    console.log("URL:  ".magenta + req.url);
     
     req.setEncoding('utf8');
 
@@ -138,38 +139,29 @@ appServer.post('/*', function (req, res) {
         payload += chunk;
     });
 
+
     // When the message body is available we can do the query.
     req.on('end', function () {
         try {
-            var obj = JSON.parse(payload);
-            if (obj.dataFrame) {
-                obj.dataFrame = new Buffer(obj.dataFrame, 'Base64').toString("hex");
-            }
-            if (obj.timestamp) {
-                obj.timestamp = new Date(obj.timestamp).toJSON();
-            }
-
-            if (obj.gtw_json) {
-                obj.gtw_json = JSON.parse(obj.gtw_json);
-            }
-
-            obj.type = req.url.replace("/rest/callback/", "");
-                
-			//Logging out the payload object
-			console.log(obj);
-
-
+            console.log("DATA: ".magenta + payload);
         } catch (ex) {
-            log("error in payload - no json object found");
+            log("error in payload");
             log(payload);
         }
     });
-     
-    res.status(202).json({"id": 123}); // Returning empty body & 202 in order to keep payloads on the DASS   
+
+    responseCode = 202;
+    responseMessage = {"id": 555};
+
+    res.status(responseCode).json(responseMessage); // Returning empty body & 202 in order to keep payloads on the DASS   
+    console.log("RESPONSE TO HTTP POST".yellow);
+    console.log("CODE:             ".yellow + responseCode);
+    console.log("RESPONSE MESSAGE: ".yellow + JSON.stringify(responseMessage));
 });
 
 
 function commandInput() {
+    console.log("-------------------------------------------------------------".green);
     console.log("Enter command... [0-exit, 1-post data]".green)
     prompt.start();
     prompt.get(['f','m'], function (err, result) {
