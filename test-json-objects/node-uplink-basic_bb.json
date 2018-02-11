@@ -1,0 +1,15 @@
+{ "id": "1518097546503",
+  "deveui": "0004a30b001b0af1",
+  "timestamp": "2018-02-08T13:45:46.503Z",
+  "dataFrame": "uw==",
+  "fcnt": 2,
+  "port": 1,
+  "rssi": -103,
+  "snr": 8.5,
+  "sf_used": 7,
+  "cr_used": "4/5",
+  "device_redundancy": 0,
+  "time_on_air_ms": 25.856,
+  "decrypted": true,
+  "type": "/payloads/ul" }
+
