@@ -78,17 +78,19 @@ var log = function (o) {
     }
 };
 
+var dlFcnt = 10;
 
 var pingNode = function(nodeMessage){
 
     if (nodeMessage == 'bb') {
+        dlFcnt = dlFcnt+1;
         console.log("Pinging node...");
  
         var postData = new Buffer(nodeMessage + nodeMessage, 'hex').toString('base64');
 
         var postDataJson = {'message': "This is the ping"};
         
-        rest.doRest("POST", "/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt=9&port=01", postData, function (status, m) {
+        rest.doRest("POST", "/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt="+dlFcnt+"&port=01", postData, function (status, m) {
 
         }, 
             //dummyConfig);
