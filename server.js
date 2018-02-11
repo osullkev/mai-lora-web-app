@@ -294,9 +294,11 @@ if (action == "stop") {
                 
 				//Logging out the payload object
                 d = obj.dataFrame;
-                pingNode(d);
-
                 res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
+                
+                setTimeout(function(){
+                    pingNode(d);
+                }, 1000);
 
             } catch (ex) {
                 log("error in payload - no json object found");
