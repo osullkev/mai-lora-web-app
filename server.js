@@ -78,25 +78,6 @@ var log = function (o) {
     }
 };
 
-var test = function(d){
-
-    console.log(d);
-    if (d == 'bb') {
-        console.log("true");
- 
-        var postData = "Ping bb";
-        var postDataJson = {'message': "This is the ping"};
-        
-        rest.doRest("POST", "/", postData, function (status, m) {
-
-            console.log("In the callback");
-        }, dummyConfig);
-        
-    }
-    else{
-        console.log("false");
-    }
-}
 
 var pingNode = function(nodeMessage){
 
@@ -107,18 +88,17 @@ var pingNode = function(nodeMessage){
 
         var postDataJson = {'message': "This is the ping"};
         
-        rest.doRest("POST", "/", postData, function (status, m) {
+        rest.doRest("POST", "/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt=9&port=01", postData, function (status, m) {
 
-        }, dummyConfig);
+        }, 
+            //dummyConfig);
+            dassConfig);
     }
 }
+
+
 // allow to do HTTPS to self signed servers.
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
-
-
-
-
 
 /*
    PUSH REGISTER / UNREGISTER functions
