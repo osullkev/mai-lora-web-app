@@ -2,13 +2,10 @@
 /* Pervasive Nation */
 /* 01 Feb 2018 */
 
-
-
-
-
 var args = process.argv;
 
 var debug = false;
+var local_test = false;
 var action = null;
 
 if (args.length == 3 && args[2] == "stop") {
@@ -28,6 +25,10 @@ if (args[4] && args[4] == "debug_log") {
     debug = true;
 }
 
+if (args[5] && args[5] == "local_test") {
+    local_test = true;
+}
+
 
 /* 
 
@@ -43,9 +44,9 @@ if (args[4] && args[4] == "debug_log") {
 
 var http = require('http');
 var express = require('express');
-var basicAuth = require('basic-auth');
 var rest = require('./doRest.js');
 var u = require('url');
+var uplinkHandler = require('./uplink-handler.js');
 require('colors');
 
 
@@ -63,6 +64,7 @@ var dassConfig = {
     "port": 443
 };
 
+/* Credentials for Dummy DASS Server for testing purposes */
 
 var dummyConfig = {
     "protocol": "http",
@@ -71,6 +73,14 @@ var dummyConfig = {
     "host_password": dass_password,
     "port": 5050
 };
+
+var config;
+if (!local_test){
+    config = dassConfig;
+}
+else{
+    config = dummyConfig;
+}
 
 var log = function (o) {
     if (debug) {
@@ -93,8 +103,7 @@ var pingNode = function(nodeMessage){
         rest.doRest("POST", "/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt="+dlFcnt+"&port=01", postData, function (status, m) {
 
         }, 
-            //dummyConfig);
-            dassConfig);
+            config);
     }
 }
 
@@ -291,11 +300,15 @@ if (action == "stop") {
                 }
 
                 obj.type = req.url.replace("/rest/callback/", "");
-                
-				//Logging out the payload object
+
+                console.log("PARSED PAYLOAD: ".magenta + JSON.stringify(obj));
+
+                //Logging out the payload object
                 d = obj.dataFrame;
                 res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
-                
+
+                uplinkHandler.handleUplink(obj);
+
                 setTimeout(function(){
                     pingNode(d);
                 }, 1000);
