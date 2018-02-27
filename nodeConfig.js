@@ -1,9 +1,13 @@
 var downlinkFrameCount = 1;
 
 var updateDownlinkFrameCount = function (i) {
-    downlinkFrameCount = i + 1;
     console.log("Updating downlink frame count ... ");
+        downlinkFrameCount = i + 1;
+}
 
+exports.incrementDownlinkFrameCount = function () {
+    console.log("Incrementing downlink frame count ... ");
+    downlinkFrameCount++;
 }
 
 exports.updateNodeInfo = function(data){
