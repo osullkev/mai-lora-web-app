@@ -1,4 +1,5 @@
 var u = require('url');
+var nodeConfig = require('./nodeConfig.js');
 require('colors');
 
 exports.handlePut = function (req, res) {
@@ -41,6 +42,7 @@ exports.handlePut = function (req, res) {
 
             //Logging out the payload object
             console.log("PUT PAYLOAD: ".yellow + JSON.stringify(obj));
+            nodeConfig.updateNodeInfo(obj);
 
         } catch (ex) {
             console.log("error in payload - no json object found");
