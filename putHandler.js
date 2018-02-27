@@ -1,11 +1,12 @@
 var u = require('url');
+require('colors');
 
 exports.handlePut = function (req, res) {
 
     console.log("--------------");
-    console.log("Received Message put on URL : " + req.url);
+    console.log("Received Message put on URL : ".yellow + req.url);
     var url = u.parse(req.url);
-    console.log(url);
+    console.log("PUT DETAILS:".yellow + JSON.stringify(url));
 
     req.setEncoding('utf8');
 
@@ -38,12 +39,8 @@ exports.handlePut = function (req, res) {
 
             obj.type = req.url.replace("/rest/callback/", "");
 
-
-
-            console.log(obj);
-
             //Logging out the payload object
-            console.log(obj);
+            console.log("PUT PAYLOAD: ".yellow + JSON.stringify(obj));
 
         } catch (ex) {
             console.log("error in payload - no json object found");
