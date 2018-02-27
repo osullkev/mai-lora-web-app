@@ -2,6 +2,8 @@ var downlink = require('./sendDownlink.js');
 var sensorReadingHandler = require('./uplinkHandlers/sensorReadingHandler.js');
 var nodeStatusHandler = require('./uplinkHandlers/nodeStatusHandler.js');
 var fwUpdateHandler = require('./uplinkHandlers/firmwareUpdateHandler.js');
+var utils = require('./utilityFunctions.js');
+
 
 
 
@@ -36,8 +38,6 @@ var pingNode = function(nodeMessage){
 }
 
 var parseToPacketComponents = function (dataFrame) {
-
-    console.log("INSIDE parseToPacketComponents...");
     var opcode = dataFrame.substring(0,1);
     var seq_num = dataFrame.substring(1,5);
     var len = dataFrame.substring(5,8);
@@ -52,7 +52,8 @@ var parseToPacketComponents = function (dataFrame) {
 exports.handleUplink = function (uplinkJSON){
     var dataFrame = uplinkJSON.dataFrame.toUpperCase();
     var packetJSON = parseToPacketComponents(dataFrame);
-    console.log("UPLINK PACKET: " + JSON.stringify(packetJSON));
+    console.log("UPLINK PACKET: ".blue);
+    utils.logJSONObject(packetJSON);
     switch (packetJSON.header.opcode){
         case '1':
             //Sensor reading-no acknowledgement expected

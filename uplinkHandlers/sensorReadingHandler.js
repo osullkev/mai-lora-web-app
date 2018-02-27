@@ -1,5 +1,7 @@
 require('colors');
 var downlink = require('../sendDownlink.js');
+var utils = require('../utilityFunctions.js');
+
 
 
 var pingNode = function(nodeMessage){
@@ -10,14 +12,10 @@ var pingNode = function(nodeMessage){
 }
 
 exports.handleSensorReading = function (data, ack) {
-    var temp, humidity, water_level;
     readings = data.split("1E");
-
-    [temp, humidity, water_level] = readings;
-    console.log("READINGS: ".blue + readings);
-    console.log("TEMP: ".blue + temp);
-    console.log("HUMIDITY: ".blue + humidity);
-    console.log("WATER LEVEL: ".blue + water_level);
+    readings = {"temp": readings[0], "humidity": readings[1], "water_level": readings[2]};
+    console.log("SENSOR READINGS: ".blue);
+    utils.logJSONObject(readings);
 
     if(ack){
         setTimeout(function(){
