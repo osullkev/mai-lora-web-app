@@ -1,6 +1,6 @@
 var rest = require('./doRest.js');
 var orbiwiseConfig = require('./orbiwise-config.js');
-var uplinkHandler = require('./uplink-handler.js');
+var nodeConfig = require('./nodeConfig.js');
 
 /*
 OPCODE  MESSAGE TYPE                            PAYLOAD
@@ -25,16 +25,13 @@ OPCODE  MESSAGE TYPE                            PAYLOAD
 1111    RESERVED                                EMPTY
 */
 
-
-var dlFcnt = 10;
-
 var pingNode = function(nodeMessage){
-    dlFcnt = dlFcnt+1;
     console.log("Pinging node...");
-
     var postData = new Buffer(nodeMessage + nodeMessage, 'hex').toString('base64');
 
     var postDataJson = {'message': "This is the ping"};
+    var dlFcnt = nodeConfig.getdownlinkFrameCount();
+    console.log("dlfcnt... + :" + dlFcnt);
 
     rest.doRest("POST", "/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt="+dlFcnt+"&port=01", postData, function (status, m) {
 
