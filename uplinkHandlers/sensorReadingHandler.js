@@ -12,10 +12,10 @@ var pingNode = function(nodeMessage){
 }
 
 exports.handleSensorReading = function (data, ack) {
-    readings = data.split("1E");
+    var readings = data.split("1E");
     readings = {"temp": readings[0], "humidity": readings[1], "water_level": readings[2]};
     console.log("SENSOR READINGS: ".blue);
-    utils.logJSONObject(readings);
+    utils.logJSONObject(readings, 'green');
 
     if(ack){
         setTimeout(function(){
