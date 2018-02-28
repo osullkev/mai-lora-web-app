@@ -1,5 +1,5 @@
 require('colors');
-var downlink = require('../sendDownlink.js');
+var downlink = require('../downlinkHandler.js');
 var utils = require('../utilityFunctions.js');
 
 
@@ -15,7 +15,6 @@ var retrieveLatestFW = function () {
     return assembleFWJSON("010507");
 }
 
-
 var prepareFWUpdateDelta = function (currentFW, newFW) {
     console.log("Preparing update delta: ".yellow + currentFW.fw_string + " -> ".yellow + newFW.fw_string);
     console.log("...".yellow);
@@ -27,14 +26,7 @@ var sendUpdateAvailableNotification = function (currentFW, latestFW) {
     var deltaDetails = prepareFWUpdateDelta(currentFW, latestFW);
     console.log("DELTA:" + deltaDetails)
     var postData = deltaDetails.fw_num + "1E" + deltaDetails.num_tx_packets + "1E" + deltaDetails.CRC;
-    downlink.sendDownlink(postData);
-}
-
-var pingNode = function(nodeMessage){
-    console.log("Pinging node...");
-    var postData = new Buffer(nodeMessage + nodeMessage, 'hex').toString('base64');
-
-    downlink.sendDownlink(postData);
+    downlink.sendDownlink('4', postData);
 }
 
 var checkBatteryLife = function (statusJSON) {
@@ -59,8 +51,6 @@ var checkFWVersion = function (statusJSON) {
         console.log("FIRMWARE VERSION IS UP-TO-DATE: ".yellow + currentFWJSON.fw_string);
     }
 }
-
-
 
 exports.handleNodeStatus = function (data) {
     var status = data.split("1E");

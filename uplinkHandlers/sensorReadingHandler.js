@@ -1,14 +1,14 @@
 require('colors');
-var downlink = require('../sendDownlink.js');
+var downlink = require('../downlinkHandler.js');
 var utils = require('../utilityFunctions.js');
 
 
 
 var pingNode = function(nodeMessage){
     console.log("Pinging node...");
-    var postData = new Buffer(nodeMessage + nodeMessage, 'hex').toString('base64');
+    var postData = nodeMessage + nodeMessage;
 
-    downlink.sendDownlink(postData);
+    downlink.sendDownlink('2', postData);
 }
 
 exports.handleSensorReading = function (data, ack) {

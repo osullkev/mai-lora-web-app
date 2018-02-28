@@ -71,3 +71,7 @@ exports.checkCommandLineArgs = function (args){
 
     return action;
 }
+
+exports.padWithZeros = function (str, targetLength) {
+    return str.padStart(targetLength, '0');
+}

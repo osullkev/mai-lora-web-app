@@ -1,4 +1,4 @@
-var downlink = require('./sendDownlink.js');
+var downlink = require('./downlinkHandler.js');
 var sensorReadingHandler = require('./uplinkHandlers/sensorReadingHandler.js');
 var nodeStatusHandler = require('./uplinkHandlers/nodeStatusHandler.js');
 var fwUpdateHandler = require('./uplinkHandlers/firmwareUpdateHandler.js');
@@ -32,9 +32,8 @@ OPCODE  MESSAGE TYPE                            PAYLOAD
 
 var pingNode = function(nodeMessage){
     console.log("Pinging node...");
-    var postData = new Buffer(nodeMessage + nodeMessage, 'hex').toString('base64');
-
-    downlink.sendDownlink(postData);
+    var postData  = nodeMessage + nodeMessage;
+    downlink.sendDownlink('0', postData);
 }
 
 var parseToPacketComponents = function (dataFrame) {

@@ -1,4 +1,7 @@
+var utils = require('./utilityFunctions.js');
+
 var downlinkFrameCount = 1;
+var downlinkSeqNumber = 0;
 
 var updateDownlinkFrameCount = function (i) {
     console.log("Updating downlink frame count ... ");
@@ -16,4 +19,12 @@ exports.updateNodeInfo = function(data){
 
 exports.getdownlinkFrameCount = function(){
     return downlinkFrameCount;
+}
+
+exports.getDownlinkSeqNumber = function (){
+    return utils.padWithZeros(downlinkSeqNumber.toString(16), 4);
+}
+
+exports.incrementDownlinkSeqNumber = function (){
+    downlinkSeqNumber++;
 }
