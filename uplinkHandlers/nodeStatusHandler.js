@@ -18,7 +18,7 @@ var retrieveLatestFW = function () {
 var prepareFWUpdateDelta = function (currentFW, newFW) {
     console.log("Preparing update delta: ".yellow + currentFW.fw_string + " -> ".yellow + newFW.fw_string);
     console.log("...".yellow);
-    return {'fw_num': newFW.fw_num, 'num_tx_packets': 100, 'CRC': '1234ABCD'};
+    return {'fw_num': newFW.fw_num, 'num_tx_packets': '0250', 'CRC': '1234ABCD'};
 }
 
 var sendUpdateAvailableNotification = function (currentFW, latestFW) {
