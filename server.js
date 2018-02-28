@@ -2,37 +2,7 @@
 /* Pervasive Nation */
 /* 01 Feb 2018 */
 
-var args = process.argv;
-
-var debug = false;
-var local_test = false;
-var action = null;
-
-if (args.length == 3 && args[2] == "stop") {
-    action = "stop";
-} else if (args.length < 4) {
-    console.log("invalid arguments, usage: ");
-    console.log("  - Starting push mode: node server.js port host");
-    console.log("  - Starting push mode with debug log: node server.js port host debug_log");
-    console.log("  - Stopping push mode: node server.js stop");
-    process.exit();
-} else {
-    action = "start";
-}
-
-var appSrvrPort = parseInt(args[2], 10);
-var appSrvrHost = args[3];
-
-if (args[4] && args[4] == "debug_log") {
-    debug = true;
-}
-
-if (args[5] && args[5] == "local_test") {
-    local_test = true;
-}
-
-
-/* 
+/*
    PACKAGES DECLARATION
    To install packages, run npm install, e.g.
      npm install http
@@ -46,16 +16,14 @@ var express = require('express');
 var orbiwiseConfig = require('./orbiwise-config.js');
 var putHandler = require('./putHandler.js');
 var postHandler = require('./postHandler.js');
+var utils = require('./utilityFunctions.js');
 require('colors');
 
-if (!local_test){
-    console.log("Running on public server...")
-    orbiwiseConfig.setLocalTest(false);
-}
-else{
-    console.log("Running on local server...")
-    orbiwiseConfig.setLocalTest(true);
-}
+var args = process.argv;
+var appSrvrPort = parseInt(args[2], 10);
+var appSrvrHost = args[3];
+
+var action = utils.checkCommandLineArgs(args);
 
 // allow to do HTTPS to self signed servers.
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
