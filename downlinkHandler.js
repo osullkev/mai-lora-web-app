@@ -1,5 +1,5 @@
 var rest = require('./doRest.js');
-var orbiwiseConfig = require('./orbiwise-config.js');
+var orbiwiseConfig = require('./orbiwiseConfig.js');
 var nodeConfig = require('./nodeConfig.js');
 var utils = require('./utilityFunctions.js');
 require('colors');
@@ -22,7 +22,7 @@ var assembleDownlinkPacket = function (opcode, postData) {
     var len = calculatePacketLen(postData);
     var seqNum = nodeConfig.getDownlinkSeqNumber();
     logPacket(opcode, seqNum, len, postData);
-    
+
     var packet = opcode + seqNum + len + postData;
     console.log("Assembled downlink packet: ".yellow + packet);
     return new Buffer(packet, 'hex').toString('base64');

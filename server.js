@@ -13,7 +13,7 @@
 
 var http = require('http');
 var express = require('express');
-var orbiwiseConfig = require('./orbiwise-config.js');
+var orbiwiseConfig = require('./orbiwiseConfig.js');
 var putHandler = require('./putHandler.js');
 var postHandler = require('./postHandler.js');
 var utils = require('./utilityFunctions.js');
