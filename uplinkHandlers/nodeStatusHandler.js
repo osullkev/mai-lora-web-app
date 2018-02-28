@@ -6,8 +6,8 @@ var retrieveLatestFW = function () {
     return {'major': 1, 'minor': 5, 'patch': 7};
 }
 
-var sendUpdateAvailabeNotification = function () {
-    console.log("NEW FIRMWARE AVAILABLE".red);
+var sendUpdateAvailabeNotification = function (fwStr, latestFWStr) {
+    console.log("NEW FIRMWARE AVAILABLE: ".red + latestFWStr.major + "." + latestFWStr.minor + "." + latestFWStr.patch);
 
 }
 
@@ -20,8 +20,9 @@ var pingNode = function(nodeMessage){
 
 var checkBatteryLife = function (statusJSON) {
     if (statusJSON.battery_life < 10){
-        console.log("NODE BATTERY IS LOW.".red);
-        console.log("NEW BATTERY REQUIRED.".red);
+        console.log("NODE BATTERY IS LOW. REPLACE BATTERY.".red);
+    }else{
+        console.log("NODE BATTERY IS STABLE: ".yellow + statusJSON.battery_life +"%");
     }
 
 }
@@ -31,16 +32,17 @@ var checkFWVersion = function (statusJSON) {
     var major = fwversion.substring(0, 2);
     var minor = fwversion.substring(2, 4);
     var patch = fwversion.substring(4);
+    var fwStr = major + "." + minor + "." + patch;
 
     var latestFW = retrieveLatestFW();
     if (latestFW.major > major){
-        sendUpdateAvailabeNotification();
+        sendUpdateAvailabeNotification(fwStr, latestFW);
     }else if (latestFW.minor > minor){
-        sendUpdateAvailabeNotification();
+        sendUpdateAvailabeNotification(fwStr, latestFW);
     }else if (latestFW.patch > patch){
-        sendUpdateAvailabeNotification();
+        sendUpdateAvailabeNotification(fwStr, latestFW);
     }else {
-        console.log("FIRMWARE VERSION ".red + major + "." + minor + "." + patch + "." +  " IS UP-TO-DATE".red);
+        console.log("FIRMWARE VERSION IS UP-TO-DATE: ".yellow + fwStr);
     }
 }
 
