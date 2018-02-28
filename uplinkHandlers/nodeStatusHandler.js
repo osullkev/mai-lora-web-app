@@ -24,7 +24,6 @@ var prepareFWUpdateDelta = function (currentFW, newFW) {
 var sendUpdateAvailableNotification = function (currentFW, latestFW) {
     console.log("NEW FIRMWARE AVAILABLE: ".red + latestFW.fw_string);
     var deltaDetails = prepareFWUpdateDelta(currentFW, latestFW);
-    console.log("DELTA:" + deltaDetails)
     var postData = deltaDetails.fw_num + "1E" + deltaDetails.num_tx_packets + "1E" + deltaDetails.CRC;
     downlink.sendDownlink('4', postData);
 }

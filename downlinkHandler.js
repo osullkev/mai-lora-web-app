@@ -9,10 +9,21 @@ var calculatePacketLen = function (postData) {
     return '000';
 }
 
+var logPacket = function (opcode, seqNum, len, postData) {
+    console.log("OPCODE: ".yellow + opcode);
+    console.log("SEQ#:   ".yellow + seqNum);
+    console.log("LENGTH: ".yellow + len);
+    console.log("DATA:   ".yellow + postData);
+}
+
 var assembleDownlinkPacket = function (opcode, postData) {
+    console.log("Assembling downlink packet... ".yellow);
+    opcode = utils.padWithZeros(opcode);
     var len = calculatePacketLen(postData);
     var seqNum = nodeConfig.getDownlinkSeqNumber();
-    var packet = utils.padWithZeros(opcode) + seqNum + len + postData;
+    logPacket(opcode, seqNum, len, postData);
+    
+    var packet = opcode + seqNum + len + postData;
     console.log("Assembled downlink packet: ".yellow + packet);
     return new Buffer(packet, 'hex').toString('base64');
 }
