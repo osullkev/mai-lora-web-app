@@ -25,7 +25,7 @@ var assembleDownlinkPacket = function (opcode, postData) {
 
     var packet = opcode + seqNum + len + postData;
     console.log("Assembled downlink packet: ".yellow + packet);
-    return new Buffer(packet, 'hex').toString('base64');
+    return utils.hexToBase64(packet);
 }
 
 

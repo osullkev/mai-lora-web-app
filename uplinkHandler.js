@@ -36,23 +36,11 @@ var pingNode = function(nodeMessage){
     downlink.sendDownlink('0', postData);
 }
 
-var parseToPacketComponents = function (dataFrame) {
-    var opcode = dataFrame.substring(0,1);
-    var seq_num = dataFrame.substring(1,5);
-    var len = dataFrame.substring(5,8);
-    var payload = dataFrame.substring(8);
-
-    return {"header": {"opcode": opcode, "seq_num": seq_num, "len": len},
-        "payload": payload};
-
-}
-
-
 exports.handleUplink = function (uplinkJSON){
     var dataFrame = uplinkJSON.dataFrame.toUpperCase();
-    var packetJSON = parseToPacketComponents(dataFrame);
+    var packetJSON = utils.parseToPacketComponents(dataFrame);
     console.log("UPLINK PACKET: ".blue);
-    utils.logJSONObject(packetJSON);
+    utils.logJSONObject(packetJSON, 'green');
     switch (packetJSON.header.opcode){
         case '1':
             //Sensor reading-no acknowledgement expected

@@ -33,7 +33,7 @@ var applyColour = function(s, colour) {
 var logJSONObject = function (obj, colour){
     for (var x in obj){
         if (typeof obj[x] === 'object'){
-            logJSONObject(obj[x]);
+            logJSONObject(obj[x], colour);
         }
         else {
             console.log(applyColour(x.toString().toUpperCase() + ": ", colour) + obj[x]);
@@ -74,4 +74,23 @@ exports.checkCommandLineArgs = function (args){
 
 exports.padWithZeros = function (str, targetLength) {
     return str.padStart(targetLength, '0');
+}
+
+exports.hexToBase64 = function (hex) {
+    return new Buffer(hex, 'hex').toString('base64');
+}
+
+exports.base64ToHex = function (b64) {
+    return new Buffer(b64, 'base64').toString('hex');
+}
+
+exports.parseToPacketComponents = function (dataFrame) {
+    var opcode = dataFrame.substring(0,1);
+    var seq_num = dataFrame.substring(1,5);
+    var len = dataFrame.substring(5,8);
+    var payload = dataFrame.substring(8);
+
+    return {"header": {"opcode": opcode, "seq_num": seq_num, "len": len},
+        "payload": payload};
+
 }
