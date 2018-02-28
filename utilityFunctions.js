@@ -1,17 +1,47 @@
 var orbiwiseConfig = require('./orbiwise-config.js');
+require('colors');
 
-var logJSONObject = function (obj){
+var applyColour = function(s, colour) {
+    switch (colour)
+    {
+        case 'black':
+            return s.black;
+        case 'red':
+            return s.red;
+        case 'green':
+            return s.green;
+        case 'yellow':
+            return s.yellow;
+        case 'blue':
+            return s.blue;
+        case 'magenta':
+            return s.magenta;
+        case 'cyan':
+            return s.cyan;
+        case 'white':
+            return s.white;
+        case 'gray':
+            return s.gray;
+        case 'grey ':
+            return s.grey;
+        default:
+            return s;
+    }
+
+}
+
+var logJSONObject = function (obj, colour){
     for (var x in obj){
         if (typeof obj[x] === 'object'){
             logJSONObject(obj[x]);
         }
         else {
-            console.log(x.toString().toUpperCase() + ": " + obj[x]);
+            console.log(applyColour(x.toString().toUpperCase() + ": ", colour) + obj[x]);
         }
     }
 }
-exports.logJSONObject = function(obj){
-    logJSONObject(obj);
+exports.logJSONObject = function(obj, colour){
+    logJSONObject(obj, colour);
 }
 
 
