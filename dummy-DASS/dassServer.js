@@ -1,31 +1,19 @@
 /*jslint node: true, sloppy: true, bitwise: true, vars: true, eqeq: true, plusplus: true, nomen: true, es5:true */
 /* Pervasive Nation */
 /* 01 Feb 2018 */
-
-
-
-
-
 var args = process.argv;
 
-var debug = false;
 var action = null;
 
 if (args.length == 3 && args[2] == "stop") {
     action = "stop";
-} else if (args.length < 4) {
+} else if (args.length < 3) {
     console.log("invalid arguments, usage: ");
     console.log("  - Starting push mode: node server.js port host");
-    console.log("  - Starting push mode with debug log: node server.js port host debug_log");
     console.log("  - Stopping push mode: node server.js stop");
     process.exit();
 } else {
     action = "start";
-}
-
-
-if (args[4] && args[4] == "debug_log") {
-    debug = true;
 }
 
 var appSrvrPort = parseInt(args[2], 10);
@@ -48,10 +36,11 @@ var express = require('express');
 var u = require('url');
 var prompt = require('prompt');
 var httpRequest = require('request');
+var utils = require('../utilityFunctions.js');
 require('colors');
 
 var log = function (o) {
-    if (debug) {
+    if (true) {
         console.log(o);
     }
 };
@@ -87,8 +76,13 @@ appServer.post('/*', function (req, res) {
         responseCode = 202;
         responseMessage = {"id": 555};
         try {
-            console.log("DATA: ".magenta + payload);
-            res.status(responseCode).json(responseMessage); // Returning empty body & 202 in order to keep payloads on the DASS   
+            console.log("DATA (base64): ".magenta + payload);
+            var payloadHex = utils.base64ToHex(payload)
+            console.log("DATA (hex): ".magenta + payloadHex);
+            var packetJSON = utils.parseToPacketComponents(payloadHex);
+            console.log("UPLINK PACKET: ".blue);
+            utils.logJSONObject(packetJSON, 'green');
+            res.status(responseCode).json(responseMessage); // Returning empty body & 202 in order to keep payloads on the DASS
         } catch (ex) {
             log("error in payload");
             log(payload);
@@ -112,7 +106,7 @@ function commandInput() {
                 process.exit();
                 break;
             case '1':
-                message = new Buffer(result.m, 'hex').toString("base64");
+                message = utils.hexToBase64(result.m);
                 host = 'http://localhost:3030/';
                 id = 1;
                 console.log("-------------------------------------------------------------".blue);
