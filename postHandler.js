@@ -1,4 +1,4 @@
-uplinkHandler = require('./uplink-handler.js');
+var uplinkHandler = require('./uplinkHandler.js');
 
 exports.handlePost = function (req, res){
 
