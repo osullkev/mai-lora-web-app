@@ -36,8 +36,6 @@ exports.doRest = function (method, path, body, callback, serverCfg) {
             options.headers["Content-Type"] = "Application/json";
         }
 
-        console.log(options)
-
         var h = (serverCfg.protocol == "https") ? https : http;
 
         var req = h.request(options, function (res) {
