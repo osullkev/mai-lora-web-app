@@ -2,6 +2,7 @@ var downlink = require('./downlinkHandler.js');
 var sensorReadingHandler = require('./uplinkHandlers/sensorReadingHandler.js');
 var nodeStatusHandler = require('./uplinkHandlers/nodeStatusHandler.js');
 var fwUpdateHandler = require('./uplinkHandlers/firmwareUpdateHandler.js');
+var logHandler = require('./loggingHandler.js');
 var utils = require('./utilityFunctions.js');
 
 
@@ -39,6 +40,8 @@ var pingNode = function(nodeMessage){
 exports.handleUplink = function (uplinkJSON){
     var dataFrame = uplinkJSON.dataFrame.toUpperCase();
     var packetJSON = utils.parseToPacketComponents(dataFrame);
+    logHandler.nodeCommsLogger.log('info', 'INCOMING UPLINK', packetJSON);
+
     console.log("UPLINK PACKET: ".blue);
     utils.logJSONObject(packetJSON, 'green');
     switch (packetJSON.header.opcode){

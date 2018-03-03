@@ -44,7 +44,7 @@ exports.handlePut = function (req, res) {
             //Logging out the payload object
             console.log("PUT PAYLOAD: ".yellow + JSON.stringify(obj));
 
-            logHandler.logger.log('info', 'INCOMING HTTP PUT', obj);
+            logHandler.restAPILogger.log('info', 'INCOMING HTTP PUT', obj);
             res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
 
             nodeConfig.updateNodeInfo(obj);

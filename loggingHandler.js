@@ -14,20 +14,23 @@ var seconds = startTime.getSeconds();
 
 var startTimeStr = year + "_" + month + "_" + day + "__" + hour + "_" + minute + "_" + seconds;
 
-var filename = path.join('./logs/', 'logfile_' + startTimeStr + '.log');
+var restAPIFilename = path.join('./logs/', 'restAPILogfile_' + startTimeStr + '.log');
+var nodeCommsFilename = path.join('./logs/', 'nodeCommsLogfile_' + startTimeStr + '.log');
 
 //
 // Remove the file, ignoring any errors
 //
-try { fs.unlinkSync(filename); }
+try { fs.unlinkSync(restAPIFilename); }
 catch (ex) { }
 
-//
-// Create a new winston logger instance with two tranports: Console, and File
-//
-//
-exports.logger = new (winston.Logger)({
+exports.restAPILogger = new (winston.Logger)({
     transports: [
-        new (winston.transports.File)({ filename: filename })
+        new (winston.transports.File)({ filename: restAPIFilename })
+    ]
+});
+
+exports.nodeCommsLogger = new (winston.Logger)({
+    transports: [
+        new (winston.transports.File)({ filename: nodeCommsFilename })
     ]
 });

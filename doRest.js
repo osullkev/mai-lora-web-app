@@ -39,7 +39,7 @@ exports.doRest = function (method, path, body, callback, serverCfg) {
 
         var h = (serverCfg.protocol == "https") ? https : http;
 
-        logHandler.logger.log('info', 'OUTGOING HTTP ' + method, {'options': options, 'body': body});
+        logHandler.restAPILogger.log('info', 'OUTGOING HTTP ' + method, {'options': options, 'body': body});
 
 
         var req = h.request(options, function (res) {

@@ -35,7 +35,7 @@ exports.handlePost = function (req, res){
             obj.type = req.url.replace("/rest/callback/", "");
 
             console.log("PARSED PAYLOAD: ".magenta + JSON.stringify(obj));
-            logHandler.logger.log('info', 'INCOMING HTTP POST', obj);
+            logHandler.restAPILogger.log('info', 'INCOMING HTTP POST', obj);
 
             //Logging out the payload object
             d = obj.dataFrame;
