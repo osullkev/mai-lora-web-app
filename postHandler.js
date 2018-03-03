@@ -1,4 +1,5 @@
 var uplinkHandler = require('./uplinkHandler.js');
+var logHandler = require('./loggingHandler.js');
 
 exports.handlePost = function (req, res){
 
@@ -34,6 +35,7 @@ exports.handlePost = function (req, res){
             obj.type = req.url.replace("/rest/callback/", "");
 
             console.log("PARSED PAYLOAD: ".magenta + JSON.stringify(obj));
+            logHandler.logger.log('info', 'INCOMING HTTP POST', obj);
 
             //Logging out the payload object
             d = obj.dataFrame;
@@ -45,7 +47,7 @@ exports.handlePost = function (req, res){
             console.log("error in payload - no json object found");
             console.log(payload);
 
-            res.status(404).json({"message": "Response from POST"}); // Returning empty body & 202 in order to keep payloads on the DASS
+            res.status(404).json({"message": "Something went wrong"}); // Returning empty body & 404
         }
     });
 

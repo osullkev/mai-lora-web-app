@@ -2,6 +2,7 @@
 
 var http = require('http');
 var https = require('https');
+var logHandler = require('./loggingHandler.js');
 require('colors');
 
 
@@ -37,6 +38,9 @@ exports.doRest = function (method, path, body, callback, serverCfg) {
         }
 
         var h = (serverCfg.protocol == "https") ? https : http;
+
+        logHandler.logger.log('info', 'OUTGOING HTTP ' + method, {'options': options, 'body': body});
+
 
         var req = h.request(options, function (res) {
             console.log(("HTTP " + method + " RESPONSE").red);

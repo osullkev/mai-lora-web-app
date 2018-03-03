@@ -2,6 +2,7 @@ var rest = require('./doRest.js');
 var orbiwiseConfig = require('./orbiwiseConfig.js');
 var nodeConfig = require('./nodeConfig.js');
 var utils = require('./utilityFunctions.js');
+var logHandler = require('./loggingHandler.js');
 require('colors');
 
 var calculatePacketLen = function (postData) {
@@ -24,6 +25,7 @@ var assembleDownlinkPacket = function (opcode, postData) {
     logPacket(opcode, seqNum, len, postData);
 
     var packet = opcode + seqNum + len + postData;
+    logHandler.logger.log('info', 'OUTGOING DOWNLINK', { 'seq_num': seqNum, 'opcode': opcode, 'len': len, 'data': postData, 'assembled_packet': packet});
     console.log("Assembled downlink packet: ".yellow + packet);
     return utils.hexToBase64(packet);
 }

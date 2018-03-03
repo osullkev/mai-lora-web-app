@@ -1,5 +1,6 @@
 var u = require('url');
 var nodeConfig = require('./nodeConfig.js');
+var logHandler = require('./loggingHandler.js');
 require('colors');
 
 exports.handlePut = function (req, res) {
@@ -42,13 +43,17 @@ exports.handlePut = function (req, res) {
 
             //Logging out the payload object
             console.log("PUT PAYLOAD: ".yellow + JSON.stringify(obj));
+
+            logHandler.logger.log('info', 'INCOMING HTTP PUT', obj);
+            res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
+
             nodeConfig.updateNodeInfo(obj);
 
         } catch (ex) {
             console.log("error in payload - no json object found");
             console.log("received payload: " + payload);
+            res.status(404).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
         }
 
     });
-    res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
 }
