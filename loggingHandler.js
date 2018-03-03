@@ -23,6 +23,9 @@ var nodeCommsFilename = path.join('./logs/', 'nodeCommsLogfile_' + startTimeStr 
 try { fs.unlinkSync(restAPIFilename); }
 catch (ex) { }
 
+try { fs.unlinkSync(nodeCommsFilename); }
+catch (ex) { }
+
 exports.restAPILogger = new (winston.Logger)({
     transports: [
         new (winston.transports.File)({ filename: restAPIFilename })
