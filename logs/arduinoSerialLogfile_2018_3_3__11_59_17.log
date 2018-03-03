@@ -1,0 +1,3082 @@
+When using OTAA, register this DevEUI: 
+
+0004A30B001B0AF1
+
+RN2xx3 firmware version:
+
+RN2483 1.0.1 Dec 15 2015 09:38:09
+
+Trying to join Network
+
+Join Attempt: 1
+
+RN2483: denied
+
+
+Unable to join. Are your keys correct, and do you have Network coverage?
+
+Trying to join again in ...
+
+15...
+
+10...
+
+5...
+
+Join Attempt: 2
+
+RN2483: denied
+
+
+Unable to join. Are your keys correct, and do you have Network coverage?
+
+Trying to join again in ...
+
+15...
+
+10...
+
+5...
+
+Join Attempt: 3
+
+RN2483: denied
+
+
+Unable to join. Are your keys correct, and do you have Network coverage?
+
+Trying to join again in ...
+
+15...
+
+10...
+
+5...
+
+Join Attempt: 4
+
+RN2483: denied
+
+
+Unable to join. Are your keys correct, and do you have Network coverage?
+
+Trying to join again in ...
+
+15...
+
+10...
+
+5...
+
+Join Attempt: 5
+
+RN2483: denied
+
+
+Unable to join. Are your keys correct, and do you have Network coverage?
+
+Trying to join again in ...
+
+15...
+
+10...
+
+5...
+
+Join Attempt: 6
+
+RN2483: denied
+
+
+Unable to join. Are your keys correct, and do you have Network coverage?
+
+Trying to join again in ...
+
+15...
+
+10...
+
+5...
+
+Join Attempt: 7
+
+Successfully joined Network
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10001000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10002000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10003000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10004000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10005000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10006000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10007000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10008000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10009000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1000a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1000b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1000c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1000d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1000e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1000f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10010000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10011000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10012000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10013000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10014000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10015000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10016000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10017000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10018000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10019000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1001a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1001b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1001c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1001d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1001e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1001f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button pressed
+
+Transmitting: 300200000105071e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button pressed
+
+Transmitting: 300210000105071e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10022000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10023000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10024000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10025000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10026000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10027000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10028000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10029000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button pressed
+
+Transmitting: 3002a0000105071e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button pressed
+
+Transmitting: 3002b0000105071e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1002c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1002d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1002e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1002f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10030000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10031000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10032000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10033000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10034000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10035000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10036000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10037000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10038000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10039000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1003a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1003b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1003c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1003d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1003e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button pressed
+
+Transmitting: 3003f0000105071e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button pressed
+
+Transmitting: 300400000105071e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10041000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10042000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10043000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10044000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10045000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10046000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10047000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10048000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10049000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1004a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1004b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1004c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1004d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1004e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1004f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10050000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button pressed
+
+Transmitting: 300510000105071e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10052000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10053000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10054000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10055000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10056000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10057000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10058000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10059000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1005a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1005b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1005c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1005d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1005e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1005f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10060000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10061000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10062000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10063000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10064000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10065000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10066000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10067000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10068000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10069000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1006a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1006b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1006c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1006d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1006e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1006f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10070000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10071000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10072000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10073000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10074000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10075000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10076000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10077000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10078000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10079000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1007a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1007b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1007c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1007d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1007e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1007f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10080000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10081000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10082000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10083000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10084000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10085000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10086000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10087000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10088000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10089000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1008a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1008b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button pressed
+
+Transmitting: 3008c0000105071e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1008d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1008e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1008f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10090000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10091000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10092000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10093000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10094000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10095000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10096000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10097000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10098000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 10099000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1009a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1009b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1009c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1009d000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1009e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 1009f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a0000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a1000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a2000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a3000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a4000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a5000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a6000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a7000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a8000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100a9000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100aa000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100ab000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100ac000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100ad000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100ae000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+Button not pressed
+
+Transmitting: 100af000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+
+
+Transmitting again in ...
+
+10...
+
+5...
+
+5 seconds to press button
+
+
