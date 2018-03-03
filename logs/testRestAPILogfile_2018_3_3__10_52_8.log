@@ -1,0 +1,13 @@
+{"options":{"hostname":"ns1.pervasivenation.com","port":443,"headers":{"Accept":"Application/json","Authorization":"Basic amR1a2VzX3RjZDpqZHVrZXMxMjM0","Content-Type":"Application/json"},"path":"/rest/pushmode/start","method":"PUT"},"body":{"host":"http://localhost","port":3030,"path_prefix":"/","auth_string":"Basic Og==","retry_policy":0},"level":"info","message":"OUTGOING HTTP PUT","timestamp":"2018-03-03T10:52:08.415Z"}
+{"id":1,"dataFrame":"10001111331e441e55","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:52:26.319Z"}
+{"id":1,"dataFrame":"10002111331e441e55","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:52:36.211Z"}
+{"id":1,"dataFrame":"10003111331e441e55","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:52:46.133Z"}
+{"id":1,"dataFrame":"20004111331e441e55","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:52:56.783Z"}
+{"options":{"hostname":"localhost","port":5050,"headers":{"Accept":"Application/json","Authorization":"Basic amR1a2VzX3RjZDpqZHVrZXMxMjM0"},"path":"/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt=1&port=01&confirmed=false","method":"POST"},"body":"IAAQADMeRB5VMx5EHlU=","level":"info","message":"OUTGOING HTTP POST","timestamp":"2018-03-03T10:52:57.793Z"}
+{"id":1,"dataFrame":"20005111331e441e55","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:53:05.332Z"}
+{"options":{"hostname":"localhost","port":5050,"headers":{"Accept":"Application/json","Authorization":"Basic amR1a2VzX3RjZDpqZHVrZXMxMjM0"},"path":"/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt=2&port=01&confirmed=false","method":"POST"},"body":"IAAgADMeRB5VMx5EHlU=","level":"info","message":"OUTGOING HTTP POST","timestamp":"2018-03-03T10:53:06.339Z"}
+{"id":1,"dataFrame":"300051110105071e22","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:53:24.856Z"}
+{"id":1,"dataFrame":"300071110105071e22","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:53:40.739Z"}
+{"id":1,"dataFrame":"300081110105061e22","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:53:51.897Z"}
+{"options":{"hostname":"localhost","port":5050,"headers":{"Accept":"Application/json","Authorization":"Basic amR1a2VzX3RjZDpqZHVrZXMxMjM0"},"path":"/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt=3&port=01&confirmed=false","method":"POST"},"body":"QAAwAAEFBx4CUB4SNKvN","level":"info","message":"OUTGOING HTTP POST","timestamp":"2018-03-03T10:53:51.903Z"}
+{"id":1,"dataFrame":"300091110105071e22","type":"/","level":"info","message":"INCOMING HTTP POST","timestamp":"2018-03-03T10:54:12.971Z"}

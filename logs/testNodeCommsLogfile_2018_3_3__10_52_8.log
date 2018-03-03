@@ -1,0 +1,12 @@
+{"header":{"opcode":"1","seq_num":"0001","len":"111"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:52:26.324Z"}
+{"header":{"opcode":"1","seq_num":"0002","len":"111"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:52:36.212Z"}
+{"header":{"opcode":"1","seq_num":"0003","len":"111"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:52:46.135Z"}
+{"header":{"opcode":"2","seq_num":"0004","len":"111"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:52:56.784Z"}
+{"seq_num":"0001","opcode":"2","len":"000","data":"331E441E55331E441E55","assembled_packet":"20001000331E441E55331E441E55","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-03-03T10:52:57.791Z"}
+{"header":{"opcode":"2","seq_num":"0005","len":"111"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:53:05.333Z"}
+{"seq_num":"0002","opcode":"2","len":"000","data":"331E441E55331E441E55","assembled_packet":"20002000331E441E55331E441E55","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-03-03T10:53:06.337Z"}
+{"header":{"opcode":"3","seq_num":"0005","len":"111"},"payload":"0105071E22","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:53:24.857Z"}
+{"header":{"opcode":"3","seq_num":"0007","len":"111"},"payload":"0105071E22","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:53:40.740Z"}
+{"header":{"opcode":"3","seq_num":"0008","len":"111"},"payload":"0105061E22","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:53:51.898Z"}
+{"seq_num":"0003","opcode":"4","len":"000","data":"0105071E02501E1234ABCD","assembled_packet":"400030000105071E02501E1234ABCD","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-03-03T10:53:51.902Z"}
+{"header":{"opcode":"3","seq_num":"0009","len":"111"},"payload":"0105071E22","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T10:54:12.972Z"}
