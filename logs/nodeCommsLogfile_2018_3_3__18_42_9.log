@@ -1,0 +1,4 @@
+{"header":{"opcode":"1","seq_num":"000D","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T18:00:50.287Z"}
+{"header":{"opcode":"1","seq_num":"000F","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T18:01:24.610Z"}
+{"header":{"opcode":"1","seq_num":"0017","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T18:03:27.155Z"}
+{"header":{"opcode":"1","seq_num":"0018","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T18:03:44.975Z"}
