@@ -1,0 +1,296 @@
+⸮C⸮JWhen using OTAA, register this DevEUI: 
+
+0004A30B001B0AF1
+
+RN2xx3 firmware version:
+
+RN2483 1.0.1 Dec 15 2015 09:38:09
+
+Trying to join Network
+
+Join Attempt: 1
+
+RN2483: ok->denied
+;ok->accepted
+;
+
+Successfully joined Network
+
+Press button in 5 seconds: Node Status Update - Button Pressed
+
+Press button in 5 seconds: Node Status Update WITH OUT-OF-DATE FW - Button Pressed
+
+Transmitting: 300010000105061e22
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 10002000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 10003000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 10004000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Button Pressed
+
+Transmitting: 20005000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 10006000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 10007000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 10008000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 10009000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 1000a000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected - Time Expired
+
+Transmitting: 1000b000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Press button in 5 seconds: Node Status Update - Time Expired
+
+Press button in 5 seconds: Sensor Readings Ack Expected

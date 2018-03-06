@@ -1,0 +1,10708 @@
+This test only sends uplink of opcode=2, i.e uplinks which expect a response from the server
+
+-------------------------------------------------
+
+When using OTAA, register this DevEUI: 
+
+0004A30B001B0AF1
+
+RN2xx3 firmware version:
+
+RN2483 1.0.1 Dec 15 2015 09:38:09
+
+Trying to join Network
+
+Join Attempt: 1
+
+RN2483: ok->denied
+;ok->accepted
+;
+
+Successfully joined Network
+
+Transmitting: 20001000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20002000331E441E55
+
+Received downlink (hex): 
+
+20001000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20001000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20003000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20004000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20005000331E441E55
+
+Received downlink (hex): 
+
+20003000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20003000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20006000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20007000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20008000331E441E55
+
+Received downlink (hex): 
+
+20006000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20006000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20009000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2000a000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2000b000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2000c000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2000d000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2000e000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2000f000331E441E55
+
+Received downlink (hex): 
+
+20007000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20007000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20010000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20011000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20012000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20013000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20014000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20015000331E441E55
+
+Received downlink (hex): 
+
+20008000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20008000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20016000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20017000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20018000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20019000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2001a000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2001b000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2001c000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2001d000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2001e000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2001f000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20020000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20021000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20022000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20023000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20024000331E441E55
+
+Received downlink (hex): 
+
+2000A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2000A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20025000331E441E55
+
+Received downlink (hex): 
+
+2000B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2000B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20026000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20027000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20028000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20029000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2002a000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2002b000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2002c000331E441E55
+
+Received downlink (hex): 
+
+2000C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2000C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2002d000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2002e000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2002f000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20030000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20031000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20032000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20033000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20034000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20035000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20036000331E441E55
+
+Received downlink (hex): 
+
+20012000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20012000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20037000331E441E55
+
+Received downlink (hex): 
+
+20013000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20013000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20038000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20039000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2003a000331E441E55
+
+Received downlink (hex): 
+
+20014000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20014000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2003b000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2003c000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2003d000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2003e000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2003f000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20040000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20041000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20042000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20043000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20044000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20045000331E441E55
+
+Received downlink (hex): 
+
+20016000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20016000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20046000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20047000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20048000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20049000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2004a000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2004b000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2004c000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2004d000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2004e000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2004f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20050000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20051000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20052000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20053000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20054000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20055000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20056000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20057000331E441E55
+
+Received downlink (hex): 
+
+2001A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2001A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20058000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20059000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2005a000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2005b000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2005c000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2005d000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2005e000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2005f000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20060000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20061000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20062000331E441E55
+
+Received downlink (hex): 
+
+2001D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2001D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20063000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20064000331E441E55
+
+Received downlink (hex): 
+
+2001F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2001F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20065000331E441E55
+
+Received downlink (hex): 
+
+20020000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20020000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20066000331E441E55
+
+Received downlink (hex): 
+
+20021000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20021000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20067000331E441E55
+
+Received downlink (hex): 
+
+20022000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20022000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20068000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20069000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2006a000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2006b000331E441E55
+
+Received downlink (hex): 
+
+20023000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20023000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2006c000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2006d000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2006e000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2006f000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20070000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20071000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20072000331E441E55
+
+Received downlink (hex): 
+
+20026000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20026000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20073000331E441E55
+
+Received downlink (hex): 
+
+20027000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20027000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20074000331E441E55
+
+Received downlink (hex): 
+
+20028000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20028000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20075000331E441E55
+
+Received downlink (hex): 
+
+20029000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20029000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20076000331E441E55
+
+Received downlink (hex): 
+
+2002A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2002A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20077000331E441E55
+
+Received downlink (hex): 
+
+2002B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2002B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20078000331E441E55
+
+Received downlink (hex): 
+
+2002C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2002C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20079000331E441E55
+
+Received downlink (hex): 
+
+2002D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2002D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2007a000331E441E55
+
+Received downlink (hex): 
+
+2002E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2002E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2007b000331E441E55
+
+Received downlink (hex): 
+
+2002F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2002F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2007c000331E441E55
+
+Received downlink (hex): 
+
+20030000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20030000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2007d000331E441E55
+
+Received downlink (hex): 
+
+20031000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20031000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2007e000331E441E55
+
+Received downlink (hex): 
+
+20032000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20032000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2007f000331E441E55
+
+Received downlink (hex): 
+
+20033000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20033000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20080000331E441E55
+
+Received downlink (hex): 
+
+20034000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20034000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20081000331E441E55
+
+Received downlink (hex): 
+
+20035000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20035000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20082000331E441E55
+
+Received downlink (hex): 
+
+20036000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20036000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20083000331E441E55
+
+Received downlink (hex): 
+
+20037000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20037000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20084000331E441E55
+
+Received downlink (hex): 
+
+20038000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20038000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20085000331E441E55
+
+Received downlink (hex): 
+
+20039000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20039000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20086000331E441E55
+
+Received downlink (hex): 
+
+2003A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2003A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20087000331E441E55
+
+Received downlink (hex): 
+
+2003B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2003B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20088000331E441E55
+
+Received downlink (hex): 
+
+2003C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2003C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20089000331E441E55
+
+Received downlink (hex): 
+
+2003D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2003D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2008a000331E441E55
+
+Received downlink (hex): 
+
+2003E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2003E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2008b000331E441E55
+
+Received downlink (hex): 
+
+2003F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2003F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2008c000331E441E55
+
+Received downlink (hex): 
+
+20040000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20040000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2008d000331E441E55
+
+Received downlink (hex): 
+
+20041000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20041000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2008e000331E441E55
+
+Received downlink (hex): 
+
+20042000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20042000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2008f000331E441E55
+
+Received downlink (hex): 
+
+20043000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20043000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20090000331E441E55
+
+Received downlink (hex): 
+
+20044000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20044000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20091000331E441E55
+
+Received downlink (hex): 
+
+20045000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20045000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20092000331E441E55
+
+Received downlink (hex): 
+
+20046000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20046000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20093000331E441E55
+
+Received downlink (hex): 
+
+20047000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20047000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20094000331E441E55
+
+Received downlink (hex): 
+
+20048000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20048000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20095000331E441E55
+
+Received downlink (hex): 
+
+20049000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20049000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20096000331E441E55
+
+Received downlink (hex): 
+
+2004A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2004A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20097000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20098000331E441E55
+
+Received downlink (hex): 
+
+2004C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2004C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20099000331E441E55
+
+Received downlink (hex): 
+
+2004D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2004D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2009a000331E441E55
+
+Received downlink (hex): 
+
+2004E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2004E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2009b000331E441E55
+
+Received downlink (hex): 
+
+2004F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2004F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2009c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2009d000331E441E55
+
+Received downlink (hex): 
+
+20050000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20050000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2009e000331E441E55
+
+Received downlink (hex): 
+
+20051000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20051000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2009f000331E441E55
+
+Received downlink (hex): 
+
+20052000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20052000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a0000331E441E55
+
+Received downlink (hex): 
+
+20053000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20053000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a1000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a2000331E441E55
+
+Received downlink (hex): 
+
+20055000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20055000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a3000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a4000331E441E55
+
+Received downlink (hex): 
+
+20056000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20056000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a5000331E441E55
+
+Received downlink (hex): 
+
+20057000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20057000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a6000331E441E55
+
+Received downlink (hex): 
+
+20058000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20058000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a7000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a8000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200a9000331E441E55
+
+Received downlink (hex): 
+
+2005A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2005A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200aa000331E441E55
+
+Received downlink (hex): 
+
+2005B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2005B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ab000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ac000331E441E55
+
+Received downlink (hex): 
+
+2005D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2005D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ad000331E441E55
+
+Received downlink (hex): 
+
+2005E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2005E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ae000331E441E55
+
+Received downlink (hex): 
+
+2005F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2005F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200af000331E441E55
+
+Received downlink (hex): 
+
+20060000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20060000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b0000331E441E55
+
+Received downlink (hex): 
+
+20061000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20061000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b1000331E441E55
+
+Received downlink (hex): 
+
+20062000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20062000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b2000331E441E55
+
+Received downlink (hex): 
+
+20063000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20063000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b3000331E441E55
+
+Received downlink (hex): 
+
+20064000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20064000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b4000331E441E55
+
+Received downlink (hex): 
+
+20065000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20065000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b5000331E441E55
+
+Received downlink (hex): 
+
+20066000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20066000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b6000331E441E55
+
+Received downlink (hex): 
+
+20067000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20067000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b7000331E441E55
+
+Received downlink (hex): 
+
+20068000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20068000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b8000331E441E55
+
+Received downlink (hex): 
+
+20069000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20069000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200b9000331E441E55
+
+Received downlink (hex): 
+
+2006A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2006A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ba000331E441E55
+
+Received downlink (hex): 
+
+2006B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2006B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200bb000331E441E55
+
+Received downlink (hex): 
+
+2006C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2006C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200bc000331E441E55
+
+Received downlink (hex): 
+
+2006D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2006D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200bd000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200be000331E441E55
+
+Received downlink (hex): 
+
+2006E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2006E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200bf000331E441E55
+
+Received downlink (hex): 
+
+2006F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2006F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c0000331E441E55
+
+Received downlink (hex): 
+
+20070000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20070000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c1000331E441E55
+
+Received downlink (hex): 
+
+20071000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20071000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c2000331E441E55
+
+Received downlink (hex): 
+
+20072000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20072000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c3000331E441E55
+
+Received downlink (hex): 
+
+20073000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20073000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c4000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c5000331E441E55
+
+Received downlink (hex): 
+
+20074000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20074000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c6000331E441E55
+
+Received downlink (hex): 
+
+20075000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20075000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c7000331E441E55
+
+Received downlink (hex): 
+
+20076000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20076000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c8000331E441E55
+
+Received downlink (hex): 
+
+20077000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20077000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200c9000331E441E55
+
+Received downlink (hex): 
+
+20078000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20078000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ca000331E441E55
+
+Received downlink (hex): 
+
+20079000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20079000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200cb000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200cc000331E441E55
+
+Received downlink (hex): 
+
+2007A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2007A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200cd000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ce000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200cf000331E441E55
+
+Received downlink (hex): 
+
+2007D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2007D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d0000331E441E55
+
+Received downlink (hex): 
+
+2007E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2007E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d1000331E441E55
+
+Received downlink (hex): 
+
+2007F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2007F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d2000331E441E55
+
+Received downlink (hex): 
+
+20080000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20080000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d3000331E441E55
+
+Received downlink (hex): 
+
+20081000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20081000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d4000331E441E55
+
+Received downlink (hex): 
+
+20082000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20082000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d5000331E441E55
+
+Received downlink (hex): 
+
+20083000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20083000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d6000331E441E55
+
+Received downlink (hex): 
+
+20084000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20084000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d7000331E441E55
+
+Received downlink (hex): 
+
+20085000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20085000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d8000331E441E55
+
+Received downlink (hex): 
+
+20086000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20086000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200d9000331E441E55
+
+Received downlink (hex): 
+
+20087000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20087000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200da000331E441E55
+
+Received downlink (hex): 
+
+20088000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20088000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200db000331E441E55
+
+Received downlink (hex): 
+
+20089000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20089000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200dc000331E441E55
+
+Received downlink (hex): 
+
+2008A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2008A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200dd000331E441E55
+
+Received downlink (hex): 
+
+2008B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2008B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200de000331E441E55
+
+Received downlink (hex): 
+
+2008C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2008C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200df000331E441E55
+
+Received downlink (hex): 
+
+2008D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2008D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e0000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e1000331E441E55
+
+Received downlink (hex): 
+
+2008F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2008F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e2000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e3000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e4000331E441E55
+
+Received downlink (hex): 
+
+20090000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20090000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e5000331E441E55
+
+Received downlink (hex): 
+
+20091000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20091000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e6000331E441E55
+
+Received downlink (hex): 
+
+20092000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20092000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e7000331E441E55
+
+Received downlink (hex): 
+
+20093000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20093000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e8000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200e9000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ea000331E441E55
+
+Received downlink (hex): 
+
+20095000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20095000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200eb000331E441E55
+
+Received downlink (hex): 
+
+20096000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20096000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ec000331E441E55
+
+Received downlink (hex): 
+
+20097000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20097000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ed000331E441E55
+
+Received downlink (hex): 
+
+20098000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20098000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ee000331E441E55
+
+Received downlink (hex): 
+
+20099000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20099000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ef000331E441E55
+
+Received downlink (hex): 
+
+2009A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2009A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f0000331E441E55
+
+Received downlink (hex): 
+
+2009B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2009B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f1000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f2000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f3000331E441E55
+
+Received downlink (hex): 
+
+2009E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2009E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f4000331E441E55
+
+Received downlink (hex): 
+
+2009F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2009F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f5000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f6000331E441E55
+
+Received downlink (hex): 
+
+200A1000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200A1000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f7000331E441E55
+
+Received downlink (hex): 
+
+200A2000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200A2000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f8000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200f9000331E441E55
+
+Received downlink (hex): 
+
+200A4000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200A4000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200fa000331E441E55
+
+Received downlink (hex): 
+
+200A5000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200A5000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200fb000331E441E55
+
+Received downlink (hex): 
+
+200A6000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200A6000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200fc000331E441E55
+
+Received downlink (hex): 
+
+200A7000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200A7000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200fd000331E441E55
+
+Received downlink (hex): 
+
+200A8000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200A8000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200fe000331E441E55
+
+Received downlink (hex): 
+
+200A9000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200A9000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 200ff000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20100000331E441E55
+
+Received downlink (hex): 
+
+200AB000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200AB000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20101000331E441E55
+
+Received downlink (hex): 
+
+200AC000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200AC000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20102000331E441E55
+
+Received downlink (hex): 
+
+200AD000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200AD000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20103000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20104000331E441E55
+
+Received downlink (hex): 
+
+200AF000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200AF000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20105000331E441E55
+
+Received downlink (hex): 
+
+200B0000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B0000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20106000331E441E55
+
+Received downlink (hex): 
+
+200B1000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B1000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20107000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20108000331E441E55
+
+Received downlink (hex): 
+
+200B3000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B3000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20109000331E441E55
+
+Received downlink (hex): 
+
+200B4000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B4000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2010a000331E441E55
+
+Received downlink (hex): 
+
+200B5000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B5000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2010b000331E441E55
+
+Received downlink (hex): 
+
+200B6000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B6000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2010c000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2010d000331E441E55
+
+Received downlink (hex): 
+
+200B7000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B7000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2010e000331E441E55
+
+Received downlink (hex): 
+
+200B8000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B8000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2010f000331E441E55
+
+Received downlink (hex): 
+
+200B9000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200B9000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20110000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20111000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20112000331E441E55
+
+Received downlink (hex): 
+
+200BC000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200BC000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20113000331E441E55
+
+Received downlink (hex): 
+
+200BD000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200BD000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20114000331E441E55
+
+Received downlink (hex): 
+
+200BE000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200BE000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20115000331E441E55
+
+Received downlink (hex): 
+
+200BF000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200BF000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20116000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20117000331E441E55
+
+Received downlink (hex): 
+
+200C1000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C1000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20118000331E441E55
+
+Received downlink (hex): 
+
+200C2000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C2000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20119000331E441E55
+
+Received downlink (hex): 
+
+200C3000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C3000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2011a000331E441E55
+
+Received downlink (hex): 
+
+200C4000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C4000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2011b000331E441E55
+
+Received downlink (hex): 
+
+200C5000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C5000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2011c000331E441E55
+
+Received downlink (hex): 
+
+200C6000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C6000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2011d000331E441E55
+
+Received downlink (hex): 
+
+200C7000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C7000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2011e000331E441E55
+
+Received downlink (hex): 
+
+200C8000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C8000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2011f000331E441E55
+
+Received downlink (hex): 
+
+200C9000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200C9000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20120000331E441E55
+
+Received downlink (hex): 
+
+200CA000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200CA000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20121000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20122000331E441E55
+
+Received downlink (hex): 
+
+200CC000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200CC000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20123000331E441E55
+
+Received downlink (hex): 
+
+200CD000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200CD000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20124000331E441E55
+
+Received downlink (hex): 
+
+200CE000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200CE000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20125000331E441E55
+
+Received downlink (hex): 
+
+200CF000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200CF000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20126000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20127000331E441E55
+
+Received downlink (hex): 
+
+200D1000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200D1000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20128000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20129000331E441E55
+
+Received downlink (hex): 
+
+200D3000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200D3000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2012a000331E441E55
+
+Received downlink (hex): 
+
+200D4000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200D4000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2012b000331E441E55
+
+Received downlink (hex): 
+
+200D5000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200D5000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2012c000331E441E55
+
+Received downlink (hex): 
+
+200D6000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200D6000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2012d000331E441E55
+
+Received downlink (hex): 
+
+200D7000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200D7000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2012e000331E441E55
+
+Received downlink (hex): 
+
+200D8000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200D8000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2012f000331E441E55
+
+Received downlink (hex): 
+
+200D9000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200D9000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20130000331E441E55
+
+Received downlink (hex): 
+
+200DA000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200DA000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20131000331E441E55
+
+Received downlink (hex): 
+
+200DB000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200DB000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20132000331E441E55
+
+Received downlink (hex): 
+
+200DC000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200DC000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20133000331E441E55
+
+Received downlink (hex): 
+
+200DD000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200DD000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20134000331E441E55
+
+Received downlink (hex): 
+
+200DE000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200DE000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20135000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20136000331E441E55
+
+Received downlink (hex): 
+
+200E0000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E0000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20137000331E441E55
+
+Received downlink (hex): 
+
+200E1000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E1000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20138000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20139000331E441E55
+
+Received downlink (hex): 
+
+200E3000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E3000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2013a000331E441E55
+
+Received downlink (hex): 
+
+200E4000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E4000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2013b000331E441E55
+
+Received downlink (hex): 
+
+200E5000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E5000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2013c000331E441E55
+
+Received downlink (hex): 
+
+200E6000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E6000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2013d000331E441E55
+
+Received downlink (hex): 
+
+200E7000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E7000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2013e000331E441E55
+
+Received downlink (hex): 
+
+200E8000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E8000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2013f000331E441E55
+
+Received downlink (hex): 
+
+200E9000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200E9000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20140000331E441E55
+
+Received downlink (hex): 
+
+200EA000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200EA000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20141000331E441E55
+
+Received downlink (hex): 
+
+200EB000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200EB000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20142000331E441E55
+
+Received downlink (hex): 
+
+200EC000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200EC000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20143000331E441E55
+
+Received downlink (hex): 
+
+200ED000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200ED000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20144000331E441E55
+
+Received downlink (hex): 
+
+200EE000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200EE000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20145000331E441E55
+
+Received downlink (hex): 
+
+200EF000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200EF000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20146000331E441E55
+
+Received downlink (hex): 
+
+200F0000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F0000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20147000331E441E55
+
+Received downlink (hex): 
+
+200F1000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F1000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20148000331E441E55
+
+Received downlink (hex): 
+
+200F2000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F2000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20149000331E441E55
+
+Received downlink (hex): 
+
+200F3000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F3000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2014a000331E441E55
+
+Received downlink (hex): 
+
+200F4000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F4000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2014b000331E441E55
+
+Received downlink (hex): 
+
+200F5000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F5000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2014c000331E441E55
+
+Received downlink (hex): 
+
+200F6000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F6000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2014d000331E441E55
+
+Received downlink (hex): 
+
+200F7000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F7000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2014e000331E441E55
+
+Received downlink (hex): 
+
+200F8000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F8000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2014f000331E441E55
+
+Received downlink (hex): 
+
+200F9000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200F9000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20150000331E441E55
+
+Received downlink (hex): 
+
+200FA000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200FA000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20151000331E441E55
+
+Received downlink (hex): 
+
+200FB000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200FB000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20152000331E441E55
+
+Received downlink (hex): 
+
+200FC000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200FC000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20153000331E441E55
+
+Received downlink (hex): 
+
+200FD000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200FD000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20154000331E441E55
+
+Received downlink (hex): 
+
+200FE000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200FE000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20155000331E441E55
+
+Received downlink (hex): 
+
+200FF000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 200FF000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20156000331E441E55
+
+Received downlink (hex): 
+
+20100000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20100000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20157000331E441E55
+
+Received downlink (hex): 
+
+20101000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20101000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20158000331E441E55
+
+Received downlink (hex): 
+
+20102000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20102000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20159000331E441E55
+
+Received downlink (hex): 
+
+20103000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20103000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2015a000331E441E55
+
+Received downlink (hex): 
+
+20104000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20104000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2015b000331E441E55
+
+Received downlink (hex): 
+
+20105000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20105000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2015c000331E441E55
+
+Received downlink (hex): 
+
+20106000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20106000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2015d000331E441E55
+
+Received downlink (hex): 
+
+20107000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20107000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2015e000331E441E55
+
+Received downlink (hex): 
+
+20108000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20108000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2015f000331E441E55
+
+Received downlink (hex): 
+
+20109000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20109000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20160000331E441E55
+
+Received downlink (hex): 
+
+2010A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2010A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20161000331E441E55
+
+Received downlink (hex): 
+
+2010B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2010B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20162000331E441E55
+
+Received downlink (hex): 
+
+2010C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2010C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20163000331E441E55
+
+Received downlink (hex): 
+
+2010D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2010D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20164000331E441E55
+
+Received downlink (hex): 
+
+2010E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2010E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20165000331E441E55
+
+Received downlink (hex): 
+
+2010F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2010F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20166000331E441E55
+
+Received downlink (hex): 
+
+20110000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20110000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20167000331E441E55
+
+Received downlink (hex): 
+
+20111000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20111000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20168000331E441E55
+
+Received downlink (hex): 
+
+20112000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20112000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20169000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2016a000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2016b000331E441E55
+
+Received downlink (hex): 
+
+20114000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20114000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2016c000331E441E55
+
+Received downlink (hex): 
+
+20115000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20115000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2016d000331E441E55
+
+Received downlink (hex): 
+
+20116000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20116000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2016e000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2016f000331E441E55
+
+Received downlink (hex): 
+
+20118000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20118000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20170000331E441E55
+
+Received downlink (hex): 
+
+20119000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20119000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20171000331E441E55
+
+Received downlink (hex): 
+
+2011A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2011A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20172000331E441E55
+
+Received downlink (hex): 
+
+2011B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2011B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20173000331E441E55
+
+Received downlink (hex): 
+
+2011C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2011C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20174000331E441E55
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: ok
+->mac_err
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20175000331E441E55
+
+Received downlink (hex): 
+
+2011E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2011E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20176000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20177000331E441E55
+
+Received downlink (hex): 
+
+2011F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2011F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20178000331E441E55
+
+Received downlink (hex): 
+
+20120000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20120000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20179000331E441E55
+
+Received downlink (hex): 
+
+20121000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20121000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2017a000331E441E55
+
+Received downlink (hex): 
+
+20122000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20122000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2017b000331E441E55
+
+Received downlink (hex): 
+
+20123000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20123000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2017c000331E441E55
+
+Received downlink (hex): 
+
+20124000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20124000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2017d000331E441E55
+
+Received downlink (hex): 
+
+20125000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20125000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2017e000331E441E55
+
+Received downlink (hex): 
+
+20126000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20126000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2017f000331E441E55
+
+Received downlink (hex): 
+
+20127000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20127000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20180000331E441E55
+
+Received downlink (hex): 
+
+20128000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20128000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20181000331E441E55
+
+Received downlink (hex): 
+
+20129000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20129000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20182000331E441E55
+
+Received downlink (hex): 
+
+2012A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2012A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20183000331E441E55
+
+Received downlink (hex): 
+
+2012B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2012B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20184000331E441E55
+
+Received downlink (hex): 
+
+2012C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2012C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20185000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20186000331E441E55
+
+Received downlink (hex): 
+
+2012D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2012D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20187000331E441E55
+
+Received downlink (hex): 
+
+2012E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2012E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20188000331E441E55
+
+Received downlink (hex): 
+
+2012F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2012F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20189000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2018a000331E441E55
+
+Received downlink (hex): 
+
+20131000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20131000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2018b000331E441E55
+
+Received downlink (hex): 
+
+20132000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20132000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2018c000331E441E55
+
+Received downlink (hex): 
+
+20133000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20133000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2018d000331E441E55
+
+Received downlink (hex): 
+
+20134000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20134000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2018e000331E441E55
+
+Received downlink (hex): 
+
+20135000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20135000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2018f000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20190000331E441E55
+
+Received downlink (hex): 
+
+20137000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20137000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20191000331E441E55
+
+Received downlink (hex): 
+
+20138000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20138000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20192000331E441E55
+
+Received downlink (hex): 
+
+20139000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20139000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20193000331E441E55
+
+Received downlink (hex): 
+
+2013A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2013A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20194000331E441E55
+
+Received downlink (hex): 
+
+2013B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2013B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20195000331E441E55
+
+Received downlink (hex): 
+
+2013C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2013C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20196000331E441E55
+
+Received downlink (hex): 
+
+2013D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2013D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20197000331E441E55
+
+Received downlink (hex): 
+
+2013E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2013E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20198000331E441E55
+
+Received downlink (hex): 
+
+2013F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2013F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 20199000331E441E55
+
+Received downlink (hex): 
+
+20140000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20140000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2019a000331E441E55
+
+Received downlink (hex): 
+
+20141000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20141000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2019b000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2019c000331E441E55
+
+Received downlink (hex): 
+
+20142000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20142000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2019d000331E441E55
+
+Received downlink (hex): 
+
+20143000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20143000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2019e000331E441E55
+
+Received downlink (hex): 
+
+20144000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20144000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 2019f000331E441E55
+
+Received downlink (hex): 
+
+20145000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20145000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a0000331E441E55
+
+Received downlink (hex): 
+
+20146000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20146000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a1000331E441E55
+
+Received downlink (hex): 
+
+20147000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20147000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a2000331E441E55
+
+Received downlink (hex): 
+
+20148000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20148000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a3000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a4000331E441E55
+
+Received downlink (hex): 
+
+2014A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2014A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a5000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a6000331E441E55
+
+Received downlink (hex): 
+
+2014C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2014C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a7000331E441E55
+
+Received downlink (hex): 
+
+2014D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2014D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a8000331E441E55
+
+Received downlink (hex): 
+
+2014E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2014E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201a9000331E441E55
+
+Received downlink (hex): 
+
+2014F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2014F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201aa000331E441E55
+
+Received downlink (hex): 
+
+20150000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20150000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201ab000331E441E55
+
+Received downlink (hex): 
+
+20151000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20151000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201ac000331E441E55
+
+Received downlink (hex): 
+
+20152000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20152000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201ad000331E441E55
+
+Received downlink (hex): 
+
+20153000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20153000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201ae000331E441E55
+
+Received downlink (hex): 
+
+20154000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20154000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201af000331E441E55
+
+Received downlink (hex): 
+
+20155000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20155000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b0000331E441E55
+
+Received downlink (hex): 
+
+20156000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20156000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b1000331E441E55
+
+Received downlink (hex): 
+
+20157000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20157000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b2000331E441E55
+
+Received downlink (hex): 
+
+20158000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20158000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b3000331E441E55
+
+Received downlink (hex): 
+
+20159000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20159000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b4000331E441E55
+
+Received downlink (hex): 
+
+2015A000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2015A000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b5000331E441E55
+
+Received downlink (hex): 
+
+2015B000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2015B000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b6000331E441E55
+
+Received downlink (hex): 
+
+2015C000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2015C000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b7000331E441E55
+
+Received downlink (hex): 
+
+2015D000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2015D000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b8000331E441E55
+
+Received downlink (hex): 
+
+2015E000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2015E000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201b9000331E441E55
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201ba000331E441E55
+
+Received downlink (hex): 
+
+2015F000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 2015F000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201bb000331E441E55
+
+Received downlink (hex): 
+
+20160000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20160000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201bc000331E441E55
+
+Received downlink (hex): 
+
+20161000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20161000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201bd000331E441E55
+
+Received downlink (hex): 
+
+20162000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20162000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201be000331E441E55
+
+Received downlink (hex): 
+
+20163000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20163000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 201bf000331E441E55
+
+Received downlink (hex): 
+
+20164000331E441E55331E441E55
+
+
+RN2483: ok
+->mac_rx 1 20164000331E441E55331E441E55
+
+
+Transmitting again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+
