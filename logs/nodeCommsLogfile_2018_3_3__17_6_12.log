@@ -1,0 +1,2 @@
+{"header":{"opcode":"3","seq_num":"0005","len":"000"},"payload":"0105071E22","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T17:02:19.566Z"}
+{"header":{"opcode":"1","seq_num":"0013","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-03T17:06:18.019Z"}

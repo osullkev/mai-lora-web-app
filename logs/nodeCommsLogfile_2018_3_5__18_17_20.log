@@ -1,0 +1,15 @@
+{"header":{"opcode":"1","seq_num":"0001","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:17:33.817Z"}
+{"header":{"opcode":"2","seq_num":"0002","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:17:56.380Z"}
+{"seq_num":"0001","opcode":"2","len":"000","data":"331E441E55331E441E55","assembled_packet":"20001000331E441E55331E441E55","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-03-05T17:17:57.393Z"}
+{"header":{"opcode":"1","seq_num":"0001","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:21:14.874Z"}
+{"header":{"opcode":"1","seq_num":"0002","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:21:38.851Z"}
+{"header":{"opcode":"2","seq_num":"0003","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:22:01.245Z"}
+{"seq_num":"0002","opcode":"2","len":"000","data":"331E441E55331E441E55","assembled_packet":"20002000331E441E55331E441E55","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-03-05T17:22:02.252Z"}
+{"header":{"opcode":"1","seq_num":"0004","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:22:25.371Z"}
+{"header":{"opcode":"1","seq_num":"0006","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:23:13.483Z"}
+{"header":{"opcode":"1","seq_num":"0007","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:23:37.450Z"}
+{"header":{"opcode":"1","seq_num":"0008","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:24:01.924Z"}
+{"header":{"opcode":"3","seq_num":"0009","len":"000"},"payload":"0105071E22","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:24:25.092Z"}
+{"header":{"opcode":"1","seq_num":"000A","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:24:48.499Z"}
+{"header":{"opcode":"2","seq_num":"000B","len":"000"},"payload":"331E441E55","level":"info","message":"INCOMING UPLINK","timestamp":"2018-03-05T17:25:08.825Z"}
+{"seq_num":"0003","opcode":"2","len":"000","data":"331E441E55331E441E55","assembled_packet":"20003000331E441E55331E441E55","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-03-05T17:25:09.832Z"}
