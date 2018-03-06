@@ -6,7 +6,7 @@ var utils = require('../utilityFunctions.js');
 
 var pingNode = function(nodeMessage){
     console.log("Pinging node...");
-    var postData = nodeMessage + nodeMessage;
+    var postData = nodeMessage;
 
     downlink.sendDownlink('2', postData);
 }
@@ -18,8 +18,6 @@ exports.handleSensorReading = function (data, ack) {
     utils.logJSONObject(readings, 'green');
 
     if(ack){
-        setTimeout(function(){
-            pingNode(data);
-        }, 1000);
+        pingNode(data);
     }
 }
