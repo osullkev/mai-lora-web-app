@@ -17,6 +17,7 @@ var orbiwiseConfig = require('./orbiwiseConfig.js');
 var putHandler = require('./putHandler.js');
 var postHandler = require('./postHandler.js');
 var utils = require('./utilityFunctions.js');
+var loggingHandler = require('./loggingHandler.js');
 require('colors');
 
 var args = process.argv;
@@ -33,6 +34,8 @@ if (action == "stop") {
     orbiwiseConfig.stopPush();
 
 } else {
+
+    loggingHandler.setUpLogs();
 
     var appServer = express();
     var httpServer = http.createServer(appServer).listen(appSrvrPort, function () {
