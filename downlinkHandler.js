@@ -19,7 +19,6 @@ var logPacket = function (opcode, seqNum, len, postData) {
 
 var assembleDownlinkPacket = function (opcode, postData) {
     console.log("Assembling downlink packet... ".yellow);
-    opcode = utils.padWithZeros(opcode);
     var len = calculatePacketLen(postData);
     var seqNum = nodeConfig.getDownlinkSeqNumber();
     logPacket(opcode, seqNum, len, postData);

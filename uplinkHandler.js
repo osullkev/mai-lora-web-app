@@ -58,10 +58,8 @@ exports.handleUplink = function (uplinkJSON){
             nodeStatusHandler.handleNodeStatus(packetJSON.payload);
             break;
         case '4':
-            //FIRMWARE UPDATE-INITIALISE PROCESS
-            setTimeout(function(){
-                pingNode(packetJSON.payload);
-            }, 1000);
+            //FIRMWARE UPDATE-REQUEST PACKET
+            fwUpdateHandler.handlePacketRequest(packetJSON.payload);
             break;
         case '5':
             //FIRMWARE UPDATE-REQUEST PACKET
