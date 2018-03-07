@@ -37,6 +37,11 @@ var checkBatteryLife = function (statusJSON) {
 
 }
 
+var sendUpdateAcknowledgeNotification = function (currentFW, latestFW) {
+    var postData = ""; //Empty, no action required.
+    downlink.sendDownlink('3', "");
+}
+
 var checkFWVersion = function (statusJSON) {
     var currentFWJSON = assembleFWJSON(statusJSON.fw_version);
     var latestFW = retrieveLatestFW();
@@ -48,6 +53,7 @@ var checkFWVersion = function (statusJSON) {
         sendUpdateAvailableNotification(currentFWJSON, latestFW);
     }else {
         console.log("FIRMWARE VERSION IS UP-TO-DATE: ".yellow + currentFWJSON.fw_string);
+        sendUpdateAcknowledgeNotification(currentFWJSON, latestFW);
     }
 }
 
