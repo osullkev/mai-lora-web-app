@@ -1,0 +1,409 @@
+This test only sends uplink of opcode=3,4,5,6, i.e uplinks involved in the FW update process.
+
+-------------------------------------------------
+
+When using OTAA, register this DevEUI: 
+
+0004A30B001B0AF1
+
+RN2xx3 firmware version:
+
+RN2483 1.0.1 Dec 15 2015 09:38:09
+
+Trying to join Network
+
+Join Attempt: 1
+
+RN2483: ok->denied
+;ok->accepted
+;
+
+Successfully joined Network
+
+Node Status Attempt: 1
+
+Transmitting: 300000000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting node status again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Node Status Attempt: 2
+
+Transmitting: 300010000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting node status again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Node Status Attempt: 3
+
+Transmitting: 300020000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting node status again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Node Status Attempt: 4
+
+Transmitting: 300030000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting node status again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Node Status Attempt: 5
+
+Transmitting: 300040000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting node status again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Node Status Attempt: 6
+
+Transmitting: 300050000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting node status again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Node Status Attempt: 7
+
+Transmitting: 300060000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting node status again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Node Status Attempt: 8
+
+Transmitting: 300070000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Transmitting node status again in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Node Status Attempt: 9
+
+Transmitting: 300080000105061e22
+
+Received downlink (hex): 
+
+400030000105071E02501E1234ABCD
+
+
+RN2483: ok
+->mac_rx 1 400030000105071E02501E1234ABCD
+
+
+Response received ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Response Opcode: 4
+
+Requesting next packet in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 50009000
+
+Received downlink (hex): 
+
+400040000105071E02501E1234ABCD
+
+
+RN2483: ok
+->mac_rx 1 400040000105071E02501E1234ABCD
+
+
+Processing update packet->ok
+->mac_rx 1 400040000105071E02501E1234ABCD
+
+
+Requesting next packet in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 5000a000
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Processing update packet->ok
+->mac_tx_ok
+
+
+Requesting next packet in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 5000b000
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Processing update packet->ok
+->mac_tx_ok
+
+
+Requesting next packet in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 5000c000
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Processing update packet->ok
+->mac_tx_ok
+
+
+Requesting next packet in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 5000d000
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Processing update packet->ok
+->mac_tx_ok
+
+
+Requesting next packet in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Transmitting: 5000e000
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Processing update packet->ok
+->mac_tx_ok
+
+
+Requesting next packet in ...
+
+30...
+
+25...
+
+
