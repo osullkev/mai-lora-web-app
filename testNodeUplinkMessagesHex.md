@@ -11,3 +11,6 @@
 ###Node Status - FW: 01.01.01, Battery Life: 22
 
 300051110101011e22
+
+###Firmware Update - Request Packet: Next packet in queue
+40003000
