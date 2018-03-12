@@ -1,0 +1,1123 @@
+This test only sends uplink of opcode=3,4,5,6, i.e uplinks involved in the FW update process.
+
+-------------------------------------------------
+
+When using OTAA, register this DevEUI: 
+
+0004A30B001B0AF1
+
+RN2xx3 firmware version:
+
+RN2483 1.0.1 Dec 15 2015 09:38:09
+
+Trying to join Network
+
+Join Attempt: 1
+
+RN2483: ok->denied
+;ok->accepted
+;
+
+Successfully joined Network
+
+Scheduled Node Status Update - In state = 1
+
+Transmitting: 300010000105061e22
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Scheduled Node Status Update - In state = 1
+
+Transmitting: 300020000105061e22
+
+Received downlink (hex): 
+
+400010000105071E02501E1234ABCD
+
+
+Response Opcode: 4
+
+RN2483: ok
+->mac_rx 1 400010000105071E02501E1234ABCD
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40003000
+
+Problem receiving downlink. Uplink may have been successful.
+
+RN2483: ok
+->mac_err
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40004000
+
+Received downlink (hex): 
+
+5000300000010000000001
+
+
+Response Opcode: 5
+
+Firmware update packet received ...
+
+Processing update packet->00010000000001
+
+
+RN2483: ok
+->mac_rx 1 5000300000010000000001
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40005000
+
+Received downlink (hex): 
+
+5000400000020000000002
+
+
+Response Opcode: 5
+
+Firmware update packet received ...
+
+Processing update packet->00020000000002
+
+
+RN2483: ok
+->mac_rx 1 5000400000020000000002
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40006000
+
+Problem receiving downlink. Uplink may have been successful.
+
+RN2483: ok
+->mac_err
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40007000
+
+Received downlink (hex): 
+
+5000600000040000000004
+
+
+Response Opcode: 5
+
+Firmware update packet received ...
+
+Processing update packet->00040000000004
+
+
+RN2483: ok
+->mac_rx 1 5000600000040000000004
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40008000
+
+Received downlink (hex): 
+
+5000700000050000000005
+
+
+Response Opcode: 5
+
+Firmware update packet received ...
+
+Processing update packet->00050000000005
+
+
+RN2483: ok
+->mac_rx 1 5000700000050000000005
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 40009000
+
+Problem receiving downlink. Uplink may have been successful.
+
+RN2483: ok
+->mac_err
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000a000
+
+Received downlink (hex): 
+
+5000900000070000000007
+
+
+Response Opcode: 5
+
+Firmware update packet received ...
+
+Processing update packet->00070000000007
+
+
+RN2483: ok
+->mac_rx 1 5000900000070000000007
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission UNSUCESSFUL or NOT acknowledged
+
+RN2483: no_free_ch
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000b000
+
+Transmission SUCCESSFUL and acknowledged
+
+RN2483: ok
+->mac_tx_ok
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000c000
+
+Problem receiving downlink. Uplink may have been successful.
+
+RN2483: ok
+->mac_err
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Requesting firmware update packet - In state = 2
+
+Transmitting: 4000d000
+
+Received downlink (hex): 
+
+5000C000100A0000000010
+
+
+Response Opcode: 5
+
+Firmware update packet received ...
+
+Processing update packet->100A0000000010
+
+
+RN2483: ok
+->mac_rx 1 5000C000100A0000000010
+
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+15...
+
+10...
+
+5...
+
+Checking for missing firmware update packets - In state = 3
+
+Updating state in ...
+
+30...
+
+25...
+
+20...
+
+
