@@ -22,7 +22,7 @@ exports.getdownlinkFrameCount = function(){
 }
 
 exports.getDownlinkSeqNumber = function (){
-    return utils.padWithZeros(downlinkSeqNumber.toString(16), 4);
+    return utils.padWithZeros(downlinkSeqNumber.toString(16), 3);
 }
 
 exports.incrementDownlinkSeqNumber = function (){
