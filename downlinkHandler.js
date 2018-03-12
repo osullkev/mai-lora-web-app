@@ -5,25 +5,19 @@ var utils = require('./utilityFunctions.js');
 var logHandler = require('./loggingHandler.js');
 require('colors');
 
-var calculatePacketLen = function (postData) {
-    // TODO: Implement function
-    return '000';
-}
 
-var logPacket = function (opcode, seqNum, len, postData) {
+var logPacket = function (opcode, seqNum, postData) {
     console.log("OPCODE: ".yellow + opcode);
     console.log("SEQ#:   ".yellow + seqNum);
-    console.log("LENGTH: ".yellow + len);
     console.log("DATA:   ".yellow + postData);
 }
 
 var assembleDownlinkPacket = function (opcode, postData) {
     console.log("Assembling downlink packet... ".yellow);
-    var len = calculatePacketLen(postData);
     var seqNum = nodeConfig.getDownlinkSeqNumber();
-    logPacket(opcode, seqNum, len, postData);
+    logPacket(opcode, seqNum, postData);
 
-    var packet = opcode + seqNum + len + postData;
+    var packet = opcode + seqNum + postData;
     logHandler.nodeCommsLogger.log('info', 'OUTGOING DOWNLINK', { 'seq_num': seqNum, 'opcode': opcode, 'len': len, 'data': postData, 'assembled_packet': packet});
     console.log("Assembled downlink packet: ".yellow + packet);
     return utils.hexToBase64(packet);
