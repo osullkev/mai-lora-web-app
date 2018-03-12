@@ -45,14 +45,18 @@ exports.handlePut = function (req, res) {
             console.log("PUT PAYLOAD: ".yellow + JSON.stringify(obj));
 
             logHandler.restAPILogger.log('info', 'INCOMING HTTP PUT', obj);
-            res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
 
             nodeConfig.updateNodeInfo(obj);
+
+            res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
+
 
         } catch (ex) {
             console.log("error in payload - no json object found");
             console.log("received payload: " + payload);
             res.status(404).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
+
+            throw ex;
         }
 
     });

@@ -1,7 +1,13 @@
 var utils = require('../utilityFunctions.js');
 var downlink = require('../downlinkHandler.js');
+var fs = require("fs");
 
 var updateIndex = 1;
+
+var fwDeltaPath = "./deltas/delta500Bytes.txt";
+var fwDeltaFile = fs.openSync(fwDeltaPath, "r");
+var deltaBuffer = new Buffer(100);
+
 
 var assembleUpdatePacket = function (flag, index, update)
 {
@@ -20,9 +26,21 @@ var getFlag = function ()
     }
 }
 
+var getUpdatePacket = function (index)
+{
+    if (!index)
+    {
+        index = updateIndex;
+    }
+
+    fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (index - 1)*deltaBuffer.length);
+
+    return deltaBuffer.toString();
+}
+
 var sendNextUpdatePacket = function(){
     console.log("Sending next firmware update packet...");
-    var updatePacket = utils.padWithZeros(updateIndex.toString(), 10);
+    var updatePacket = getUpdatePacket();
 
     var flag = getFlag();
 

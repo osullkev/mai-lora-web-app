@@ -39,15 +39,18 @@ exports.handlePost = function (req, res){
 
             //Logging out the payload object
             d = obj.dataFrame;
-            res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
 
             uplinkHandler.handleUplink(obj);
+
+            res.status(202).json({}); // Returning empty body & 202 in order to keep payloads on the DASS
 
         } catch (ex) {
             console.log("error in payload - no json object found");
             console.log(payload);
 
             res.status(404).json({"message": "Something went wrong"}); // Returning empty body & 404
+
+            throw ex;
         }
     });
 
