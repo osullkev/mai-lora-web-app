@@ -18,7 +18,7 @@ var assembleDownlinkPacket = function (opcode, postData) {
     logPacket(opcode, seqNum, postData);
 
     var packet = opcode + seqNum + postData;
-    logHandler.nodeCommsLogger.log('info', 'OUTGOING DOWNLINK', { 'seq_num': seqNum, 'opcode': opcode, 'len': len, 'data': postData, 'assembled_packet': packet});
+    logHandler.nodeCommsLogger.log('info', 'OUTGOING DOWNLINK', { 'seq_num': seqNum, 'opcode': opcode, 'data': postData, 'assembled_packet': packet});
     console.log("Assembled downlink packet: ".yellow + packet);
     return utils.hexToBase64(packet);
 }

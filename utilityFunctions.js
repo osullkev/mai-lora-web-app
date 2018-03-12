@@ -86,11 +86,10 @@ exports.base64ToHex = function (b64) {
 
 exports.parseToPacketComponents = function (dataFrame) {
     var opcode = dataFrame.substring(0,1);
-    var seq_num = dataFrame.substring(1,5);
-    var len = dataFrame.substring(5,8);
-    var payload = dataFrame.substring(8);
+    var seq_num = dataFrame.substring(1,4);
+    var payload = dataFrame.substring(4);
 
-    return {"header": {"opcode": opcode, "seq_num": seq_num, "len": len},
+    return {"header": {"opcode": opcode, "seq_num": seq_num},
         "payload": payload};
 
 }
