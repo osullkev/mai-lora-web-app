@@ -6,7 +6,8 @@ var updateIndex = 1;
 
 var fwDeltaPath = "./deltas/delta500Bytes.txt";
 var fwDeltaFile = fs.openSync(fwDeltaPath, "r");
-var deltaBuffer = new Buffer(100);
+
+var flag;
 
 
 var assembleUpdatePacket = function (flag, index, update)
@@ -16,14 +17,7 @@ var assembleUpdatePacket = function (flag, index, update)
 
 var getFlag = function ()
 {
-    if (updateIndex < 10)
-    {
-        return 0; // More packets available
-    }
-    else
-    {
-        return 1; // Last packet
-    }
+    return flag;
 }
 
 var getUpdatePacket = function (index)
@@ -33,9 +27,22 @@ var getUpdatePacket = function (index)
         index = updateIndex;
     }
 
-    fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (index - 1)*deltaBuffer.length);
+    var deltaBuffer = new Buffer(92);
 
-    return deltaBuffer.toString();
+    var bytesRead = fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (index - 1)*deltaBuffer.length);
+
+    console.log("BYTES READ: " + bytesRead);
+    if (bytesRead < deltaBuffer.length)
+    {
+        flag = 1;
+    }
+    else
+    {
+        flag = 0;
+        updateIndex++;
+    }
+
+    return utils.padWithZeros(index.toString(16), 3) + deltaBuffer.toString();
 }
 
 var sendNextUpdatePacket = function(){
@@ -44,11 +51,10 @@ var sendNextUpdatePacket = function(){
 
     var flag = getFlag();
 
-    var postData = assembleUpdatePacket(flag, updateIndex, updatePacket);
+    var postData = assembleUpdatePacket(flag, updatePacket);
 
     downlink.sendDownlink('5', postData);
 
-    updateIndex++;
 }
 
 
