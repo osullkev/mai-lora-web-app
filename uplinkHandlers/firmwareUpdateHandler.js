@@ -10,9 +10,9 @@ var fwDeltaFile = fs.openSync(fwDeltaPath, "r");
 var flag;
 
 
-var assembleUpdatePacket = function (flag, index, update)
+var assembleUpdatePacket = function (flag, update)
 {
-    return flag.toString() + utils.padWithZeros(index.toString(16), 3) + update;
+    return flag.toString() + update;
 }
 
 var getFlag = function ()
