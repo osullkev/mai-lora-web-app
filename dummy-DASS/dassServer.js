@@ -98,15 +98,15 @@ appServer.post('/*', function (req, res) {
 
 function commandInput() {
     console.log("-------------------------------------------------------------".green);
-    console.log("Enter command... [0-exit, 1-post data]".green)
+    console.log("Enter command... [0-exit, Else-post data]".green)
     prompt.start();
-    prompt.get(['f','m'], function (err, result) {
+    prompt.get(['f'], function (err, result) {
         switch (result.f) {
             case '0':
                 process.exit();
                 break;
-            case '1':
-                message = utils.hexToBase64(result.m);
+            default:
+                message = utils.hexToBase64(result.f);
                 host = 'http://localhost:3030/';
                 id = 1;
                 console.log("-------------------------------------------------------------".blue);
@@ -127,11 +127,8 @@ function commandInput() {
                             console.log("-------------------------------------------------------------".red);
                         }
                     });
-            default:
                 setTimeout(function(){commandInput()}, 2000);
-                
         }
-        
     })
 
 }
