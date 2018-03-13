@@ -1,30 +1,12 @@
 require('colors');
 var downlink = require('../downlinkHandler.js');
 var utils = require('../utilityFunctions.js');
-
-
-var assembleFWJSON = function (fwversion) {
-    var major = fwversion.substring(0, 2);
-    var minor = fwversion.substring(2, 4);
-    var patch = fwversion.substring(4);
-    var fwStr = major + "." + minor + "." + patch;
-    return {'major': major, 'minor': minor, 'patch': patch, 'fw_num': fwversion,'fw_string': fwStr};
-}
-
-var retrieveLatestFW = function () {
-    return assembleFWJSON("010507");
-}
-
-var prepareFWUpdateDelta = function (currentFW, newFW) {
-    console.log("Preparing update delta: ".yellow + currentFW.fw_string + " -> ".yellow + newFW.fw_string);
-    console.log("...".yellow);
-    return {'fw_num': newFW.fw_num, 'num_tx_packets': '0250', 'CRC': '1234ABCD'};
-}
+var fw = require('./firmwareUpdateHandler.js');
 
 var sendUpdateAvailableNotification = function (currentFW, latestFW) {
     console.log("NEW FIRMWARE AVAILABLE: ".red + latestFW.fw_string);
-    var deltaDetails = prepareFWUpdateDelta(currentFW, latestFW);
-    var postData = deltaDetails.fw_num + "1E" + deltaDetails.num_tx_packets + "1E" + deltaDetails.CRC;
+    var deltaDetails = fw.prepareFWUpdateDelta(currentFW, latestFW);
+    var postData = deltaDetails.fw_num + deltaDetails.num_tx_packets + deltaDetails.CRC;
     downlink.sendDownlink('4', postData);
 }
 
@@ -43,8 +25,8 @@ var sendUpdateAcknowledgeNotification = function (currentFW, latestFW) {
 }
 
 var checkFWVersion = function (statusJSON) {
-    var currentFWJSON = assembleFWJSON(statusJSON.fw_version);
-    var latestFW = retrieveLatestFW();
+    var currentFWJSON = fw.assembleFWJSON(statusJSON.fw_version);
+    var latestFW = fw.assembleFWJSON(fw.retrieveLatestFW());
     if (latestFW.major > currentFWJSON.major){
         sendUpdateAvailableNotification(currentFWJSON, latestFW);
     }else if (latestFW.minor > currentFWJSON.minor){
