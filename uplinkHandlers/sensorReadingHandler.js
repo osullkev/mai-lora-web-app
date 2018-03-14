@@ -12,8 +12,10 @@ var pingNode = function(nodeMessage){
 }
 
 exports.handleSensorReading = function (data, ack) {
-    var readings = data.split("1E");
-    readings = {"temp": readings[0], "humidity": readings[1], "water_level": readings[2]};
+    var temp = data.substring(0,2);
+    var humidity = data.substring(2,4);
+    var waterLevel = data.substring(4);
+    var readings = {"temp": temp, "humidity": humidity, "water_level": waterLevel};
     console.log("SENSOR READINGS: ".blue);
     utils.logJSONObject(readings, 'green');
 

@@ -40,8 +40,9 @@ var checkFWVersion = function (statusJSON) {
 }
 
 exports.handleNodeStatus = function (data) {
-    var status = data.split("1E");
-    status = {"fw_version": status[0], "battery_life": status[1]};
+    var fwVer = data.substring(0,6);
+    var batteryLife = data.substring(6);
+    status = {"fw_version": fwVer, "battery_life": batteryLife};
     console.log("NODE STATUS: ".blue);
     utils.logJSONObject(status, 'green');
 
