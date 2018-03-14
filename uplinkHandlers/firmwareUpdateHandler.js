@@ -5,13 +5,14 @@ var fs = require("fs");
 var updateIndex = 1;
 
 var newFwDeltaPath = "./deltas/delta500Bytes.txt";
-var newFWDeltaSize = 500;
+const stats = fs.statSync(newFwDeltaPath);
+const newFWDeltaSize = stats.size / 2;
 var newFwDeltaVersion = "010507";
 var fwDeltaFile = fs.openSync(newFwDeltaPath, "r");
 
 var flag;
 var bufferSize = 92;
-var numOfPackets = Math.floor(newFWDeltaSize*2 / bufferSize) + 1;
+var numOfPackets = Math.ceil(newFWDeltaSize*2 / bufferSize);
 
 
 var missingPackets = [];
@@ -30,19 +31,16 @@ var getFlag = function ()
     return flag;
 }
 
-var getUpdatePacket = function (index)
+var getUpdatePacket = function ()
 {
-    if (!index)
-    {
-        index = updateIndex;
-    }
-
     var deltaBuffer = new Buffer(bufferSize);
 
-    var bytesRead = fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (index - 1)*deltaBuffer.length);
+    var currentIndex = updateIndex;
+
+    var bytesRead = fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (currentIndex - 1)*deltaBuffer.length);
 
     console.log("BYTES READ: " + bytesRead);
-    if (index < numOfPackets)
+    if (currentIndex < numOfPackets)
     {
         flag = 0;
         updateIndex++;
@@ -52,7 +50,7 @@ var getUpdatePacket = function (index)
         flag = 1;
     }
 
-    return utils.padWithZeros(index.toString(16), 3) + deltaBuffer.toString();
+    return utils.padWithZeros(currentIndex.toString(16), 3) + deltaBuffer.toString();
 }
 
 var getMissingUpdatePacket = function ()
@@ -77,20 +75,18 @@ var getMissingUpdatePacket = function ()
 }
 
 var sendNextUpdatePacket = function(){
-    console.log("Sending next firmware update packet...");
-    var updatePacket = getUpdatePacket();
+    var updatePacket;
 
-    var flag = getFlag();
-
-    var postData = assembleUpdatePacket(flag, updatePacket);
-
-    downlink.sendDownlink('5', postData);
-
-}
-
-var sendNextMissingPacket = function(){
-    console.log("Sending next missing firmware update packet...");
-    var updatePacket = getMissingUpdatePacket();
+    if (recoveryStage)
+    {
+        console.log("Sending next missing firmware update packet...");
+        updatePacket = getMissingUpdatePacket();
+    }
+    else
+    {
+        console.log("Sending next sequential firmware update packet...");
+        updatePacket = getUpdatePacket();
+    }
 
     var flag = getFlag();
 
@@ -118,6 +114,7 @@ exports.prepareFWUpdateDelta = function (currentFW, newFW) {
     console.log("...".red);
     return {'fw_num': newFW.fw_num,
         'num_tx_packets': utils.padWithZeros(numOfPackets.toString(16), 4),
+        'size': utils.padWithZeros(newFWDeltaSize.toString(), 4),
         'CRC': '1234ABCD'};
 }
 
@@ -126,6 +123,8 @@ exports.handlePacketRequest = function (payload)
 {
     if (payload) //Resend missing packets
     {
+        missingPackets = [];
+        currentMissingPacketIndex = 0;
         numberOfMissingPackets = payload.length / 4;
         for  (var i = 0; i < numberOfMissingPackets; i++)
         {
@@ -134,13 +133,5 @@ exports.handlePacketRequest = function (payload)
         console.log("Missing Packets: " + missingPackets);
         recoveryStage = true;
     }
-
-    if (recoveryStage)
-    {
-        sendNextMissingPacket(currentMissingPacketIndex);
-    }
-    else
-    {
         sendNextUpdatePacket();
-    }
 }

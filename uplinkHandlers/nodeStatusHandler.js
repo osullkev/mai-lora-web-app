@@ -6,7 +6,7 @@ var fw = require('./firmwareUpdateHandler.js');
 var sendUpdateAvailableNotification = function (currentFW, latestFW) {
     console.log("NEW FIRMWARE AVAILABLE: ".red + latestFW.fw_string);
     var deltaDetails = fw.prepareFWUpdateDelta(currentFW, latestFW);
-    var postData = deltaDetails.fw_num + deltaDetails.num_tx_packets + deltaDetails.CRC;
+    var postData = deltaDetails.fw_num + deltaDetails.size + deltaDetails.num_tx_packets + deltaDetails.CRC;
     downlink.sendDownlink('4', postData);
 }
 
