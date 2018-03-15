@@ -20,6 +20,8 @@ var currentMissingPacketIndex = 0;
 var numberOfMissingPackets;
 var recoveryStage = false;
 
+var specificIndexRequest = false;
+var specificIndex;
 
 var assembleUpdatePacket = function (flag, update)
 {
@@ -44,6 +46,27 @@ var getUpdatePacket = function ()
     {
         flag = 0;
         updateIndex++;
+    }
+    else
+    {
+        flag = 1;
+    }
+
+    return utils.padWithZeros(currentIndex.toString(16), 3) + deltaBuffer.toString();
+}
+
+var getUpdatePacketIndex = function ()
+{
+    var deltaBuffer = new Buffer(bufferSize);
+
+    var currentIndex = specificIndex;
+
+    var bytesRead = fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (currentIndex - 1)*deltaBuffer.length);
+
+    console.log("BYTES READ: " + bytesRead);
+    if (currentIndex < numOfPackets)
+    {
+        flag = 0;
     }
     else
     {
@@ -81,6 +104,10 @@ var sendNextUpdatePacket = function(){
     {
         console.log("Sending next missing firmware update packet...");
         updatePacket = getMissingUpdatePacket();
+    }
+    else if(!recoveryStage && specificIndexRequest)
+    {
+        updatePacket = getUpdatePacketIndex();
     }
     else
     {
@@ -123,15 +150,26 @@ exports.handlePacketRequest = function (payload)
 {
     if (payload) //Resend missing packets
     {
-        missingPackets = [];
-        currentMissingPacketIndex = 0;
         numberOfMissingPackets = payload.length / 4;
-        for  (var i = 0; i < numberOfMissingPackets; i++)
+
+        if (numberOfMissingPackets == 1)
         {
-            missingPackets[i] = parseInt(payload.substr(i*4, 4), 16);
+            specificIndexRequest = true;
+            specificIndex = parseInt(payload, 16);
         }
-        console.log("Missing Packets: " + missingPackets);
-        recoveryStage = true;
+        else
+        {
+            missingPackets = [];
+            currentMissingPacketIndex = 0;
+            numberOfMissingPackets = payload.length / 4;
+            for  (var i = 0; i < numberOfMissingPackets; i++)
+            {
+                missingPackets[i] = parseInt(payload.substr(i*4, 4), 16);
+            }
+            console.log("Missing Packets: " + missingPackets);
+            recoveryStage = true;
+        }
+
     }
         sendNextUpdatePacket();
 }

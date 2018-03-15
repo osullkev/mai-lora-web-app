@@ -3,7 +3,7 @@
 
 ###Node Status - FW Available Notification: 01.05.07, 11 packets, crc=12345678 
 
-4001010507000b12345678
+40010105070050000b12345678
 
 ###Node Status - FW Available Notification: 01.05.07, 11 packets, crc=12345678 
 
