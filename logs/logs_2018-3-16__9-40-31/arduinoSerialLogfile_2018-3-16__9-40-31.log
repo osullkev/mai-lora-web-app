@@ -1,0 +1,2288 @@
+J⸮|D⸮⸮s⸮k|(⸮Y+⸮C)k=k⸮This test only sends uplink of opcode=3,4,5,6, i.e uplinks involved in the FW update process.
+
+-------------------------------------------------
+
+When using OTAA, register this DevEUI: 
+
+0004A30B001B0AF1
+
+RN2xx3 firmware version:
+
+RN2483 1.0.1 Dec 15 2015 09:38:09
+
+Trying to join Network
+
+Join Attempt: 1
+
+0011223344556677-6a4e6a045f41bfea6ff752cb176c737f
+
+RN2483: [ok->accepted
+;]
+
+Successfully joined Network
+
+[STATE: 1] - STATUS UPDATE
+
+TX: [OPCODE:3][SEQNUM:001][DATA:01050622]
+
+TX: 300101050622
+
+RN2483: [ok
+->mac_tx_ok
+]
+
+Updating state in ...20,10,
+
+[STATE: 1] - STATUS UPDATE
+
+TX: [OPCODE:3][SEQNUM:002][DATA:01050622]
+
+TX: 300201050622
+
+Message received...
+
+RX: [OPCODE:4][SEQNUM:001][CHANGE STATE: 1------>2]
+
+Num of packets: 11
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:003][DATA:]
+
+TX: 4003
+
+Message received...
+
+RX: [OPCODE:4][SEQNUM:002][CHANGE STATE: 2------>2]
+
+Num of packets: 11
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:004][DATA:]
+
+TX: 4004
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:004][DATA:]
+
+TX: 4004
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:004][DATA:]
+
+TX: 4004
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:005][DATA:]
+
+TX: 4005
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:004]PROCESSING FW PACKET: [INDEX:2][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:006][DATA:]
+
+TX: 4006
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:006][DATA:]
+
+TX: 4006
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:006][DATA:]
+
+TX: 4006
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:007][DATA:]
+
+TX: 4007
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:006]PROCESSING FW PACKET: [INDEX:4][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:008][DATA:]
+
+TX: 4008
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:008][DATA:]
+
+TX: 4008
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:008][DATA:]
+
+TX: 4008
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:009][DATA:]
+
+TX: 4009
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00a][DATA:]
+
+TX: 400a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00a][DATA:]
+
+TX: 400a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00a][DATA:]
+
+TX: 400a
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00b][DATA:]
+
+TX: 400b
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00c][DATA:]
+
+TX: 400c
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00c][DATA:]
+
+TX: 400c
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00c][DATA:]
+
+TX: 400c
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00d][DATA:]
+
+TX: 400d
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00e][DATA:]
+
+TX: 400e
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00e][DATA:]
+
+TX: 400e
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00e][DATA:]
+
+TX: 400e
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:00f][DATA:]
+
+TX: 400f
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:010][DATA:]
+
+TX: 4010
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:010][DATA:]
+
+TX: 4010
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:010][DATA:]
+
+TX: 4010
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:00F]PROCESSING FW PACKET: [INDEX:11][CHANGE STATE: 2------>3]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:011][DATA:0001000300050006000700080009000a]
+
+TX: 40110001000300050006000700080009000a
+
+MAC_ERR: Problem receiving downlink. Uplink may have been successful.
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:012][DATA:0001000300050006000700080009000a]
+
+TX: 40120001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:012][DATA:0001000300050006000700080009000a]
+
+TX: 40120001000300050006000700080009000a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:012][DATA:0001000300050006000700080009000a]
+
+TX: 40120001000300050006000700080009000a
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:011]PROCESSING FW PACKET: [INDEX:1][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:013][DATA:]
+
+TX: 4013
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:012]PROCESSING FW PACKET: [INDEX:1][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:014][DATA:]
+
+TX: 4014
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:014][DATA:]
+
+TX: 4014
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:013]PROCESSING FW PACKET: [INDEX:3][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:015][DATA:]
+
+TX: 4015
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:015][DATA:]
+
+TX: 4015
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:015][DATA:]
+
+TX: 4015
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:015][DATA:]
+
+TX: 4015
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:015][DATA:]
+
+TX: 4015
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:015][DATA:]
+
+TX: 4015
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:015][DATA:]
+
+TX: 4015
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:015][DATA:]
+
+TX: 4015
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:014]PROCESSING FW PACKET: [INDEX:5][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:016][DATA:]
+
+TX: 4016
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:016][DATA:]
+
+TX: 4016
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:015]PROCESSING FW PACKET: [INDEX:6][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:017][DATA:]
+
+TX: 4017
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:017][DATA:]
+
+TX: 4017
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:017][DATA:]
+
+TX: 4017
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:017][DATA:]
+
+TX: 4017
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:017][DATA:]
+
+TX: 4017
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:017][DATA:]
+
+TX: 4017
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:017][DATA:]
+
+TX: 4017
+
+RN2483: [ok
+->mac_tx_ok
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:018][DATA:]
+
+TX: 4018
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:018][DATA:]
+
+TX: 4018
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:018][DATA:]
+
+TX: 4018
+
+RN2483: [ok
+->mac_tx_ok
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:019][DATA:]
+
+TX: 4019
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:019][DATA:]
+
+TX: 4019
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:019][DATA:]
+
+TX: 4019
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:019][DATA:]
+
+TX: 4019
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:019][DATA:]
+
+TX: 4019
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:019][DATA:]
+
+TX: 4019
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:019][DATA:]
+
+TX: 4019
+
+RN2483: [ok
+->mac_tx_ok
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01a][DATA:]
+
+TX: 401a
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01a][DATA:]
+
+TX: 401a
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:017]PROCESSING FW PACKET: [INDEX:8][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01b][DATA:]
+
+TX: 401b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01b][DATA:]
+
+TX: 401b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01b][DATA:]
+
+TX: 401b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01b][DATA:]
+
+TX: 401b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01b][DATA:]
+
+TX: 401b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01b][DATA:]
+
+TX: 401b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01b][DATA:]
+
+TX: 401b
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01b][DATA:]
+
+TX: 401b
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:018]PROCESSING FW PACKET: [INDEX:9][MORE PACKETS AVAILABLE]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01c][DATA:]
+
+TX: 401c
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [OPCODE:4][SEQNUM:01c][DATA:]
+
+TX: 401c
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:019]PROCESSING FW PACKET: [INDEX:10][CHANGE STATE: 2------>3]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01d][DATA:0007]
+
+TX: 401d0007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01d][DATA:0007]
+
+TX: 401d0007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01d][DATA:0007]
+
+TX: 401d0007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01d][DATA:0007]
+
+TX: 401d0007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01d][DATA:0007]
+
+TX: 401d0007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01d][DATA:0007]
+
+TX: 401d0007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01d][DATA:0007]
+
+TX: 401d0007
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:01A]PROCESSING FW PACKET: [INDEX:10][CHANGE STATE: 3------>3]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01e][DATA:0007]
+
+TX: 401e0007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01e][DATA:0007]
+
+TX: 401e0007
+
+RN2483: [no_free_ch
+]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+TX: [OPCODE:4][SEQNUM:01e][DATA:0007]
+
+TX: 401e0007
+
+Message received...
+
+RX: [OPCODE:5][SEQNUM:01B]PROCESSING FW PACKET: [INDEX:7][CHANGE STATE: 3------>3]
+
+Updating state in ...20,10,
+
+[STATE: 3] REQ MISSING PACKETS
+
+[CHANGE STATE: 3------>4]
+
+Updating state in ...20,10,
+
+[STATE: 4] COMPLETE UPDATE RECEIVED
+
+
