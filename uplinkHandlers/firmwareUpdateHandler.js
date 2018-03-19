@@ -10,7 +10,7 @@ const newFWDeltaSize = stats.size / 2;
 var newFwDeltaVersion = "010507";
 var fwDeltaFile = fs.openSync(newFwDeltaPath, "r");
 
-var flag;
+var flag = 0;
 var bufferSize = 92;
 var numOfPackets = Math.ceil(newFWDeltaSize*2 / bufferSize);
 
@@ -20,6 +20,46 @@ var currentMissingPacketIndex = 0;
 var numberOfMissingPackets;
 var recoveryStage = false;
 
+var packetIndexStatus = [];
+
+// Set each packet delivery status to false
+for (var i = 0; i < numOfPackets; i++)
+{
+    packetIndexStatus[i] = false;
+}
+
+var acknowledgeIndexDelivery = function (index)
+{
+    console.log("Acknowledging delivery of update index: " + index);
+    packetIndexStatus[index - 1] = true;
+
+}
+
+var getNextUndeliveredPacketIndex = function ()
+{
+    var i = 0;
+    while (((updateIndex - 1) % numOfPackets) < numOfPackets)
+    {
+        console.log("Checking updateIndex: " + updateIndex);
+        console.log("Checking real index: " + ((updateIndex - 1) % numOfPackets));
+
+        if (packetIndexStatus[(updateIndex - 1) % numOfPackets] === false)
+        {
+            return ((updateIndex - 1) % numOfPackets) + 1;
+        }
+        else
+        {
+            i++;
+            updateIndex++;
+        }
+
+        if (i >= numOfPackets)
+        {
+            console.log("All Packets Delivered")
+            return -1;
+        }
+    }
+}
 
 var assembleUpdatePacket = function (flag, update)
 {
@@ -28,6 +68,26 @@ var assembleUpdatePacket = function (flag, update)
 
 var getFlag = function ()
 {
+    var numPacketsLeft = 0;
+    for (var i = 0; i < numOfPackets; i++)
+    {
+        if (packetIndexStatus[i] === false)
+        {
+            numPacketsLeft++;
+        }
+    }
+    if (numPacketsLeft === 1)
+    {
+        flag = 1;
+    }
+    else if (numPacketsLeft === 0)
+    {
+        flag = 3;
+    }
+    else
+    {
+        flag = 0;
+    }
     return flag;
 }
 
@@ -35,58 +95,28 @@ var getUpdatePacket = function ()
 {
     var deltaBuffer = new Buffer(bufferSize);
 
-    var currentIndex = updateIndex;
+    var currentIndex = getNextUndeliveredPacketIndex();
 
-    var bytesRead = fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (currentIndex - 1)*deltaBuffer.length);
-
-    console.log("BYTES READ: " + bytesRead);
-    if (currentIndex < numOfPackets)
+    if (currentIndex === -1)
     {
-        flag = 0;
+        return "000"; //Notify that all packets have been sent and delivered!
+    }
+    else
+    {
+        var bytesRead = fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (currentIndex - 1)*deltaBuffer.length);
+
+        console.log("BYTES READ: " + bytesRead);
+
         updateIndex++;
+
+        return utils.padWithZeros(currentIndex.toString(16), 3) + deltaBuffer.toString();
     }
-    else
-    {
-        flag = 1;
-    }
-
-    return utils.padWithZeros(currentIndex.toString(16), 3) + deltaBuffer.toString();
-}
-
-var getMissingUpdatePacket = function ()
-{
-    var deltaBuffer = new Buffer(bufferSize);
-
-    var missingIndex = missingPackets[currentMissingPacketIndex];
-
-    var bytesRead = fs.readSync(fwDeltaFile, deltaBuffer, 0, deltaBuffer.length, (missingIndex - 1)*deltaBuffer.length);
-
-    if (currentMissingPacketIndex < numberOfMissingPackets - 1)
-    {
-        flag = 0;
-        currentMissingPacketIndex++;
-    }
-    else
-    {
-        flag = 1;
-    }
-
-    return utils.padWithZeros(missingIndex.toString(16), 3) + deltaBuffer.toString();
 }
 
 var sendNextUpdatePacket = function(){
     var updatePacket;
-
-    if (recoveryStage)
-    {
-        console.log("Sending next missing firmware update packet...");
-        updatePacket = getMissingUpdatePacket();
-    }
-    else
-    {
-        console.log("Sending next sequential firmware update packet...");
-        updatePacket = getUpdatePacket();
-    }
+    console.log("Sending next undelivered firmware update packet...");
+    updatePacket = getUpdatePacket();
 
     var flag = getFlag();
 
@@ -123,15 +153,8 @@ exports.handlePacketRequest = function (payload)
 {
     if (payload) //Resend missing packets
     {
-        missingPackets = [];
-        currentMissingPacketIndex = 0;
-        numberOfMissingPackets = payload.length / 4;
-        for  (var i = 0; i < numberOfMissingPackets; i++)
-        {
-            missingPackets[i] = parseInt(payload.substr(i*4, 4), 16);
-        }
-        console.log("Missing Packets: " + missingPackets);
-        recoveryStage = true;
+        var acknowledgedIndex = parseInt(payload);
+        acknowledgeIndexDelivery(acknowledgedIndex);
     }
         sendNextUpdatePacket();
 }
