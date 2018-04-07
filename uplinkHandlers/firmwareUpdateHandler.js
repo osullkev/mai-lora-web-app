@@ -11,7 +11,7 @@ var newFwDeltaVersion = "010507";
 var fwDeltaFile = fs.openSync(newFwDeltaPath, "r");
 
 var flag = 0;
-var bufferSize = 92;
+var bufferSize = 96;
 var numOfPackets = Math.ceil(newFWDeltaSize*2 / bufferSize);
 
 
@@ -61,13 +61,10 @@ var getNextUndeliveredPacketIndex = function ()
     }
 }
 
-var assembleUpdatePacket = function (flag, update)
-{
-    return flag.toString() + update;
-}
 
-var getFlag = function ()
+var getOpcode = function ()
 {
+    var opcode;
     var numPacketsLeft = 0;
     for (var i = 0; i < numOfPackets; i++)
     {
@@ -78,17 +75,17 @@ var getFlag = function ()
     }
     if (numPacketsLeft === 1)
     {
-        flag = 1;
+        opcode = 2;
     }
     else if (numPacketsLeft === 0)
     {
-        flag = 3;
+        opcode = 3;
     }
     else
     {
-        flag = 0;
+        opcode = 1;
     }
-    return flag;
+    return opcode;
 }
 
 var getUpdatePacket = function ()
@@ -99,7 +96,7 @@ var getUpdatePacket = function ()
 
     if (currentIndex === -1)
     {
-        return "000"; //Notify that all packets have been sent and delivered!
+        return ""; //Notify that all packets have been sent and delivered!
     }
     else
     {
@@ -109,7 +106,7 @@ var getUpdatePacket = function ()
 
         updateIndex++;
 
-        return utils.padWithZeros(currentIndex.toString(16), 3) + deltaBuffer.toString();
+        return utils.padWithZeros(currentIndex.toString(16), 2) + deltaBuffer.toString();
     }
 }
 
@@ -118,12 +115,9 @@ var sendNextUpdatePacket = function(){
     console.log("Sending next undelivered firmware update packet...");
     updatePacket = getUpdatePacket();
 
-    var flag = getFlag();
+    var opcode = getOpcode();
 
-    var postData = assembleUpdatePacket(flag, updatePacket);
-
-    downlink.sendDownlink('5', postData);
-
+    downlink.sendDownlink('2', opcode.toString(), updatePacket);
 }
 
 exports.assembleFWJSON = function (fwversion) {
@@ -151,9 +145,9 @@ exports.prepareFWUpdateDelta = function (currentFW, newFW) {
 
 exports.handlePacketRequest = function (payload)
 {
-    if (payload) //Resend missing packets
+    if (payload)
     {
-        var acknowledgedIndex = parseInt(payload);
+        var acknowledgedIndex = parseInt(payload, 16);
         acknowledgeIndexDelivery(acknowledgedIndex);
     }
         sendNextUpdatePacket();

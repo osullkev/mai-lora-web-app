@@ -100,7 +100,7 @@ function commandInput() {
     console.log("-------------------------------------------------------------".green);
     console.log("Enter command... [0-exit, Else-post data]".green)
     prompt.start();
-    prompt.get(['f'], function (err, result) {
+    prompt.get(['f', 'p'], function (err, result) {
         switch (result.f) {
             case '0':
                 process.exit();
@@ -116,7 +116,8 @@ function commandInput() {
                 console.log("MESSAGE: ".blue + message)
                 httpRequest.post(
                     host,
-                    {json: {"id": id,                        
+                    {json: {"id": id,
+                            "port": parseInt(result.p),
                             "dataFrame": message
                     }},
                     function (err, res, body){

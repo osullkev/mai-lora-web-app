@@ -7,7 +7,7 @@ var sendUpdateAvailableNotification = function (currentFW, latestFW) {
     console.log("NEW FIRMWARE AVAILABLE: ".red + latestFW.fw_string);
     var deltaDetails = fw.prepareFWUpdateDelta(currentFW, latestFW);
     var postData = deltaDetails.fw_num + deltaDetails.size + deltaDetails.num_tx_packets + deltaDetails.CRC;
-    downlink.sendDownlink('4', postData);
+    downlink.sendDownlink('2', '0', postData);
 }
 
 var checkBatteryLife = function (statusJSON) {
@@ -21,7 +21,7 @@ var checkBatteryLife = function (statusJSON) {
 
 var sendUpdateAcknowledgeNotification = function (currentFW, latestFW) {
     var postData = ""; //Empty, no action required.
-    downlink.sendDownlink('3', "");
+    downlink.sendDownlink('1','1', "");
 }
 
 var checkFWVersion = function (statusJSON) {

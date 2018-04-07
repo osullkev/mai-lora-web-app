@@ -8,7 +8,7 @@ var pingNode = function(nodeMessage){
     console.log("Pinging node...");
     var postData = nodeMessage;
 
-    downlink.sendDownlink('2', postData);
+    downlink.sendDownlink('1', '0', postData);
 }
 
 exports.handleSensorReading = function (data, ack) {
