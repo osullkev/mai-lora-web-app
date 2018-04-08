@@ -137,7 +137,7 @@ exports.prepareFWUpdateDelta = function (currentFW, newFW) {
     console.log("Preparing update delta: ".red + currentFW.fw_string + " -> ".red + newFW.fw_string);
     console.log("...".red);
     return {'fw_num': newFW.fw_num,
-        'num_tx_packets': utils.padWithZeros(numOfPackets.toString(16), 4),
+        'num_tx_packets': utils.padWithZeros(numOfPackets.toString(16), 2),
         'size': utils.padWithZeros(newFWDeltaSize.toString(), 4),
         'CRC': '1234ABCD'};
 }
