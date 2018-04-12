@@ -1,0 +1,1548 @@
+S\A⸮⸮s⸮⸮xA.⸮⸮k=+⸮C)C⸮This test only sends uplink of opcode=3,4,5,6, i.e uplinks involved in the FW update process.
+
+-------------------------------------------------
+
+When using OTAA, register this DevEUI: 
+
+0004A30B001B0AF1
+
+RN2xx3 firmware version:
+
+RN2483 1.0.1 Dec 15 2015 09:38:09
+
+Trying to join Network
+
+Join Attempt: 1
+
+RN2483: [ok->accepted
+;]
+
+Successfully joined Network
+
+[STATE: 1] - STATUS UPDATE
+
+TX: [PORT:1][OPCODE:3][SEQNUM:001][DATA:01050622]
+
+TX: 300101050622
+
+Successful uplink, no response
+
+------------------------------------------------
+
+[STATE: 1] - STATUS UPDATE
+
+TX: [PORT:1][OPCODE:3][SEQNUM:002][DATA:01050622]
+
+TX: 300201050622
+
+->
+
+RX: [PORT:2][OPCODE:0][SEQNUM:001]
+
+[CHANGE STATE: 1------>2]
+
+0105071000151234
+
+Num of packets: 21
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:003][DATA:]
+
+TX: 0003
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:003][DATA:]
+
+TX: 0003
+
+->
+
+RX: [PORT:2][OPCODE:0][SEQNUM:002]
+
+[CHANGE STATE: 2------>2]
+
+0105071000151234
+
+Num of packets: 21
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+No Channel - Attempt # 9;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:004][DATA:]
+
+TX: 0004
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:003]
+
+PROCESSING FW PACKET: [INDEX:1][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:005][DATA:01]
+
+TX: 000501
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:005][DATA:01]
+
+TX: 000501
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:004]
+
+PROCESSING FW PACKET: [INDEX:2][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:006][DATA:02]
+
+TX: 000602
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:005]
+
+PROCESSING FW PACKET: [INDEX:3][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:007][DATA:03]
+
+TX: 000703
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:007][DATA:03]
+
+TX: 000703
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:007][DATA:03]
+
+TX: 000703
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:006]
+
+PROCESSING FW PACKET: [INDEX:4][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:008][DATA:04]
+
+TX: 000804
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:007]
+
+PROCESSING FW PACKET: [INDEX:5][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:009][DATA:05]
+
+TX: 000905
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:009][DATA:05]
+
+TX: 000905
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:008]
+
+PROCESSING FW PACKET: [INDEX:6][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00a][DATA:06]
+
+TX: 000a06
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:009]
+
+PROCESSING FW PACKET: [INDEX:7][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00b][DATA:07]
+
+TX: 000b07
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00b][DATA:07]
+
+TX: 000b07
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:00A]
+
+PROCESSING FW PACKET: [INDEX:8][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+No Channel - Attempt # 9;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00c][DATA:08]
+
+TX: 000c08
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:00B]
+
+PROCESSING FW PACKET: [INDEX:9][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00d][DATA:09]
+
+TX: 000d09
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00d][DATA:09]
+
+TX: 000d09
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:00C]
+
+PROCESSING FW PACKET: [INDEX:10][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00e][DATA:0A]
+
+TX: 000e0A
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:00D]
+
+PROCESSING FW PACKET: [INDEX:11][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00f][DATA:0B]
+
+TX: 000f0B
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:00f][DATA:0B]
+
+TX: 000f0B
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:00E]
+
+PROCESSING FW PACKET: [INDEX:12][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+No Channel - Attempt # 9;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:010][DATA:0C]
+
+TX: 00100C
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:00F]
+
+PROCESSING FW PACKET: [INDEX:13][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:011][DATA:0D]
+
+TX: 00110D
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:011][DATA:0D]
+
+TX: 00110D
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:010]
+
+PROCESSING FW PACKET: [INDEX:14][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:012][DATA:0E]
+
+TX: 00120E
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:011]
+
+PROCESSING FW PACKET: [INDEX:15][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:013][DATA:0F]
+
+TX: 00130F
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:013][DATA:0F]
+
+TX: 00130F
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:012]
+
+PROCESSING FW PACKET: [INDEX:16][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:014][DATA:10]
+
+TX: 001410
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:013]
+
+PROCESSING FW PACKET: [INDEX:17][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:015][DATA:11]
+
+TX: 001511
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:015][DATA:11]
+
+TX: 001511
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:015][DATA:11]
+
+TX: 001511
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:014]
+
+PROCESSING FW PACKET: [INDEX:18][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:016][DATA:12]
+
+TX: 001612
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:015]
+
+PROCESSING FW PACKET: [INDEX:19][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:017][DATA:13]
+
+TX: 001713
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:017][DATA:13]
+
+TX: 001713
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:016]
+
+PROCESSING FW PACKET: [INDEX:20][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 2;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 3;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 4;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 5;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 6;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 7;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+No Channel - Attempt # 8;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:018][DATA:14]
+
+TX: 001814
+
+->
+
+RX: [PORT:2][OPCODE:1][SEQNUM:017]
+
+PROCESSING FW PACKET: [INDEX:21][MORE PACKETS AVAILABLE]
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:019][DATA:15]
+
+TX: 001915
+
+No Channel - Attempt # 0;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:019][DATA:15]
+
+TX: 001915
+
+No Channel - Attempt # 1;(Wait 2000 ms)
+
+------------------------------------------------
+
+[STATE: 2] REQ FW UPDATE PACKET
+
+TX: [PORT:2][OPCODE:0][SEQNUM:019][DATA:15]
+
+TX: 001915
+
+->
+
+RX: [PORT:2][OPCODE:2][SEQNUM:018]
+
+PROCESSING FW PACKET: [INDEX:21][CHANGE STATE: 2------>3]
+
+------------------------------------------------
+
+[STATE: 3] COMPLETE UPDATE RECEIVED
+
+
