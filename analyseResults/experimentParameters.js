@@ -33,6 +33,7 @@
 // var sf = "sf9/"; var update = "7000b/"; var date_time= "2018-4-11__10-31-35"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 
 // var sf = "sf8/"; var update = "1000b/"; var date_time= "2018-4-8__14-54-25"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
+var sf = "sf8/"; var update = "1000b/"; var date_time= "2018-4-12__18-31-40"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 // var sf = "sf8/"; var update = "2000b/"; var date_time= "2018-4-8__17-39-56"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 // var sf = "sf8/"; var update = "3000b/"; var date_time= "2018-4-9__11-55-14"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 // var sf = "sf8/"; var update = "4000b/"; var date_time= "2018-4-9__13-3-34"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
@@ -43,6 +44,7 @@
 // var sf = "sf7/"; var update = "1000b/"; var date_time= "2018-4-8__12-51-56"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 // var sf = "sf7/"; var update = "2000b/"; var date_time= "2018-4-8__17-31-8"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 // var sf = "sf7/"; var update = "3000b/"; var date_time= "2018-4-9__12-29-45"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
+// var sf = "sf7/"; var update = "3000b/"; var date_time= "2018-4-12__18-52-49"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 // var sf = "sf7/"; var update = "4000b/"; var date_time= "2018-4-9__12-42-57"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 // var sf = "sf7/"; var update = "5000b/"; var date_time= "2018-4-10__10-31-19"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
 // var sf = "sf7/"; var update = "6000b/"; var date_time= "2018-4-10__14-23-16"; var test = "logs_" + date_time + "/"; var arduinoLogFile = "arduinoSerialLogfile_"+ date_time+".log"; var serverLogFile = "nodeCommsLogfile_"+ date_time+".log";
