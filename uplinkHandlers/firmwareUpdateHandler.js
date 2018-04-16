@@ -77,15 +77,15 @@ var getOpcode = function ()
     }
     if (numPacketsLeft === 1)
     {
-        opcode = 2;
+        opcode = 1;
     }
     else if (numPacketsLeft === 0)
     {
-        opcode = 3;
+        opcode = 1;
     }
     else
     {
-        opcode = 1;
+        opcode = 0;
     }
     return opcode;
 }
