@@ -1,0 +1,253 @@
+               Node                                          Server
+------------------------------------------------------------------------------------
+[SCHEDULED STATUS UPDATE]
+[OPCODE:3][SEQNUM:001]------------------------->no_response
+
+[SCHEDULED STATUS UPDATE]
+[OPCODE:3][SEQNUM:002]------------------------->no_response
+
+[SCHEDULED STATUS UPDATE]
+[OPCODE:3][SEQNUM:003]------------------------->no_response
+
+[SCHEDULED STATUS UPDATE]
+[OPCODE:3][SEQNUM:004]------------------------->response_received
+
+                                                [NEW FW AVAILABLE NOTIFICATION]
+                      <-------------------------[OPCODE:0][SEQNUM:003]
+
+[REQUEST NEXT FW PACKET]
+[OPCODE:0][SEQNUM:005]------------------------->response_received
+
+                                                [NEW FW AVAILABLE NOTIFICATION]
+                      <-------------------------[OPCODE:0][SEQNUM:004]
+
+[REQUEST NEXT FW PACKET]
+[OPCODE:0][SEQNUM:006]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 1]
+                      <-------------------------[OPCODE:1][SEQNUM:005]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 01]
+[OPCODE:0][SEQNUM:007]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 2]
+                      <-------------------------[OPCODE:1][SEQNUM:006]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 02]
+[OPCODE:0][SEQNUM:008]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 3]
+                      <-------------------------[OPCODE:1][SEQNUM:007]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 03]
+[OPCODE:0][SEQNUM:009]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 03]
+[OPCODE:0][SEQNUM:00A]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 5]
+                      <-------------------------[OPCODE:1][SEQNUM:009]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 05]
+[OPCODE:0][SEQNUM:00B]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 05]
+[OPCODE:0][SEQNUM:00C]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 7]
+                      <-------------------------[OPCODE:1][SEQNUM:00B]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 07]
+[OPCODE:0][SEQNUM:00D]------------------------->mac_err
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 07]
+[OPCODE:0][SEQNUM:00E]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 9]
+                      <-------------------------[OPCODE:1][SEQNUM:00D]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 09]
+[OPCODE:0][SEQNUM:00F]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 09]
+[OPCODE:0][SEQNUM:010]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: b]
+                      <-------------------------[OPCODE:1][SEQNUM:00F]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0B]
+[OPCODE:0][SEQNUM:011]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0B]
+[OPCODE:0][SEQNUM:012]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: d]
+                      <-------------------------[OPCODE:1][SEQNUM:011]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0D]
+[OPCODE:0][SEQNUM:013]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0D]
+[OPCODE:0][SEQNUM:014]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: f]
+                      <-------------------------[OPCODE:1][SEQNUM:013]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0F]
+[OPCODE:0][SEQNUM:015]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0F]
+[OPCODE:0][SEQNUM:016]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 11]
+                      <-------------------------[OPCODE:1][SEQNUM:015]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 11]
+[OPCODE:0][SEQNUM:017]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 11]
+[OPCODE:0][SEQNUM:018]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 11]
+[OPCODE:0][SEQNUM:019]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 11]
+[OPCODE:0][SEQNUM:01A]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 15]
+                      <-------------------------[OPCODE:1][SEQNUM:019]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 15]
+[OPCODE:0][SEQNUM:01B]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 4]
+                      <-------------------------[OPCODE:1][SEQNUM:01A]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 04]
+[OPCODE:0][SEQNUM:01C]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 04]
+[OPCODE:0][SEQNUM:01D]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 04]
+[OPCODE:0][SEQNUM:01E]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: a]
+                      <-------------------------[OPCODE:1][SEQNUM:01D]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0A]
+[OPCODE:0][SEQNUM:01F]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: c]
+                      <-------------------------[OPCODE:1][SEQNUM:01E]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0C]
+[OPCODE:0][SEQNUM:020]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0C]
+[OPCODE:0][SEQNUM:021]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0C]
+[OPCODE:0][SEQNUM:022]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0C]
+[OPCODE:0][SEQNUM:023]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0C]
+[OPCODE:0][SEQNUM:024]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 14]
+                      <-------------------------[OPCODE:1][SEQNUM:023]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 14]
+[OPCODE:0][SEQNUM:025]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 6]
+                      <-------------------------[OPCODE:1][SEQNUM:024]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:026]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:027]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:028]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:029]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:02A]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:02B]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:02C]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:02D]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:02E]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:02F]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:030]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:031]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:032]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:033]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 10]
+                      <-------------------------[OPCODE:1][SEQNUM:031]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 10]
+[OPCODE:0][SEQNUM:034]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 12]
+                      <-------------------------[OPCODE:1][SEQNUM:032]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 12]
+[OPCODE:0][SEQNUM:035]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: 13]
+                      <-------------------------[OPCODE:1][SEQNUM:033]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 13]
+[OPCODE:0][SEQNUM:036]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 13]
+[OPCODE:0][SEQNUM:037]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 13]
+[OPCODE:0][SEQNUM:038]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 13]
+[OPCODE:0][SEQNUM:039]------------------------->response_received
+
+                                                [FW UPDATE PACKET][INDEX: e]
+                      <-------------------------[OPCODE:1][SEQNUM:037]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0E]
+[OPCODE:0][SEQNUM:03A]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0E]
+[OPCODE:0][SEQNUM:03B]------------------------->no_response
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0E]
+[OPCODE:0][SEQNUM:03C]------------------------->response_received
+
+                                                [FINAL FW UPDATE PACKET][INDEX: 8]
+                      <-------------------------[OPCODE:2][SEQNUM:03A]
+
+Number of Sent Uplinks: 60
+Number of Received Downlinks: 23

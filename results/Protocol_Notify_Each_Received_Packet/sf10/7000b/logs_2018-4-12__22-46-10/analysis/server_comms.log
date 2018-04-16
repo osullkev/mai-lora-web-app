@@ -1,0 +1,1432 @@
+               Node                                          Server
+------------------------------------------------------------------------------------
+[SCHEDULED STATUS UPDATE]
+[OPCODE:3][SEQNUM:001][TIME:21:46:50]--------->
+
+[SCHEDULED STATUS UPDATE]
+[OPCODE:3][SEQNUM:003][TIME:21:48:09]--------->
+
+                                                [NEW FW AVAILABLE NOTIFICATION]
+                                      <---------[OPCODE:0][SEQNUM:001][TIME:21:46:50]
+
+[REQUEST NEXT FW PACKET]
+[OPCODE:0][SEQNUM:004][TIME:21:48:32]--------->
+
+                                                [NEW FW AVAILABLE NOTIFICATION]
+                                      <---------[OPCODE:0][SEQNUM:002][TIME:21:48:09]
+
+[REQUEST NEXT FW PACKET]
+[OPCODE:0][SEQNUM:005][TIME:21:49:49]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 01]
+                                      <---------[OPCODE:1][SEQNUM:003][TIME:21:48:32]
+
+[REQUEST NEXT FW PACKET]
+[OPCODE:0][SEQNUM:006][TIME:21:50:12]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 02]
+                                      <---------[OPCODE:1][SEQNUM:004][TIME:21:49:49]
+
+[REQUEST NEXT FW PACKET]
+[OPCODE:0][SEQNUM:007][TIME:21:51:28]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 03]
+                                      <---------[OPCODE:1][SEQNUM:005][TIME:21:50:12]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 03]
+[OPCODE:0][SEQNUM:008][TIME:21:51:53]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 04]
+                                      <---------[OPCODE:1][SEQNUM:006][TIME:21:51:28]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 03]
+[OPCODE:0][SEQNUM:009][TIME:21:53:09]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 05]
+                                      <---------[OPCODE:1][SEQNUM:007][TIME:21:51:53]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 03]
+[OPCODE:0][SEQNUM:00A][TIME:21:53:32]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 06]
+                                      <---------[OPCODE:1][SEQNUM:008][TIME:21:53:09]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 03]
+[OPCODE:0][SEQNUM:00B][TIME:21:54:49]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 07]
+                                      <---------[OPCODE:1][SEQNUM:009][TIME:21:53:32]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 07]
+[OPCODE:0][SEQNUM:00C][TIME:21:55:14]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 08]
+                                      <---------[OPCODE:1][SEQNUM:00a][TIME:21:54:49]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 08]
+[OPCODE:0][SEQNUM:00D][TIME:21:56:30]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 09]
+                                      <---------[OPCODE:1][SEQNUM:00b][TIME:21:55:14]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 09]
+[OPCODE:0][SEQNUM:00E][TIME:21:56:52]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0a]
+                                      <---------[OPCODE:1][SEQNUM:00c][TIME:21:56:30]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0A]
+[OPCODE:0][SEQNUM:00F][TIME:21:58:10]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0b]
+                                      <---------[OPCODE:1][SEQNUM:00d][TIME:21:56:52]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0A]
+[OPCODE:0][SEQNUM:010][TIME:21:58:32]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0c]
+                                      <---------[OPCODE:1][SEQNUM:00e][TIME:21:58:10]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0A]
+[OPCODE:0][SEQNUM:011][TIME:21:59:51]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0d]
+                                      <---------[OPCODE:1][SEQNUM:00f][TIME:21:58:32]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0A]
+[OPCODE:0][SEQNUM:012][TIME:22:00:14]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0e]
+                                      <---------[OPCODE:1][SEQNUM:010][TIME:21:59:51]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0E]
+[OPCODE:0][SEQNUM:013][TIME:22:01:30]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0f]
+                                      <---------[OPCODE:1][SEQNUM:011][TIME:22:00:14]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0F]
+[OPCODE:0][SEQNUM:014][TIME:22:01:53]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 10]
+                                      <---------[OPCODE:1][SEQNUM:012][TIME:22:01:30]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 10]
+[OPCODE:0][SEQNUM:015][TIME:22:03:11]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 11]
+                                      <---------[OPCODE:1][SEQNUM:013][TIME:22:01:53]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 10]
+[OPCODE:0][SEQNUM:016][TIME:22:03:34]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 12]
+                                      <---------[OPCODE:1][SEQNUM:014][TIME:22:03:11]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 10]
+[OPCODE:0][SEQNUM:017][TIME:22:04:51]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 13]
+                                      <---------[OPCODE:1][SEQNUM:015][TIME:22:03:34]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 13]
+[OPCODE:0][SEQNUM:018][TIME:22:05:13]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 14]
+                                      <---------[OPCODE:1][SEQNUM:016][TIME:22:04:51]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 14]
+[OPCODE:0][SEQNUM:019][TIME:22:05:17]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 15]
+                                      <---------[OPCODE:1][SEQNUM:017][TIME:22:05:13]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 14]
+[OPCODE:0][SEQNUM:01A][TIME:22:06:32]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 16]
+                                      <---------[OPCODE:1][SEQNUM:018][TIME:22:05:17]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 14]
+[OPCODE:0][SEQNUM:01B][TIME:22:06:55]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 17]
+                                      <---------[OPCODE:1][SEQNUM:019][TIME:22:06:32]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 14]
+[OPCODE:0][SEQNUM:01C][TIME:22:06:59]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 18]
+                                      <---------[OPCODE:1][SEQNUM:01a][TIME:22:06:55]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 14]
+[OPCODE:0][SEQNUM:01D][TIME:22:08:11]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 19]
+                                      <---------[OPCODE:1][SEQNUM:01b][TIME:22:06:59]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 14]
+[OPCODE:0][SEQNUM:01E][TIME:22:08:35]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1a]
+                                      <---------[OPCODE:1][SEQNUM:01c][TIME:22:08:12]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 14]
+[OPCODE:0][SEQNUM:01F][TIME:22:08:39]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1b]
+                                      <---------[OPCODE:1][SEQNUM:01d][TIME:22:08:35]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:020][TIME:22:09:51]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1c]
+                                      <---------[OPCODE:1][SEQNUM:01e][TIME:22:08:39]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:021][TIME:22:10:14]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1d]
+                                      <---------[OPCODE:1][SEQNUM:01f][TIME:22:09:51]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:022][TIME:22:10:18]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1e]
+                                      <---------[OPCODE:1][SEQNUM:020][TIME:22:10:14]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:023][TIME:22:11:33]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1f]
+                                      <---------[OPCODE:1][SEQNUM:021][TIME:22:10:18]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:024][TIME:22:11:56]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 20]
+                                      <---------[OPCODE:1][SEQNUM:022][TIME:22:11:33]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:025][TIME:22:12:00]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 21]
+                                      <---------[OPCODE:1][SEQNUM:023][TIME:22:11:56]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:026][TIME:22:13:12]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 22]
+                                      <---------[OPCODE:1][SEQNUM:024][TIME:22:12:00]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:027][TIME:22:13:36]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 23]
+                                      <---------[OPCODE:1][SEQNUM:025][TIME:22:13:12]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1B]
+[OPCODE:0][SEQNUM:028][TIME:22:13:40]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 24]
+                                      <---------[OPCODE:1][SEQNUM:026][TIME:22:13:36]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 24]
+[OPCODE:0][SEQNUM:029][TIME:22:14:52]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 25]
+                                      <---------[OPCODE:1][SEQNUM:027][TIME:22:13:40]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 24]
+[OPCODE:0][SEQNUM:02A][TIME:22:15:15]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 26]
+                                      <---------[OPCODE:1][SEQNUM:028][TIME:22:14:52]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 24]
+[OPCODE:0][SEQNUM:02B][TIME:22:15:19]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 27]
+                                      <---------[OPCODE:1][SEQNUM:029][TIME:22:15:15]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 24]
+[OPCODE:0][SEQNUM:02C][TIME:22:16:34]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 28]
+                                      <---------[OPCODE:1][SEQNUM:02a][TIME:22:15:19]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 24]
+[OPCODE:0][SEQNUM:02F][TIME:22:18:13]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 29]
+                                      <---------[OPCODE:1][SEQNUM:02b][TIME:22:16:34]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 29]
+[OPCODE:0][SEQNUM:030][TIME:22:18:36]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 2a]
+                                      <---------[OPCODE:1][SEQNUM:02c][TIME:22:18:13]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2A]
+[OPCODE:0][SEQNUM:031][TIME:22:18:40]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 2b]
+                                      <---------[OPCODE:1][SEQNUM:02d][TIME:22:18:36]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2B]
+[OPCODE:0][SEQNUM:032][TIME:22:19:55]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 2c]
+                                      <---------[OPCODE:1][SEQNUM:02e][TIME:22:18:40]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2C]
+[OPCODE:0][SEQNUM:033][TIME:22:20:17]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 2d]
+                                      <---------[OPCODE:1][SEQNUM:02f][TIME:22:19:55]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2C]
+[OPCODE:0][SEQNUM:034][TIME:22:20:22]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 2e]
+                                      <---------[OPCODE:1][SEQNUM:030][TIME:22:20:17]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2E]
+[OPCODE:0][SEQNUM:035][TIME:22:21:34]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 2f]
+                                      <---------[OPCODE:1][SEQNUM:031][TIME:22:20:22]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2F]
+[OPCODE:0][SEQNUM:036][TIME:22:21:57]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 30]
+                                      <---------[OPCODE:1][SEQNUM:032][TIME:22:21:34]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2F]
+[OPCODE:0][SEQNUM:037][TIME:22:22:01]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 31]
+                                      <---------[OPCODE:1][SEQNUM:033][TIME:22:21:57]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2F]
+[OPCODE:0][SEQNUM:038][TIME:22:23:13]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 32]
+                                      <---------[OPCODE:1][SEQNUM:034][TIME:22:22:01]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 32]
+[OPCODE:0][SEQNUM:039][TIME:22:23:36]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 33]
+                                      <---------[OPCODE:1][SEQNUM:035][TIME:22:23:13]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 33]
+[OPCODE:0][SEQNUM:03A][TIME:22:23:40]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 34]
+                                      <---------[OPCODE:1][SEQNUM:036][TIME:22:23:36]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 34]
+[OPCODE:0][SEQNUM:03B][TIME:22:24:55]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 35]
+                                      <---------[OPCODE:1][SEQNUM:037][TIME:22:23:40]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 35]
+[OPCODE:0][SEQNUM:03C][TIME:22:25:17]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 36]
+                                      <---------[OPCODE:1][SEQNUM:038][TIME:22:24:55]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 35]
+[OPCODE:0][SEQNUM:03D][TIME:22:25:22]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 37]
+                                      <---------[OPCODE:1][SEQNUM:039][TIME:22:25:17]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 37]
+[OPCODE:0][SEQNUM:03E][TIME:22:26:34]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 38]
+                                      <---------[OPCODE:1][SEQNUM:03a][TIME:22:25:22]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 37]
+[OPCODE:0][SEQNUM:03F][TIME:22:26:57]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 39]
+                                      <---------[OPCODE:1][SEQNUM:03b][TIME:22:26:34]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 37]
+[OPCODE:0][SEQNUM:040][TIME:22:27:01]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 3a]
+                                      <---------[OPCODE:1][SEQNUM:03c][TIME:22:26:57]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 37]
+[OPCODE:0][SEQNUM:041][TIME:22:28:15]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 3b]
+                                      <---------[OPCODE:1][SEQNUM:03d][TIME:22:27:01]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 3B]
+[OPCODE:0][SEQNUM:042][TIME:22:28:39]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 3c]
+                                      <---------[OPCODE:1][SEQNUM:03e][TIME:22:28:15]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 3C]
+[OPCODE:0][SEQNUM:043][TIME:22:28:43]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 3d]
+                                      <---------[OPCODE:1][SEQNUM:03f][TIME:22:28:39]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 3D]
+[OPCODE:0][SEQNUM:045][TIME:22:30:18]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 3e]
+                                      <---------[OPCODE:1][SEQNUM:040][TIME:22:28:43]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 3E]
+[OPCODE:0][SEQNUM:046][TIME:22:30:22]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 3f]
+                                      <---------[OPCODE:1][SEQNUM:041][TIME:22:30:18]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 3F]
+[OPCODE:0][SEQNUM:047][TIME:22:31:36]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 40]
+                                      <---------[OPCODE:1][SEQNUM:042][TIME:22:30:22]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 40]
+[OPCODE:0][SEQNUM:048][TIME:22:31:59]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 41]
+                                      <---------[OPCODE:1][SEQNUM:043][TIME:22:31:36]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 40]
+[OPCODE:0][SEQNUM:049][TIME:22:32:03]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 42]
+                                      <---------[OPCODE:1][SEQNUM:044][TIME:22:31:59]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 40]
+[OPCODE:0][SEQNUM:04A][TIME:22:33:16]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 43]
+                                      <---------[OPCODE:1][SEQNUM:045][TIME:22:32:03]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 43]
+[OPCODE:0][SEQNUM:04B][TIME:22:33:39]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 44]
+                                      <---------[OPCODE:1][SEQNUM:046][TIME:22:33:16]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 43]
+[OPCODE:0][SEQNUM:04C][TIME:22:33:43]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 45]
+                                      <---------[OPCODE:1][SEQNUM:047][TIME:22:33:39]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 43]
+[OPCODE:0][SEQNUM:04D][TIME:22:34:56]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 46]
+                                      <---------[OPCODE:1][SEQNUM:048][TIME:22:33:43]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 46]
+[OPCODE:0][SEQNUM:04E][TIME:22:35:18]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 47]
+                                      <---------[OPCODE:1][SEQNUM:049][TIME:22:34:56]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 46]
+[OPCODE:0][SEQNUM:04F][TIME:22:35:22]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 48]
+                                      <---------[OPCODE:1][SEQNUM:04a][TIME:22:35:18]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 46]
+[OPCODE:0][SEQNUM:050][TIME:22:36:37]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 49]
+                                      <---------[OPCODE:1][SEQNUM:04b][TIME:22:35:22]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 46]
+[OPCODE:0][SEQNUM:051][TIME:22:37:00]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4a]
+                                      <---------[OPCODE:1][SEQNUM:04c][TIME:22:36:37]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 46]
+[OPCODE:0][SEQNUM:052][TIME:22:37:04]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4b]
+                                      <---------[OPCODE:1][SEQNUM:04d][TIME:22:37:00]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 46]
+[OPCODE:0][SEQNUM:053][TIME:22:38:17]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4c]
+                                      <---------[OPCODE:1][SEQNUM:04e][TIME:22:37:04]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 46]
+[OPCODE:0][SEQNUM:054][TIME:22:38:40]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4d]
+                                      <---------[OPCODE:1][SEQNUM:04f][TIME:22:38:17]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4D]
+[OPCODE:0][SEQNUM:055][TIME:22:38:44]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4e]
+                                      <---------[OPCODE:1][SEQNUM:050][TIME:22:38:40]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4D]
+[OPCODE:0][SEQNUM:056][TIME:22:39:56]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4f]
+                                      <---------[OPCODE:1][SEQNUM:051][TIME:22:38:44]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4D]
+[OPCODE:0][SEQNUM:057][TIME:22:40:19]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 50]
+                                      <---------[OPCODE:1][SEQNUM:052][TIME:22:39:56]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 50]
+[OPCODE:0][SEQNUM:058][TIME:22:40:24]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 51]
+                                      <---------[OPCODE:1][SEQNUM:053][TIME:22:40:19]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 50]
+[OPCODE:0][SEQNUM:059][TIME:22:41:38]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 52]
+                                      <---------[OPCODE:1][SEQNUM:054][TIME:22:40:24]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 50]
+[OPCODE:0][SEQNUM:05A][TIME:22:42:01]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 53]
+                                      <---------[OPCODE:1][SEQNUM:055][TIME:22:41:38]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 53]
+[OPCODE:0][SEQNUM:05B][TIME:22:42:05]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 54]
+                                      <---------[OPCODE:1][SEQNUM:056][TIME:22:42:01]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 53]
+[OPCODE:0][SEQNUM:05C][TIME:22:43:17]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 55]
+                                      <---------[OPCODE:1][SEQNUM:057][TIME:22:42:05]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 55]
+[OPCODE:0][SEQNUM:05D][TIME:22:43:40]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 56]
+                                      <---------[OPCODE:1][SEQNUM:058][TIME:22:43:17]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 55]
+[OPCODE:0][SEQNUM:05E][TIME:22:43:44]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 57]
+                                      <---------[OPCODE:1][SEQNUM:059][TIME:22:43:40]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 55]
+[OPCODE:0][SEQNUM:05F][TIME:22:44:58]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 58]
+                                      <---------[OPCODE:1][SEQNUM:05a][TIME:22:43:44]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 55]
+[OPCODE:0][SEQNUM:060][TIME:22:45:22]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 59]
+                                      <---------[OPCODE:1][SEQNUM:05b][TIME:22:44:58]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 59]
+[OPCODE:0][SEQNUM:061][TIME:22:45:26]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 5a]
+                                      <---------[OPCODE:1][SEQNUM:05c][TIME:22:45:22]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 5A]
+[OPCODE:0][SEQNUM:062][TIME:22:46:38]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 5b]
+                                      <---------[OPCODE:1][SEQNUM:05d][TIME:22:45:26]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 5B]
+[OPCODE:0][SEQNUM:063][TIME:22:47:01]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 5c]
+                                      <---------[OPCODE:1][SEQNUM:05e][TIME:22:46:38]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 5C]
+[OPCODE:0][SEQNUM:064][TIME:22:47:05]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 5d]
+                                      <---------[OPCODE:1][SEQNUM:05f][TIME:22:47:01]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 5D]
+[OPCODE:0][SEQNUM:065][TIME:22:48:19]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 5e]
+                                      <---------[OPCODE:1][SEQNUM:060][TIME:22:47:05]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 5E]
+[OPCODE:0][SEQNUM:066][TIME:22:48:42]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 5f]
+                                      <---------[OPCODE:1][SEQNUM:061][TIME:22:48:19]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 5F]
+[OPCODE:0][SEQNUM:067][TIME:22:48:46]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 60]
+                                      <---------[OPCODE:1][SEQNUM:062][TIME:22:48:42]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 60]
+[OPCODE:0][SEQNUM:068][TIME:22:49:58]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 61]
+                                      <---------[OPCODE:1][SEQNUM:063][TIME:22:48:46]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 61]
+[OPCODE:0][SEQNUM:069][TIME:22:50:21]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 62]
+                                      <---------[OPCODE:1][SEQNUM:064][TIME:22:49:58]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 62]
+[OPCODE:0][SEQNUM:06A][TIME:22:50:25]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 63]
+                                      <---------[OPCODE:1][SEQNUM:065][TIME:22:50:21]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 63]
+[OPCODE:0][SEQNUM:06B][TIME:22:51:40]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 64]
+                                      <---------[OPCODE:1][SEQNUM:066][TIME:22:50:25]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 64]
+[OPCODE:0][SEQNUM:06C][TIME:22:52:02]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 65]
+                                      <---------[OPCODE:1][SEQNUM:067][TIME:22:51:40]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 65]
+[OPCODE:0][SEQNUM:06D][TIME:22:52:07]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 66]
+                                      <---------[OPCODE:1][SEQNUM:068][TIME:22:52:02]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 66]
+[OPCODE:0][SEQNUM:06E][TIME:22:53:19]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 67]
+                                      <---------[OPCODE:1][SEQNUM:069][TIME:22:52:07]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 67]
+[OPCODE:0][SEQNUM:06F][TIME:22:53:42]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 68]
+                                      <---------[OPCODE:1][SEQNUM:06a][TIME:22:53:19]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 68]
+[OPCODE:0][SEQNUM:070][TIME:22:53:46]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 69]
+                                      <---------[OPCODE:1][SEQNUM:06b][TIME:22:53:42]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 69]
+[OPCODE:0][SEQNUM:071][TIME:22:55:00]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 6a]
+                                      <---------[OPCODE:1][SEQNUM:06c][TIME:22:53:46]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 69]
+[OPCODE:0][SEQNUM:072][TIME:22:55:23]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 6b]
+                                      <---------[OPCODE:1][SEQNUM:06d][TIME:22:55:00]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6B]
+[OPCODE:0][SEQNUM:073][TIME:22:55:27]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 6c]
+                                      <---------[OPCODE:1][SEQNUM:06e][TIME:22:55:23]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6B]
+[OPCODE:0][SEQNUM:074][TIME:22:56:40]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 6d]
+                                      <---------[OPCODE:1][SEQNUM:06f][TIME:22:55:27]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6D]
+[OPCODE:0][SEQNUM:075][TIME:22:57:03]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 6e]
+                                      <---------[OPCODE:1][SEQNUM:070][TIME:22:56:40]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6E]
+[OPCODE:0][SEQNUM:076][TIME:22:57:06]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 6f]
+                                      <---------[OPCODE:1][SEQNUM:071][TIME:22:57:03]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6F]
+[OPCODE:0][SEQNUM:078][TIME:22:58:44]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 70]
+                                      <---------[OPCODE:1][SEQNUM:072][TIME:22:57:06]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 70]
+[OPCODE:0][SEQNUM:079][TIME:22:58:48]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 71]
+                                      <---------[OPCODE:1][SEQNUM:073][TIME:22:58:44]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 71]
+[OPCODE:0][SEQNUM:07A][TIME:23:00:00]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 72]
+                                      <---------[OPCODE:1][SEQNUM:074][TIME:22:58:48]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 72]
+[OPCODE:0][SEQNUM:07B][TIME:23:00:23]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 73]
+                                      <---------[OPCODE:1][SEQNUM:075][TIME:23:00:00]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 73]
+[OPCODE:0][SEQNUM:07C][TIME:23:00:27]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 74]
+                                      <---------[OPCODE:1][SEQNUM:076][TIME:23:00:23]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 74]
+[OPCODE:0][SEQNUM:07D][TIME:23:01:39]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 75]
+                                      <---------[OPCODE:1][SEQNUM:077][TIME:23:00:27]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 75]
+[OPCODE:0][SEQNUM:07E][TIME:23:02:04]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 76]
+                                      <---------[OPCODE:1][SEQNUM:078][TIME:23:01:39]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 76]
+[OPCODE:0][SEQNUM:07F][TIME:23:02:08]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 77]
+                                      <---------[OPCODE:1][SEQNUM:079][TIME:23:02:04]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 77]
+[OPCODE:0][SEQNUM:080][TIME:23:03:21]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 78]
+                                      <---------[OPCODE:1][SEQNUM:07a][TIME:23:02:08]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 78]
+[OPCODE:0][SEQNUM:081][TIME:23:03:44]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 79]
+                                      <---------[OPCODE:1][SEQNUM:07b][TIME:23:03:21]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 79]
+[OPCODE:0][SEQNUM:082][TIME:23:03:47]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 7a]
+                                      <---------[OPCODE:1][SEQNUM:07c][TIME:23:03:44]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 7A]
+[OPCODE:0][SEQNUM:083][TIME:23:05:02]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 7b]
+                                      <---------[OPCODE:1][SEQNUM:07d][TIME:23:03:47]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 7B]
+[OPCODE:0][SEQNUM:084][TIME:23:05:24]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 7c]
+                                      <---------[OPCODE:1][SEQNUM:07e][TIME:23:05:02]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 7C]
+[OPCODE:0][SEQNUM:085][TIME:23:05:29]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 7d]
+                                      <---------[OPCODE:1][SEQNUM:07f][TIME:23:05:24]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 7D]
+[OPCODE:0][SEQNUM:086][TIME:23:06:41]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 7e]
+                                      <---------[OPCODE:1][SEQNUM:080][TIME:23:05:29]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 7E]
+[OPCODE:0][SEQNUM:087][TIME:23:07:04]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 7f]
+                                      <---------[OPCODE:1][SEQNUM:081][TIME:23:06:41]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 7E]
+[OPCODE:0][SEQNUM:088][TIME:23:07:08]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 80]
+                                      <---------[OPCODE:1][SEQNUM:082][TIME:23:07:04]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 80]
+[OPCODE:0][SEQNUM:089][TIME:23:08:23]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 81]
+                                      <---------[OPCODE:1][SEQNUM:083][TIME:23:07:08]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 81]
+[OPCODE:0][SEQNUM:08A][TIME:23:08:45]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 82]
+                                      <---------[OPCODE:1][SEQNUM:084][TIME:23:08:23]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 82]
+[OPCODE:0][SEQNUM:08B][TIME:23:08:50]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 83]
+                                      <---------[OPCODE:1][SEQNUM:085][TIME:23:08:45]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 83]
+[OPCODE:0][SEQNUM:08C][TIME:23:10:01]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 84]
+                                      <---------[OPCODE:1][SEQNUM:086][TIME:23:08:50]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 83]
+[OPCODE:0][SEQNUM:08D][TIME:23:10:24]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 85]
+                                      <---------[OPCODE:1][SEQNUM:087][TIME:23:10:01]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 85]
+[OPCODE:0][SEQNUM:090][TIME:23:12:04]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 86]
+                                      <---------[OPCODE:1][SEQNUM:088][TIME:23:10:24]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 86]
+[OPCODE:0][SEQNUM:091][TIME:23:12:08]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 87]
+                                      <---------[OPCODE:1][SEQNUM:089][TIME:23:12:04]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 86]
+[OPCODE:0][SEQNUM:093][TIME:23:13:46]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 88]
+                                      <---------[OPCODE:1][SEQNUM:08a][TIME:23:12:08]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 88]
+[OPCODE:0][SEQNUM:094][TIME:23:13:50]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 89]
+                                      <---------[OPCODE:1][SEQNUM:08b][TIME:23:13:46]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 88]
+[OPCODE:0][SEQNUM:095][TIME:23:15:02]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 8a]
+                                      <---------[OPCODE:1][SEQNUM:08c][TIME:23:13:50]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8A]
+[OPCODE:0][SEQNUM:096][TIME:23:15:25]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 8b]
+                                      <---------[OPCODE:1][SEQNUM:08d][TIME:23:15:02]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8B]
+[OPCODE:0][SEQNUM:097][TIME:23:15:29]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 8c]
+                                      <---------[OPCODE:1][SEQNUM:08e][TIME:23:15:25]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8B]
+[OPCODE:0][SEQNUM:098][TIME:23:16:44]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 8d]
+                                      <---------[OPCODE:1][SEQNUM:08f][TIME:23:15:29]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8D]
+[OPCODE:0][SEQNUM:099][TIME:23:17:06]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 8e]
+                                      <---------[OPCODE:1][SEQNUM:090][TIME:23:16:44]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8D]
+[OPCODE:0][SEQNUM:09A][TIME:23:17:11]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 8f]
+                                      <---------[OPCODE:1][SEQNUM:091][TIME:23:17:06]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8F]
+[OPCODE:0][SEQNUM:09B][TIME:23:18:23]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 90]
+                                      <---------[OPCODE:1][SEQNUM:092][TIME:23:17:11]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8F]
+[OPCODE:0][SEQNUM:09C][TIME:23:18:46]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 91]
+                                      <---------[OPCODE:1][SEQNUM:093][TIME:23:18:23]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 91]
+[OPCODE:0][SEQNUM:09D][TIME:23:18:50]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 92]
+                                      <---------[OPCODE:1][SEQNUM:094][TIME:23:18:46]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 92]
+[OPCODE:0][SEQNUM:09E][TIME:23:20:04]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 01]
+                                      <---------[OPCODE:1][SEQNUM:095][TIME:23:18:50]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 92]
+[OPCODE:0][SEQNUM:09F][TIME:23:20:27]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 02]
+                                      <---------[OPCODE:1][SEQNUM:096][TIME:23:20:04]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 02]
+[OPCODE:0][SEQNUM:0A0][TIME:23:20:31]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 04]
+                                      <---------[OPCODE:1][SEQNUM:097][TIME:23:20:27]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 02]
+[OPCODE:0][SEQNUM:0A1][TIME:23:21:44]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 05]
+                                      <---------[OPCODE:1][SEQNUM:098][TIME:23:20:31]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 05]
+[OPCODE:0][SEQNUM:0A2][TIME:23:22:06]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 06]
+                                      <---------[OPCODE:1][SEQNUM:099][TIME:23:21:44]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 06]
+[OPCODE:0][SEQNUM:0A3][TIME:23:22:11]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0b]
+                                      <---------[OPCODE:1][SEQNUM:09a][TIME:23:22:06]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0B]
+[OPCODE:0][SEQNUM:0A4][TIME:23:23:23]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0c]
+                                      <---------[OPCODE:1][SEQNUM:09b][TIME:23:22:11]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0C]
+[OPCODE:0][SEQNUM:0A5][TIME:23:23:48]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 0d]
+                                      <---------[OPCODE:1][SEQNUM:09c][TIME:23:23:23]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 0D]
+[OPCODE:0][SEQNUM:0A6][TIME:23:23:52]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 11]
+                                      <---------[OPCODE:1][SEQNUM:09d][TIME:23:23:48]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 11]
+[OPCODE:0][SEQNUM:0A7][TIME:23:25:04]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 12]
+                                      <---------[OPCODE:1][SEQNUM:09e][TIME:23:23:52]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 12]
+[OPCODE:0][SEQNUM:0A8][TIME:23:25:27]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 15]
+                                      <---------[OPCODE:1][SEQNUM:09f][TIME:23:25:04]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 15]
+[OPCODE:0][SEQNUM:0A9][TIME:23:25:32]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 16]
+                                      <---------[OPCODE:1][SEQNUM:0a0][TIME:23:25:27]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 15]
+[OPCODE:0][SEQNUM:0AA][TIME:23:26:43]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 17]
+                                      <---------[OPCODE:1][SEQNUM:0a1][TIME:23:25:32]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 17]
+[OPCODE:0][SEQNUM:0AB][TIME:23:27:06]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 18]
+                                      <---------[OPCODE:1][SEQNUM:0a2][TIME:23:26:43]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 18]
+[OPCODE:0][SEQNUM:0AC][TIME:23:27:10]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 19]
+                                      <---------[OPCODE:1][SEQNUM:0a3][TIME:23:27:06]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 18]
+[OPCODE:0][SEQNUM:0AD][TIME:23:28:25]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1a]
+                                      <---------[OPCODE:1][SEQNUM:0a4][TIME:23:27:10]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1A]
+[OPCODE:0][SEQNUM:0AE][TIME:23:28:48]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1c]
+                                      <---------[OPCODE:1][SEQNUM:0a5][TIME:23:28:25]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1C]
+[OPCODE:0][SEQNUM:0AF][TIME:23:28:52]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1d]
+                                      <---------[OPCODE:1][SEQNUM:0a6][TIME:23:28:48]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1D]
+[OPCODE:0][SEQNUM:0B0][TIME:23:30:04]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1e]
+                                      <---------[OPCODE:1][SEQNUM:0a7][TIME:23:28:52]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1E]
+[OPCODE:0][SEQNUM:0B1][TIME:23:30:27]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 1f]
+                                      <---------[OPCODE:1][SEQNUM:0a8][TIME:23:30:04]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 1F]
+[OPCODE:0][SEQNUM:0B2][TIME:23:30:31]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 20]
+                                      <---------[OPCODE:1][SEQNUM:0a9][TIME:23:30:27]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 20]
+[OPCODE:0][SEQNUM:0B3][TIME:23:31:45]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 21]
+                                      <---------[OPCODE:1][SEQNUM:0aa][TIME:23:30:31]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 21]
+[OPCODE:0][SEQNUM:0B4][TIME:23:32:08]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 22]
+                                      <---------[OPCODE:1][SEQNUM:0ab][TIME:23:31:45]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 21]
+[OPCODE:0][SEQNUM:0B5][TIME:23:32:12]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 23]
+                                      <---------[OPCODE:1][SEQNUM:0ac][TIME:23:32:08]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 23]
+[OPCODE:0][SEQNUM:0B6][TIME:23:33:25]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 25]
+                                      <---------[OPCODE:1][SEQNUM:0ad][TIME:23:32:12]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 25]
+[OPCODE:0][SEQNUM:0B7][TIME:23:33:48]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 26]
+                                      <---------[OPCODE:1][SEQNUM:0ae][TIME:23:33:25]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 26]
+[OPCODE:0][SEQNUM:0B8][TIME:23:33:52]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 27]
+                                      <---------[OPCODE:1][SEQNUM:0af][TIME:23:33:48]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 27]
+[OPCODE:0][SEQNUM:0B9][TIME:23:35:06]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 28]
+                                      <---------[OPCODE:1][SEQNUM:0b0][TIME:23:33:52]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 27]
+[OPCODE:0][SEQNUM:0BA][TIME:23:35:29]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 2d]
+                                      <---------[OPCODE:1][SEQNUM:0b1][TIME:23:35:06]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 2D]
+[OPCODE:0][SEQNUM:0BB][TIME:23:35:33]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 30]
+                                      <---------[OPCODE:1][SEQNUM:0b2][TIME:23:35:29]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 30]
+[OPCODE:0][SEQNUM:0BC][TIME:23:36:46]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 31]
+                                      <---------[OPCODE:1][SEQNUM:0b3][TIME:23:35:33]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 30]
+[OPCODE:0][SEQNUM:0BD][TIME:23:37:09]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 36]
+                                      <---------[OPCODE:1][SEQNUM:0b4][TIME:23:36:46]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 36]
+[OPCODE:0][SEQNUM:0BE][TIME:23:37:13]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 38]
+                                      <---------[OPCODE:1][SEQNUM:0b5][TIME:23:37:09]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 38]
+[OPCODE:0][SEQNUM:0BF][TIME:23:38:27]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 39]
+                                      <---------[OPCODE:1][SEQNUM:0b6][TIME:23:37:13]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 39]
+[OPCODE:0][SEQNUM:0C0][TIME:23:38:49]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 3a]
+                                      <---------[OPCODE:1][SEQNUM:0b7][TIME:23:38:27]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 3A]
+[OPCODE:0][SEQNUM:0C1][TIME:23:38:54]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 41]
+                                      <---------[OPCODE:1][SEQNUM:0b8][TIME:23:38:49]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 41]
+[OPCODE:0][SEQNUM:0C2][TIME:23:40:06]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 42]
+                                      <---------[OPCODE:1][SEQNUM:0b9][TIME:23:38:54]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 42]
+[OPCODE:0][SEQNUM:0C3][TIME:23:40:29]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 44]
+                                      <---------[OPCODE:1][SEQNUM:0ba][TIME:23:40:06]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 44]
+[OPCODE:0][SEQNUM:0C4][TIME:23:40:33]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 45]
+                                      <---------[OPCODE:1][SEQNUM:0bb][TIME:23:40:29]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 45]
+[OPCODE:0][SEQNUM:0C5][TIME:23:41:47]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 47]
+                                      <---------[OPCODE:1][SEQNUM:0bc][TIME:23:40:33]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 47]
+[OPCODE:0][SEQNUM:0C6][TIME:23:42:10]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 48]
+                                      <---------[OPCODE:1][SEQNUM:0bd][TIME:23:41:47]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 48]
+[OPCODE:0][SEQNUM:0C7][TIME:23:42:14]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 49]
+                                      <---------[OPCODE:1][SEQNUM:0be][TIME:23:42:10]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 48]
+[OPCODE:0][SEQNUM:0C8][TIME:23:43:27]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4a]
+                                      <---------[OPCODE:1][SEQNUM:0bf][TIME:23:42:14]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 48]
+[OPCODE:0][SEQNUM:0CA][TIME:23:43:54]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4b]
+                                      <---------[OPCODE:1][SEQNUM:0c0][TIME:23:43:27]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 48]
+[OPCODE:0][SEQNUM:0CB][TIME:23:45:06]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4c]
+                                      <---------[OPCODE:1][SEQNUM:0c1][TIME:23:43:54]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4C]
+[OPCODE:0][SEQNUM:0CC][TIME:23:45:31]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4e]
+                                      <---------[OPCODE:1][SEQNUM:0c2][TIME:23:45:06]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4E]
+[OPCODE:0][SEQNUM:0CD][TIME:23:45:35]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4f]
+                                      <---------[OPCODE:1][SEQNUM:0c3][TIME:23:45:31]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4F]
+[OPCODE:0][SEQNUM:0CE][TIME:23:46:48]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 51]
+                                      <---------[OPCODE:1][SEQNUM:0c4][TIME:23:45:35]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 51]
+[OPCODE:0][SEQNUM:0CF][TIME:23:47:10]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 52]
+                                      <---------[OPCODE:1][SEQNUM:0c5][TIME:23:46:48]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 52]
+[OPCODE:0][SEQNUM:0D0][TIME:23:47:14]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 54]
+                                      <---------[OPCODE:1][SEQNUM:0c6][TIME:23:47:10]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 52]
+[OPCODE:0][SEQNUM:0D1][TIME:23:48:27]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 56]
+                                      <---------[OPCODE:1][SEQNUM:0c7][TIME:23:47:14]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 52]
+[OPCODE:0][SEQNUM:0D2][TIME:23:48:50]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 57]
+                                      <---------[OPCODE:1][SEQNUM:0c8][TIME:23:48:27]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 52]
+[OPCODE:0][SEQNUM:0D3][TIME:23:48:54]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 58]
+                                      <---------[OPCODE:1][SEQNUM:0c9][TIME:23:48:50]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 52]
+[OPCODE:0][SEQNUM:0D4][TIME:23:50:09]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 6a]
+                                      <---------[OPCODE:1][SEQNUM:0ca][TIME:23:48:54]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6A]
+[OPCODE:0][SEQNUM:0D5][TIME:23:50:32]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 6c]
+                                      <---------[OPCODE:1][SEQNUM:0cb][TIME:23:50:09]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6C]
+[OPCODE:0][SEQNUM:0D6][TIME:23:50:36]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 7f]
+                                      <---------[OPCODE:1][SEQNUM:0cc][TIME:23:50:32]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6C]
+[OPCODE:0][SEQNUM:0D7][TIME:23:51:48]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 84]
+                                      <---------[OPCODE:1][SEQNUM:0cd][TIME:23:50:36]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 6C]
+[OPCODE:0][SEQNUM:0D8][TIME:23:52:11]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 87]
+                                      <---------[OPCODE:1][SEQNUM:0ce][TIME:23:51:48]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 87]
+[OPCODE:0][SEQNUM:0D9][TIME:23:52:15]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 89]
+                                      <---------[OPCODE:1][SEQNUM:0cf][TIME:23:52:11]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 87]
+[OPCODE:0][SEQNUM:0DA][TIME:23:53:29]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 8c]
+                                      <---------[OPCODE:1][SEQNUM:0d0][TIME:23:52:15]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8C]
+[OPCODE:0][SEQNUM:0DB][TIME:23:53:53]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 8e]
+                                      <---------[OPCODE:1][SEQNUM:0d1][TIME:23:53:29]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8E]
+[OPCODE:0][SEQNUM:0DC][TIME:23:53:56]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 90]
+                                      <---------[OPCODE:1][SEQNUM:0d2][TIME:23:53:53]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8E]
+[OPCODE:0][SEQNUM:0DD][TIME:23:55:09]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 01]
+                                      <---------[OPCODE:1][SEQNUM:0d3][TIME:23:53:56]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8E]
+[OPCODE:0][SEQNUM:0DE][TIME:23:55:32]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 04]
+                                      <---------[OPCODE:1][SEQNUM:0d4][TIME:23:55:09]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8E]
+[OPCODE:0][SEQNUM:0DF][TIME:23:55:37]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 16]
+                                      <---------[OPCODE:1][SEQNUM:0d5][TIME:23:55:32]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 8E]
+[OPCODE:0][SEQNUM:0E0][TIME:23:56:49]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 19]
+                                      <---------[OPCODE:1][SEQNUM:0d6][TIME:23:55:37]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 19]
+[OPCODE:0][SEQNUM:0E1][TIME:23:57:12]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 22]
+                                      <---------[OPCODE:1][SEQNUM:0d7][TIME:23:56:49]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 22]
+[OPCODE:0][SEQNUM:0E2][TIME:23:57:16]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 28]
+                                      <---------[OPCODE:1][SEQNUM:0d8][TIME:23:57:12]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 22]
+[OPCODE:0][SEQNUM:0E3][TIME:23:58:28]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 31]
+                                      <---------[OPCODE:1][SEQNUM:0d9][TIME:23:57:16]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 31]
+[OPCODE:0][SEQNUM:0E4][TIME:23:58:51]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 49]
+                                      <---------[OPCODE:1][SEQNUM:0da][TIME:23:58:28]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 49]
+[OPCODE:0][SEQNUM:0E6][TIME:00:00:10]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4a]
+                                      <---------[OPCODE:1][SEQNUM:0db][TIME:23:58:51]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4A]
+[OPCODE:0][SEQNUM:0E7][TIME:00:00:33]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4b]
+                                      <---------[OPCODE:1][SEQNUM:0dc][TIME:00:00:10]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4A]
+[OPCODE:0][SEQNUM:0E8][TIME:00:00:37]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 54]
+                                      <---------[OPCODE:1][SEQNUM:0dd][TIME:00:00:33]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 54]
+[OPCODE:0][SEQNUM:0E9][TIME:00:01:49]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 56]
+                                      <---------[OPCODE:1][SEQNUM:0de][TIME:00:00:37]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 56]
+[OPCODE:0][SEQNUM:0EA][TIME:00:02:12]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 57]
+                                      <---------[OPCODE:1][SEQNUM:0df][TIME:00:01:49]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 57]
+[OPCODE:0][SEQNUM:0EB][TIME:00:02:16]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 58]
+                                      <---------[OPCODE:1][SEQNUM:0e0][TIME:00:02:12]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 58]
+[OPCODE:0][SEQNUM:0EC][TIME:00:03:30]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 7f]
+                                      <---------[OPCODE:1][SEQNUM:0e1][TIME:00:02:16]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 7F]
+[OPCODE:0][SEQNUM:0ED][TIME:00:03:53]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 84]
+                                      <---------[OPCODE:1][SEQNUM:0e2][TIME:00:03:30]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 84]
+[OPCODE:0][SEQNUM:0EE][TIME:00:03:57]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 89]
+                                      <---------[OPCODE:1][SEQNUM:0e3][TIME:00:03:53]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 84]
+[OPCODE:0][SEQNUM:0EF][TIME:00:05:10]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 90]
+                                      <---------[OPCODE:1][SEQNUM:0e4][TIME:00:03:57]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 90]
+[OPCODE:0][SEQNUM:0F0][TIME:00:05:32]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 01]
+                                      <---------[OPCODE:1][SEQNUM:0e5][TIME:00:05:10]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 01]
+[OPCODE:0][SEQNUM:0F1][TIME:00:05:37]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 04]
+                                      <---------[OPCODE:1][SEQNUM:0e6][TIME:00:05:32]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 04]
+[OPCODE:0][SEQNUM:0F2][TIME:00:06:51]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 16]
+                                      <---------[OPCODE:1][SEQNUM:0e7][TIME:00:05:37]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 16]
+[OPCODE:0][SEQNUM:0F3][TIME:00:07:14]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 28]
+                                      <---------[OPCODE:1][SEQNUM:0e8][TIME:00:06:51]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 16]
+[OPCODE:0][SEQNUM:0F4][TIME:00:07:18]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4b]
+                                      <---------[OPCODE:1][SEQNUM:0e9][TIME:00:07:14]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 16]
+[OPCODE:0][SEQNUM:0F5][TIME:00:08:30]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 89]
+                                      <---------[OPCODE:1][SEQNUM:0ea][TIME:00:07:18]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 89]
+[OPCODE:0][SEQNUM:0F7][TIME:00:08:58]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 28]
+                                      <---------[OPCODE:1][SEQNUM:0eb][TIME:00:08:30]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 28]
+[OPCODE:0][SEQNUM:0F8][TIME:00:10:12]--------->
+
+                                                [FW UPDATE PACKET][INDEX: 4b]
+                                      <---------[OPCODE:1][SEQNUM:0ec][TIME:00:08:58]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4B]
+[OPCODE:0][SEQNUM:0F9][TIME:00:10:35]--------->
+
+                                                [FINAL FW UPDATE PACKET][INDEX: 4b]
+                                      <---------[OPCODE:2][SEQNUM:0ed][TIME:00:10:12]
+
+[REQUEST NEXT FW PACKET][ACK INDEX: 4B]
+[OPCODE:0][SEQNUM:0FA][TIME:00:10:39]--------->
+
+Number of Received Uplinks: 239
+Number of Sent Downlinks: 239

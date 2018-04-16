@@ -1,0 +1,9 @@
+------------------
+Total Time:
+	Hours:5	Minutes:23	Seconds:48
+	(seconds)->	19428
+Number of Productive Uplinks: 106/137 (77%)
+Number of Unproductive Uplinks: 31/137 (23%)
+	Due to Protocol Design: 2/137 (1%)
+	Due to Lost Uplinks: 6/137 (4%)
+	Due to Lost Downlinks/Gateway Duty Cycle:23/137 (17%)

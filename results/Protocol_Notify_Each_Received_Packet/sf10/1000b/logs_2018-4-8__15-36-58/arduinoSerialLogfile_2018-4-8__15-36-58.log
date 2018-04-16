@@ -10679,8 +10679,5 @@ PROCESSING FW PACKET: [INDEX:8][CHANGE STATE: 2------>3]
 
 ------------------------------------------------
 
-[STATE: 3] REQ MISSING PACKETS
+[STATE: 3] COMPLETE UPDATE RECEIVED
 
-[CHANGE STATE: 3------>4]
-
-[STA
