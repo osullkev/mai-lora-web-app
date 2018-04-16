@@ -4,7 +4,7 @@ var fs = require("fs");
 
 var updateIndex = 1;
 
-var newFwDeltaPath = "./deltas/delta1000Bytes.txt";
+var newFwDeltaPath = "./deltas/delta6000Bytes.txt";
 const stats = fs.statSync(newFwDeltaPath);
 const newFWDeltaSize = stats.size / 2;
 var newFwDeltaVersion = "010507";
@@ -13,6 +13,8 @@ var fwDeltaFile = fs.openSync(newFwDeltaPath, "r");
 var flag = 0;
 var bufferSize = 96;
 var numOfPackets = Math.ceil(newFWDeltaSize*2 / bufferSize);
+console.log("Delta Size (bytes):" + newFWDeltaSize)
+console.log("num of packets: " + numOfPackets);
 
 
 var missingPackets = [];
