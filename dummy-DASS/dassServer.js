@@ -117,7 +117,8 @@ function commandInput() {
                 httpRequest.post(
                     host,
                     {json: {"id": id,                        
-                            "dataFrame": message
+                            "dataFrame": message,
+                            "port": 2
                     }},
                     function (err, res, body){
                         if (!err){

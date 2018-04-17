@@ -24,13 +24,13 @@ var assembleDownlinkPacket = function (opcode, postData) {
 }
 
 
-exports.sendDownlink = function (opcode, postData) {
+exports.sendDownlink = function (port, opcode, postData) {
 
     var packet = assembleDownlinkPacket(opcode, postData);
     console.log("Assembled downlink packet (base64): ".yellow + packet);
 
     var dlFcnt = nodeConfig.getdownlinkFrameCount();
-    rest.doRest("POST", "/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt="+dlFcnt+"&port=01&confirmed=false", packet, function (status, m) {
+    rest.doRest("POST", "/rest/nodes/0004a30b001b0af1/payloads/dl?fcnt="+dlFcnt+"&port=" + port + "&confirmed=false", packet, function (status, m) {
 
     }, orbiwiseConfig.config());
 

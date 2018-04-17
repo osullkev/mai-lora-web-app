@@ -39,47 +39,51 @@ var pingNode = function(nodeMessage){
 
 exports.handleUplink = function (uplinkJSON){
     var dataFrame = uplinkJSON.dataFrame.toUpperCase();
+    var port = uplinkJSON.port;
     var packetJSON = utils.parseToPacketComponents(dataFrame);
     logHandler.nodeCommsLogger.log('info', 'INCOMING UPLINK', packetJSON);
 
     console.log("UPLINK PACKET: ".blue);
-    utils.logJSONObject(packetJSON, 'green');
-    switch (packetJSON.header.opcode){
-        case '1':
-            //Sensor reading-no acknowledgement expected
-            sensorReadingHandler.handleSensorReading(packetJSON.payload, false);
-            break;
-        case '2':
-            //Sensor reading-acknowledgement expected
-            sensorReadingHandler.handleSensorReading(packetJSON.payload, true);
-            break;
-        case '3':
-            //Node status
-            nodeStatusHandler.handleNodeStatus(packetJSON.payload);
-            break;
-        case '4':
-            //FIRMWARE UPDATE-REQUEST PACKET
-            fwUpdateHandler.handlePacketRequest(packetJSON.payload);
-            break;
-        case '5':
-            //FIRMWARE UPDATE-REQUEST PACKET
-            break;
-        case '6':
-            // FIRMWARE UPDATE-ALL PACKETS RECEIVED/INTEGRITY CHECK
-            break;
-        case '7':
-        case '8':
-        case '9':
-        case 'A':
-        case 'B':
-        case 'C':
-        case 'D':
-        case 'E':
-        case 'F':
-        case '0':
-        default:
-            // Do nothing
-            console.log("UNKNOWN OPERATIONAL CODE");
+    utils.logJSONObject(packetJSON, 'green')
 
+    switch (port)
+    {
+        case 1:
+            switch (packetJSON.header.opcode)
+            {
+                case '1':
+                    //Sensor reading-no acknowledgement expected
+                    sensorReadingHandler.handleSensorReading(packetJSON.payload, false);
+                    break;
+                case '2':
+                    //Sensor reading-acknowledgement expected
+                    sensorReadingHandler.handleSensorReading(packetJSON.payload, true);
+                    break;
+                case '3':
+                    nodeStatusHandler.handleNodeStatus(packetJSON.payload);
+                    break;
+                default:
+                    console.log("UNKNOWN OPERATIONAL CODE");
+            }
+            break;
+        case 2:
+            switch (packetJSON.header.opcode)
+            {
+                case '0':
+                    //FIRMWARE UPDATE-REQUEST PACKET
+                    fwUpdateHandler.handlePacketRequest(packetJSON.payload);
+                    break;
+                case '1':
+                    //FIRMWARE UPDATE-REQUEST PACKET
+                    break;
+                case '2':
+                    // FIRMWARE UPDATE-ALL PACKETS RECEIVED/INTEGRITY CHECK
+                    break;
+                default:
+                    console.log("UNKNOWN OPERATIONAL CODE");
+            }
+            break;
+        default:
+            console.log("UNSUPPORTED PORT");
     }
 }
