@@ -44,4 +44,5 @@
 ,{"header":{"opcode":"0","seq_num":"01A"},"payload":"14","level":"info","message":"INCOMING UPLINK","timestamp":"2018-04-16T08:45:05.815Z"}
 ,{"seq_num":"016","opcode":"1","data":"154b53fd820497475753e719f2240a3142c697be7e24dc99cdf31ca9113fa5b7119a4e2dd7eab9911e\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000","assembled_packet":"1016154b53fd820497475753e719f2240a3142c697be7e24dc99cdf31ca9113fa5b7119a4e2dd7eab9911e\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-04-16T08:45:05.827Z"}
 ,{"header":{"opcode":"0","seq_num":"01B"},"payload":"15","level":"info","message":"INCOMING UPLINK","timestamp":"2018-04-16T08:45:13.245Z"}
+,{"seq_num":"017","opcode":"1","data":"","assembled_packet":"1017","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-04-16T08:45:13.260Z"}
 ]
