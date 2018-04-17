@@ -2,6 +2,6 @@
 
 node cleanArduinoLog.js
 node parseArduinoLog.js
-node cleanServerLog.js
+node cleanPBSelServerLog.js
 node parseServerJSON.js
 node runAnalysis.js
