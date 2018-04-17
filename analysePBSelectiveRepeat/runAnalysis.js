@@ -1,8 +1,24 @@
 var fs = require("fs");
+var util = require('util');
+var es = require("./experimentalSetup");
 
-var testPath = "../piggybacked-selective-repeat-logs/sf7/1000b/logs_2018-4-16__9-41-24/";
+var testPath = es.getPath() + "/";
 
 var arduino_obj = require(testPath + "analysis/arduino_log.json");
+
+var testResultsLogFile = fs.createWriteStream(testPath + 'analysis/results.log', {flags : 'w'});
+var log_stdout = process.stdout;
+var log_file_CSV = fs.createWriteStream('results.log', {flags : 'a'});
+
+
+testResultsLogger = function(d) { //
+    testResultsLogFile.write(util.format(d) + '\n');
+    log_stdout.write(util.format(d) + '\n');
+};
+
+CSVLogger = function(d) { //
+    log_file_CSV.write(util.format(d) + '\n');
+};
 
 var sentUplinks = {};
 var receivedDownlinks = {};
@@ -65,6 +81,7 @@ for (var k in sentUplinks)
 
 var server_obj = require(testPath + "analysis/server_log.json");
 
+server_obj.splice(-1,1); // Remove last element as it was never sent.
 
 var j = 0;
 var refactored_server_obj = [];
@@ -135,36 +152,29 @@ for (var o in sentDownlinks)
 
 
 
-console.log("---------------------------------------------")
-console.log("Total Number of Sent Uplinks: " + numberOfUplinks);
-console.log("Total Number of Received Uplinks: " + receivedUplinksCount);
-console.log("Diff: " + (numberOfUplinks - receivedUplinksCount));
-console.log("---------------------------------------------")
-console.log("Total Number of Sent Downlinks: " + sentDownlinksCount);
-console.log("Total Number of Received Downlinks: " + receivedDownlinksCount);
-console.log("Diff: " + (sentDownlinksCount - receivedDownlinksCount));
-console.log("---------------------------------------------");
+testResultsLogger("---------------------------------------------")
+testResultsLogger("Total Number of Sent Uplinks: " + numberOfUplinks);
+testResultsLogger("Total Number of Received Uplinks: " + receivedUplinksCount);
+testResultsLogger("Diff: " + (numberOfUplinks - receivedUplinksCount));
+testResultsLogger("---------------------------------------------")
+testResultsLogger("Total Number of Sent Downlinks: " + sentDownlinksCount);
+testResultsLogger("Total Number of Received Downlinks: " + receivedDownlinksCount);
+testResultsLogger("Diff: " + (sentDownlinksCount - receivedDownlinksCount));
+testResultsLogger("---------------------------------------------");
 var inherentIneffectiveDataUplinks = 1;
 var inherentIneffectiveResponseUplinks = 1;
 effectiveUplink = effectiveUplink - inherentIneffectiveDataUplinks;
 var ineffectiveUplink = ineffectiveResponseUplink + inherentIneffectiveDataUplinks;
-console.log("Effective Uplinks: " + effectiveUplink);
-console.log("Ineffective Uplinks: " + ineffectiveUplink);
-console.log("|");
-console.log("+--- Ineffective Data Uplinks: " + inherentIneffectiveDataUplinks);
-console.log("+--+ Ineffective Response Uplinks: " + ineffectiveResponseUplink);
-console.log("   |");
-console.log("   +--- Lost Uplinks: " + lostUplinksCount);
-console.log("   +--- No Scheduled Downlinks: " + inherentIneffectiveResponseUplinks);
-console.log("   +--- Lost/Corrupted/Duty-Cycle-Restricted Downlinks: " + wastedDownlinksCount);
-console.log("---------------------------------------------")
-
-
-
-
-
-
-
+testResultsLogger("Effective Uplinks: " + effectiveUplink);
+testResultsLogger("Ineffective Uplinks: " + ineffectiveUplink);
+testResultsLogger("|");
+testResultsLogger("+--- Ineffective Data Uplinks: " + inherentIneffectiveDataUplinks);
+testResultsLogger("+--+ Ineffective Response Uplinks: " + ineffectiveResponseUplink);
+testResultsLogger("   |");
+testResultsLogger("   +--- Lost Uplinks: " + lostUplinksCount);
+testResultsLogger("   +--- No Scheduled Downlinks: " + inherentIneffectiveResponseUplinks);
+testResultsLogger("   +--- Lost/Corrupted/Duty-Cycle-Restricted Downlinks: " + wastedDownlinksCount);
+testResultsLogger("---------------------------------------------")
 
 
 var s = new Date(JSON.parse(refactored_server_obj[0]).timestamp);
@@ -181,11 +191,35 @@ var minutes = Math.floor(delta / 60) % 60;
 delta -= minutes * 60;
 // what's left is seconds
 var seconds = delta % 60;  // in theory the modulus is not required
-console.log("Total Time:");
-console.log("\tHours:" + hours);
-console.log("\tMinutes:" + minutes);
-console.log("\tSeconds:" + Math.round(seconds));
-console.log("\tTotal Seconds:" + Math.round(Math.abs(f - s) / 1000));
+testResultsLogger("Total Time:");
+testResultsLogger("\tHours:" + hours);
+testResultsLogger("\tMinutes:" + minutes);
+testResultsLogger("\tSeconds:" + Math.round(seconds));
+testResultsLogger("\tTotal Seconds:" + Math.round(Math.abs(f - s) / 1000));
+
+/*******************************
+ ///////////////////////////////
+ // Log to CSV Files
+ ///////////////////////////////
+ ********************************/
+
+var sf = es.getSF();
+var update = es.getUpdate()
+CSVLogger(
+    sf + "," +
+    update.substring(0, update.length-1) + "," +
+    Math.round(Math.abs(f - s) / 1000) + "," +
+    numberOfUplinks + "," +
+    receivedUplinksCount + "," +
+    sentDownlinksCount + "," +
+    receivedDownlinksCount + "," +
+    effectiveUplink + "," +
+    ineffectiveUplink + "," +
+    inherentIneffectiveDataUplinks + "," +
+    ineffectiveResponseUplink + "," +
+    lostUplinksCount + "," +
+    inherentIneffectiveResponseUplinks + "," +
+    wastedDownlinksCount);
 
 // for (var i = 0; i < obj.length; i++)
 // {
