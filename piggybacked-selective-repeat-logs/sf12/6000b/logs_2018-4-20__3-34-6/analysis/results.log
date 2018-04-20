@@ -1,0 +1,24 @@
+---------------------------------------------
+Total Number of Sent Uplinks: 222
+Total Number of Received Uplinks: 221
+Diff: 1
+---------------------------------------------
+Total Number of Sent Downlinks: 220
+Total Number of Received Downlinks: 126
+Diff: 94
+---------------------------------------------
+Effective Uplinks: 125
+Ineffective Uplinks: 97
+|
++--- Ineffective Data Uplinks: 1
++--+ Ineffective Response Uplinks: 96
+   |
+   +--- Lost Uplinks: 1
+   +--- No Scheduled Downlinks: 1
+   +--- Lost/Corrupted/Duty-Cycle-Restricted Downlinks: 94
+---------------------------------------------
+Total Time:
+	Hours:8
+	Minutes:30
+	Seconds:48
+	Total Seconds:30648
