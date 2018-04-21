@@ -1,0 +1,271 @@
+This test only sends uplink of opcode=3,4,5,6, i.e uplinks involved in the FW update process.
+
+-------------------------------------------------
+
+When using OTAA, register this DevEUI: 
+
+0004A30B001B0AF1
+
+RN2xx3 firmware version:
+
+RN2483 1.0.1 Dec 15 2015 09:38:09
+
+Trying to join Network
+
+Join Attempt: 1
+
+0011223344556677-6a4e6a045f41bfea6ff752cb176c737f
+
+RN2483: [ok->denied
+;ok->accepted
+;]
+
+Successfully joined Network
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"002","fw_seg_ack":"01","tx_response": "successful_no_response", "channel_violations": 0}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"003","fw_seg_ack":"01","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"001","fw_seg_index": "01"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"004","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"004","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"004","fw_seg_ack":"02","tx_response": "successful_with_response", "channel_violations": 2}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"002","fw_seg_index": "01"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"005","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"005","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"005","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"005","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 4}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"005","fw_seg_ack":"02","tx_response": "mac_err", "channel_violations": 4}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"006","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"006","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"006","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"006","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 4}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"006","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 5}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"006","fw_seg_ack":"02","tx_response": "channel_violation", "channel_violations": 6}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"006","fw_seg_ack":"02","tx_response": "successful_with_response", "channel_violations": 6}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"004","fw_seg_index": "02"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"007","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"007","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"007","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"007","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 4}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"007","fw_seg_ack":"03","tx_response": "successful_with_response", "channel_violations": 4}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"005","fw_seg_index": "02"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"008","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"008","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"008","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"008","fw_seg_ack":"03","tx_response": "successful_no_response", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"009","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"009","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"009","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"009","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 4}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"009","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 5}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"009","fw_seg_ack":"03","tx_response": "channel_violation", "channel_violations": 6}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"009","fw_seg_ack":"03","tx_response": "successful_with_response", "channel_violations": 6}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"006","fw_seg_index": "03"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00a","fw_seg_ack":"04","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00a","fw_seg_ack":"04","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00a","fw_seg_ack":"04","tx_response": "channel_violation", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00a","fw_seg_ack":"04","tx_response": "channel_violation", "channel_violations": 4}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00a","fw_seg_ack":"04","tx_response": "successful_with_response", "channel_violations": 4}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"007","fw_seg_index": "03"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00b","fw_seg_ack":"04","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00b","fw_seg_ack":"04","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00b","fw_seg_ack":"04","tx_response": "channel_violation", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00b","fw_seg_ack":"04","tx_response": "channel_violation", "channel_violations": 4}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00b","fw_seg_ack":"04","tx_response": "successful_with_response", "channel_violations": 4}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"008","fw_seg_index": "04"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00c","fw_seg_ack":"05","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00c","fw_seg_ack":"05","tx_response": "channel_violation", "channel_violations": 2}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00c","fw_seg_ack":"05","tx_response": "channel_violation", "channel_violations": 3}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00c","fw_seg_ack":"05","tx_response": "channel_violation", "channel_violations": 4}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00c","fw_seg_ack":"05","tx_response": "successful_with_response", "channel_violations": 4}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"009","fw_seg_index": "04"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00d","fw_seg_ack":"05","tx_response": "channel_violation", "channel_violations": 1}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00d","fw_seg_ack":"05","tx_response": "successful_with_response", "channel_violations": 1}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"00A","fw_seg_index": "05"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00e","fw_seg_ack":"06","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"00B","fw_seg_index": "05"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"00f","fw_seg_ack":"06","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"00C","fw_seg_index": "06"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"010","fw_seg_ack":"07","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"00D","fw_seg_index": "06"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"011","fw_seg_ack":"07","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"00E","fw_seg_index": "07"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"012","fw_seg_ack":"08","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"00F","fw_seg_index": "07"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"013","fw_seg_ack":"08","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"010","fw_seg_index": "08"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"014","fw_seg_ack":"09","tx_response": "mac_err", "channel_violations": 0}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"015","fw_seg_ack":"09","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"012","fw_seg_index": "09"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"016","fw_seg_ack":"0a","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"013","fw_seg_index": "09"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"017","fw_seg_ack":"0a","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"014","fw_seg_index": "0A"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"018","fw_seg_ack":"0b","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"015","fw_seg_index": "0A"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"019","fw_seg_ack":"0b","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"016","fw_seg_index": "0B"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"01a","fw_seg_ack":"0c","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"017","fw_seg_index": "0B"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"01b","fw_seg_ack":"0c","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"018","fw_seg_index": "0C"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"01c","fw_seg_ack":"0d","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"019","fw_seg_index": "0C"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"01d","fw_seg_ack":"0d","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"01A","fw_seg_index": "0D"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"01e","fw_seg_ack":"0e","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"01B","fw_seg_index": "0D"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"01f","fw_seg_ack":"0e","tx_response": "mac_err", "channel_violations": 0}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"020","fw_seg_ack":"0e","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"01D","fw_seg_index": "0E"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"021","fw_seg_ack":"0f","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"01E","fw_seg_index": "0E"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"022","fw_seg_ack":"0f","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"01F","fw_seg_index": "0F"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"023","fw_seg_ack":"10","tx_response": "successful_no_response", "channel_violations": 0}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"024","fw_seg_ack":"10","tx_response": "successful_no_response", "channel_violations": 0}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"025","fw_seg_ack":"10","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"022","fw_seg_index": "10"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"026","fw_seg_ack":"11","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"023","fw_seg_index": "10"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"027","fw_seg_ack":"11","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"024","fw_seg_index": "11"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"028","fw_seg_ack":"12","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"025","fw_seg_index": "11"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"029","fw_seg_ack":"12","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"026","fw_seg_index": "12"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"02a","fw_seg_ack":"13","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"027","fw_seg_index": "12"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"02b","fw_seg_ack":"13","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"028","fw_seg_index": "13"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"02c","fw_seg_ack":"14","tx_response": "successful_no_response", "channel_violations": 0}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"02d","fw_seg_ack":"14","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"02A","fw_seg_index": "14"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"02e","fw_seg_ack":"15","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "0","dl_seq":"02B","fw_seg_index": "14"}
+
+{"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"02f","fw_seg_ack":"15","tx_response": "successful_with_response", "channel_violations": 0}
+
+{"message_type": "incoming_downlink", "port":2, "opcode": "1","dl_seq":"02C","fw_seg_index": "15"}
+
+[STATE: 4] COMPLETE UPDATE RECEIVED
+
+
