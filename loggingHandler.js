@@ -13,7 +13,7 @@ var minute = startTime.getMinutes();
 var seconds = startTime.getSeconds();
 
 var startTimeStr = year + "-" + month + "-" + day + "__" + hour + "-" + minute + "-" + seconds;
-var fpath = "./piggybacked-selective-repeat-logs/sf7/1000b/logs_" + startTimeStr;
+var fpath = "./piggybacked-selective-repeat-logs/sf8/4000b/logs_" + startTimeStr;
 // var fpath = "./results/Protocol_Recover_At_END/sf7/1000b/logs_" + startTimeStr;
 var restAPIFilename = path.join(fpath, 'restAPILogfile_' + startTimeStr + '.log');
 var nodeCommsFilename = path.join(fpath, 'nodeCommsLogfile_' + startTimeStr + '.log');
