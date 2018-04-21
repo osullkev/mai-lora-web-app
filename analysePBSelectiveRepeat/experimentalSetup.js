@@ -1,10 +1,7 @@
 var path =
-// "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf11/7000b/logs_2018-4-17__23-21-22"
-// "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf12/2000b/logs_2018-4-18__21-15-6"
-// "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf12/3000b/logs_2018-4-19__7-19-1"
-// "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf12/5000b/logs_2018-4-19__16-22-50"
-// "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf12/6000b/logs_2018-4-20__3-34-6"
-"/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf12/7000b/logs_2018-4-20__19-13-18"
+// "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf10/1000b/logs_2018-4-21__11-26-39"
+"/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf10/3000b/logs_2018-4-21__9-23-30"
+
 
 var pathArray = path.split("/");
 // console.log(pathArray);
