@@ -1,7 +1,9 @@
 var path =
 // "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/piggybacked-selective-repeat-logs/sf10/1000b/logs_2018-4-21__11-26-39"
 // "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/downlink-prioritised-piggybacked-selective-repeat-logs/sf10/2000b/logs_2018-4-21__13-51-3"
-"/home/osullkev/projects/internal/mai-project/mai-lora-web-app/downlink-prioritised-piggybacked-selective-repeat-logs/sf12/5000b/logs_2018-4-21__15-34-42"
+// "/home/osullkev/projects/internal/mai-project/mai-lora-web-app/downlink-prioritised-piggybacked-selective-repeat-logs/sf12/5000b/logs_2018-4-21__15-34-42"
+"/home/osullkev/projects/internal/mai-project/mai-lora-web-app/downlink-prioritised-piggybacked-selective-repeat-logs/sf10/5000b/logs_2018-4-22__7-51-57"
+
 
 var pathArray = path.split("/");
 // console.log(pathArray);
