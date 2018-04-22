@@ -8,7 +8,7 @@ var arduino_obj = require(testPath + "analysis/arduino_log.json");
 
 var testResultsLogFile = fs.createWriteStream(testPath + 'analysis/results.log', {flags : 'w'});
 var log_stdout = process.stdout;
-var log_file_CSV = fs.createWriteStream('results.log', {flags : 'a'});
+var log_file_CSV = fs.createWriteStream('downlink_prioritised_results.log', {flags : 'a'});
 
 
 testResultsLogger = function(d) { //
@@ -57,6 +57,7 @@ for (var i = 0; i < arduino_obj.length; i++)
 var numberOfUplinks = 0;
 var effectiveUplink = 0;
 var ineffectiveResponseUplink = 0;
+var corruptedDownlinks = 0;
 
 for (var k in sentUplinks)
 {
@@ -69,6 +70,10 @@ for (var k in sentUplinks)
     else
     {
         ineffectiveResponseUplink++;
+        if (ul.tx_response == "mac_err")
+        {
+            corruptedDownlinks++;
+        }
     }
 }
 
