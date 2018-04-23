@@ -1,0 +1,2 @@
+{"header":{"opcode":"0","seq_num":"025"},"payload":"0E","level":"info","message":"INCOMING UPLINK","timestamp":"2018-04-23T14:31:24.368Z"}
+{"seq_num":"001","opcode":"0","data":"01b8e48361780c4cbd63dbc6ef6c72d69cfeae6b93b801bda032a6e5402066745d66b2e77c53ff42453bf831cb6a3c8dc4","assembled_packet":"000101b8e48361780c4cbd63dbc6ef6c72d69cfeae6b93b801bda032a6e5402066745d66b2e77c53ff42453bf831cb6a3c8dc4","level":"info","message":"OUTGOING DOWNLINK","timestamp":"2018-04-23T14:31:24.385Z"}
