@@ -4,7 +4,7 @@ var fs = require("fs");
 
 var updateIndex = 1;
 
-var newFwDeltaPath = "./deltas/delta2000Bytes.txt";
+var newFwDeltaPath = "./deltas/delta1000Bytes.txt";
 const stats = fs.statSync(newFwDeltaPath);
 const newFWDeltaSize = stats.size / 2;
 var newFwDeltaVersion = "010507";
