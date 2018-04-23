@@ -34,7 +34,9 @@ OPCODE  MESSAGE TYPE                            PAYLOAD
 exports.handleUplink = function (uplinkJSON){
     var dataFrame = uplinkJSON.dataFrame.toUpperCase();
     var port = uplinkJSON.port;
-    var packetJSON = utils.parseToPacketComponents(dataFrame);
+    var rssi = uplinkJSON.rssi;
+    var snr = uplinkJSON.snr;
+    var packetJSON = utils.parseToPacketComponents(dataFrame, snr, rssi);
     logHandler.nodeCommsLogger.log('info', 'INCOMING UPLINK', packetJSON);
 
     console.log("UPLINK PACKET: ".blue);

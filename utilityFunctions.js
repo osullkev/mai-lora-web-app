@@ -84,12 +84,14 @@ exports.base64ToHex = function (b64) {
     return new Buffer(b64, 'base64').toString('hex');
 }
 
-exports.parseToPacketComponents = function (dataFrame) {
+exports.parseToPacketComponents = function (dataFrame, snr, rssi) {
     var opcode = dataFrame.substring(0,1);
     var seq_num = dataFrame.substring(1,4);
     var payload = dataFrame.substring(4);
 
     return {"header": {"opcode": opcode, "seq_num": seq_num},
-        "payload": payload};
+        "payload": payload,
+    "rssi": rssi,
+    "snr": snr};
 
 }
