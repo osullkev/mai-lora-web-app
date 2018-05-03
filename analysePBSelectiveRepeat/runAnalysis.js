@@ -59,6 +59,8 @@ var effectiveUplink = 0;
 var ineffectiveResponseUplink = 0;
 var corruptedDownlinks = 0;
 
+console.log(sentUplinks);
+
 for (var k in sentUplinks)
 {
     numberOfUplinks++;

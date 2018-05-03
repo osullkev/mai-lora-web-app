@@ -1,0 +1,204 @@
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"001","fw_seg_ack":"","tx_response":"successful_no_response","channel_violations":0}
+MISSING DOWNLINK - REASON UNKNOWN
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"002","fw_seg_ack":"","tx_response":"mac_err","channel_violations":0}
+MISSING DOWNLINK - MAC ERR (POTENTIALLY RECEIVED A CORRUPTED DOWNLINK)
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"003","fw_seg_ack":"","tx_response":"mac_err","channel_violations":0}
+MISSING DOWNLINK - MAC ERR (POTENTIALLY RECEIVED A CORRUPTED DOWNLINK)
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"004","fw_seg_ack":"","tx_response":"successful_with_response","channel_violations":1}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"003","fw_seg_index":"03"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"005","fw_seg_ack":"03","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"004","fw_seg_index":"04"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"006","fw_seg_ack":"04","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"005","fw_seg_index":"05"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"007","fw_seg_ack":"05","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"3","dl_seq":"006","fw_seg_index":"06"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"008","fw_seg_ack":"06","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"3","dl_seq":"007","fw_seg_index":"07"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"009","fw_seg_ack":"07","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"008","fw_seg_index":"08"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"00a","fw_seg_ack":"08","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"009","fw_seg_index":"09"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"00b","fw_seg_ack":"09","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"00A","fw_seg_index":"0A"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"00c","fw_seg_ack":"0A","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"00B","fw_seg_index":"0B"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"00d","fw_seg_ack":"0B","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"00C","fw_seg_index":"0C"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"00e","fw_seg_ack":"0C","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"00D","fw_seg_index":"0D"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"00f","fw_seg_ack":"0D","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"-2","dl_seq":"00E","fw_seg_index":"0E"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"010","fw_seg_ack":"0E","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"00F","fw_seg_index":"0F"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"011","fw_seg_ack":"0F","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"010","fw_seg_index":"10"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"012","fw_seg_ack":"10","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"011","fw_seg_index":"11"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"013","fw_seg_ack":"11","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"012","fw_seg_index":"12"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"014","fw_seg_ack":"12","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"013","fw_seg_index":"13"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"015","fw_seg_ack":"13","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"4","dl_seq":"014","fw_seg_index":"14"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"016","fw_seg_ack":"14","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"015","fw_seg_index":"15"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"017","fw_seg_ack":"15","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"016","fw_seg_index":"16"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"018","fw_seg_ack":"16","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"017","fw_seg_index":"17"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"019","fw_seg_ack":"17","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"018","fw_seg_index":"18"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"01a","fw_seg_ack":"18","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"019","fw_seg_index":"19"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"01b","fw_seg_ack":"19","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"-1","dl_seq":"01A","fw_seg_index":"1A"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"01c","fw_seg_ack":"1A","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"01B","fw_seg_index":"1B"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"01d","fw_seg_ack":"1B","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"4","dl_seq":"01C","fw_seg_index":"1C"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"01e","fw_seg_ack":"1C","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"01D","fw_seg_index":"1D"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"01f","fw_seg_ack":"1D","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"4","dl_seq":"01E","fw_seg_index":"1E"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"020","fw_seg_ack":"1E","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"01F","fw_seg_index":"1F"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"021","fw_seg_ack":"1F","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"5","dl_seq":"020","fw_seg_index":"20"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"022","fw_seg_ack":"20","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"021","fw_seg_index":"21"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"023","fw_seg_ack":"21","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"0","dl_seq":"022","fw_seg_index":"22"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"024","fw_seg_ack":"22","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"4","dl_seq":"023","fw_seg_index":"23"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"025","fw_seg_ack":"23","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"024","fw_seg_index":"24"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"026","fw_seg_ack":"24","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"5","dl_seq":"025","fw_seg_index":"25"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"027","fw_seg_ack":"25","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"2","dl_seq":"026","fw_seg_index":"26"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"028","fw_seg_ack":"26","tx_response":"successful_no_response","channel_violations":0}
+MISSING UPLINK
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"029","fw_seg_ack":"26","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"-3","dl_seq":"027","fw_seg_index":"27"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"02a","fw_seg_ack":"27","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"3","dl_seq":"028","fw_seg_index":"28"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"02b","fw_seg_ack":"28","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"029","fw_seg_index":"29"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"02c","fw_seg_ack":"29","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"02A","fw_seg_index":"2A"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"02d","fw_seg_ack":"2A","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"0","snr":"1","dl_seq":"02B","fw_seg_index":"01"}
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"02e","fw_seg_ack":"01","tx_response":"mac_err","channel_violations":0}
+MISSING DOWNLINK - MAC ERR (POTENTIALLY RECEIVED A CORRUPTED DOWNLINK)
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"02f","fw_seg_ack":"01","tx_response":"mac_err","channel_violations":0}
+MISSING DOWNLINK - MAC ERR (POTENTIALLY RECEIVED A CORRUPTED DOWNLINK)
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"030","fw_seg_ack":"01","tx_response":"mac_err","channel_violations":0}
+MISSING DOWNLINK - MAC ERR (POTENTIALLY RECEIVED A CORRUPTED DOWNLINK)
+
+
+UPLINK: {"message_type":"outgoing_uplink","port":2,"opcode":"0","ul_seq":"031","fw_seg_ack":"01","tx_response":"successful_with_response","channel_violations":0}
+RECEIVED DOWNLINK: {"message_type":"incoming_downlink","port":2,"opcode":"1","snr":"3","dl_seq":"02F","fw_seg_index":"02"}
+
+
+DOWNLINK RECEIVED = 42
+----------- DOWNLINK RECEIVED (NOT SENT ON SF 10 869.525) = 41
+----------- DOWNLINK RECEIVED (BUT SENT ON SF 10 869.525) = 1
+
+
+
+MISSING DOWNLINK - MAC ERR = 6
+----------- MISSING DOWNLINK - MAC ERR (SENT ON SF 10 869.525) = 6
+----------- MISSING DOWNLINK - MAC ERR (NOT SENT ON SF 10 869.525) = 0
