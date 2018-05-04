@@ -56,6 +56,7 @@ for (var i = 0; i < arduino_obj.length; i++)
 
 var numberOfUplinks = 0;
 var effectiveUplink = 0;
+var macErrors = 0;
 var ineffectiveResponseUplink = 0;
 var receivedFWSegments = {};
 var ineffectiveDataUplink = 0;
@@ -85,6 +86,10 @@ for (var k in sentUplinks)
     else
     {
         ineffectiveResponseUplink++;
+        if (ul.tx_response == "mac_err")
+        {
+            macErrors++;
+        }
     }
 }
 
@@ -187,7 +192,8 @@ testResultsLogger("+--+ Ineffective Response Uplinks: " + ineffectiveResponseUpl
 testResultsLogger("   |");
 testResultsLogger("   +--- Lost Uplinks: " + lostUplinksCount);
 testResultsLogger("   +--- No Scheduled Downlinks: " + inherentIneffectiveResponseUplinks);
-testResultsLogger("   +--- Lost/Corrupted/Duty-Cycle-Restricted Downlinks: " + wastedDownlinksCount);
+testResultsLogger("   +--- Lost/Duty-Cycle-Restricted Downlinks: " + (wastedDownlinksCount - macErrors));
+testResultsLogger("   +--- Mac Errors: " + macErrors);
 testResultsLogger("---------------------------------------------")
 
 
@@ -233,7 +239,8 @@ CSVLogger(
     ineffectiveResponseUplink + "," +
     lostUplinksCount + "," +
     inherentIneffectiveResponseUplinks + "," +
-    wastedDownlinksCount);
+    (wastedDownlinksCount-macErrors) + "," +
+    macErrors);
 
 // for (var i = 0; i < obj.length; i++)
 // {

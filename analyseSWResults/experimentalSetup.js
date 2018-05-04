@@ -1,6 +1,5 @@
 var path =
-"/home/osullkev/projects/internal/mai-project/mai-lora-web-app/stop-and-wait-arq-results/sf7/1000b/logs_2018-4-21__7-36-55"
-
+"/home/osullkev/projects/internal/mai-project/mai-lora-web-app/5000b-results/sf7/5000b/logs_2018-5-4__7-59-46"
 
 
 
