@@ -1,0 +1,25 @@
+---------------------------------------------
+Total Number of Sent Uplinks: 231
+Total Number of Received Uplinks: 218
+Diff: 13
+---------------------------------------------
+Total Number of Sent Downlinks: 217
+Total Number of Received Downlinks: 199
+Diff: 18
+---------------------------------------------
+Effective Uplinks: 105
+Ineffective Uplinks: 126
+|
++--- Ineffective Data Uplinks: 94
++--+ Ineffective Response Uplinks: 32
+   |
+   +--- Lost Uplinks: 13
+   +--- No Scheduled Downlinks: 1
+   +--- Lost/Duty-Cycle-Restricted Downlinks: 14
+   +--- Mac Errors: 4
+---------------------------------------------
+Total Time:
+	Hours:0
+	Minutes:28
+	Seconds:40
+	Total Seconds:1720
