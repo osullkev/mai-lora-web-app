@@ -1619,8 +1619,7 @@ Successfully joined Network
 
 {"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"076","fw_seg_ack":"42","tx_response": "successful_with_response", "channel_violations": 6}
 
-{"message_type": "incoming_downlink", "port":2, "opcode": "1", "snr": "5","dl_seq":"072","fw_seg_index": "
-"}
+{"message_type": "incoming_downlink", "port":2, "opcode": "1", "snr": "5","dl_seq":"072","fw_seg_index": ""}
 
 [STATE: 3] COMPLETE UPDATE RECEIVED
 

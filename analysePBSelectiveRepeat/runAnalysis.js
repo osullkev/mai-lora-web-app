@@ -8,7 +8,7 @@ var arduino_obj = require(testPath + "analysis/arduino_log.json");
 
 var testResultsLogFile = fs.createWriteStream(testPath + 'analysis/results.log', {flags : 'w'});
 var log_stdout = process.stdout;
-var log_file_CSV = fs.createWriteStream('downlink_prioritised_results.log', {flags : 'a'});
+var log_file_CSV = fs.createWriteStream('results.log', {flags : 'a'});
 
 
 testResultsLogger = function(d) { //
@@ -180,7 +180,8 @@ testResultsLogger("+--+ Ineffective Response Uplinks: " + ineffectiveResponseUpl
 testResultsLogger("   |");
 testResultsLogger("   +--- Lost Uplinks: " + lostUplinksCount);
 testResultsLogger("   +--- No Scheduled Downlinks: " + inherentIneffectiveResponseUplinks);
-testResultsLogger("   +--- Lost/Corrupted/Duty-Cycle-Restricted Downlinks: " + wastedDownlinksCount);
+testResultsLogger("   +--- Lost/Duty-Cycle-Restricted Downlinks: " + (wastedDownlinksCount - corruptedDownlinks));
+testResultsLogger("   +--- Mac Error: " + corruptedDownlinks);
 testResultsLogger("---------------------------------------------")
 
 
@@ -226,7 +227,8 @@ CSVLogger(
     ineffectiveResponseUplink + "," +
     lostUplinksCount + "," +
     inherentIneffectiveResponseUplinks + "," +
-    wastedDownlinksCount);
+    (wastedDownlinksCount - corruptedDownlinks) + "," +
+    corruptedDownlinks);
 
 // for (var i = 0; i < obj.length; i++)
 // {

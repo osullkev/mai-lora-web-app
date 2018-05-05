@@ -8388,8 +8388,7 @@ Successfully joined Network
 
 {"message_type": "outgoing_uplink", "port":2, "opcode":"0","ul_seq":"10c","fw_seg_ack":"29","tx_response": "successful_with_response", "channel_violations": 20}
 
-{"message_type": "incoming_downlink", "port":2, "opcode": "1", "snr": "0","dl_seq":"107","fw_seg_index": "
-"}
+{"message_type": "incoming_downlink", "port":2, "opcode": "1", "snr": "0","dl_seq":"107","fw_seg_index": ""}
 
 [STATE: 3] COMPLETE UPDATE RECEIVED
 
